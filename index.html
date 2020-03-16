@@ -1,9 +1,43 @@
 <html>
   <head>
-    <title>Zanimljiva geografija uz OSM</title>
+    <title>zanimljiva geografija uz OSM</title>
   </head>
   <body>
-    McDonald's restorani <a href="">(M)</a><a href="https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0Anwr%5Bamenity%3Dfast_food%5D%5Bbrand%3D%22McDonald%27s%22%5D%28area%3A3601741311%29%3B%0Aout%20center%3B">(O)</a></br>
-    KFC restorani <a href="">(M)</a><a href="https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0Anwr%5Bamenity%3Dfast_food%5D%5Bbrand%3D%22KFC%22%5D%28area%3A3601741311%29%3B%0Aout%20center%3B">(O)</a></br>
+    </br>
   </body>
+  <script type= "text/javascript">
+    var jsonGet = function (url, callback) {
+	var xhr = new XMLHttpRequest()
+	xhr.open("GET", url, true);
+	xhr.onreadystatechange = function () {
+	    if(xhr.readyState === 4) {
+		callback (JSON.parse(xhr.responseText))
+	    }
+	}
+	xhr.send()
+    }
+
+    var fixedEncodeURIComponent = function(str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
+	    return '%' + c.charCodeAt(0).toString(16);
+	});
+    }
+
+    jsonGet(
+	"brands/brands.json",
+	function (data) {
+	    data.forEach(function (brand) {
+		var encodedOverpass = fixedEncodeURIComponent("[out:json];\n" + brand.overpass + "(area:3601741311);\nout center;\n")
+		var encodedTag = encodeURIComponent(brand.tag)
+
+		var div = document.createElement("div")
+		div.innerHTML =
+		    brand.name + " " +
+		    "<a href='brands/map.html?brand=" + encodedTag + "&overpass=" + encodedOverpass + "' target='_blank'>[M]</a>" + " " +
+		    "<a href='https://overpass-turbo.eu/?Q=" + encodedOverpass + "' target='_blank'>[O]</a>" + " " + 
+		    "<a href='brands/text.html?brand=" + encodedTag + "' target='_blank'>[T]</a>"
+		document.body.appendChild(div)
+	    })
+	})
+  </script>
 </html>

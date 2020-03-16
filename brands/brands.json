@@ -1,0 +1,28 @@
+[
+    {
+	"name": "McDonald's restorani",
+	"tag": "#mcdonalds",
+	"overpass": "nwr[amenity=fast_food][brand=\"McDonald's\"]",
+	"tags": [
+	    "amenity=fast_food",
+	    "brand=McDonald's",
+	    "brand:wikidata=Q38076",
+	    "brand:wikipedia=sr:Мекдоналдс",
+	    "website=https://www.mcdonalds.rs/",
+	    "name=McDonald's"
+	]
+    },
+    {
+	"name": "KFC restorani",
+	"tag": "#kfc",
+	"overpass": "nwr[amenity=fast_food][brand=\"KFC\"]",
+	"tags": [
+	    "amenity=fast_food",
+	    "brand=KFC",
+	    "brand:wikidata=Q524757",
+	    "brand:wikipedia=sr:Кеј-Еф-Си",
+	    "website=https://www.kfc.rs/",
+	    "name=KFC"
+	]
+    }
+]

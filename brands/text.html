@@ -1,0 +1,61 @@
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title>zanimljiva geografija uz OSM</title>
+  </head>
+  <body>
+    <b>brand:</b></br>
+    <div id="brand"></div>
+    <div id="tag"></div>
+    </br>
+    <a id="overpass" target="_blank">view overpass</a></br>
+    <a id="map" target="_blank">view map</a></br>
+    </br>
+    <b>preporučeni tagovi:</b></br>
+    <div id="tags"></div>
+    </br>
+  </body>
+  <script type= "text/javascript">
+    var jsonGet = function (url, callback) {
+	var xhr = new XMLHttpRequest()
+	xhr.open("GET", url, true);
+	xhr.onreadystatechange = function () {
+	    if(xhr.readyState === 4) {
+		callback (JSON.parse(xhr.responseText))
+	    }
+	}
+	xhr.send()
+    }
+
+    var fixedEncodeURIComponent = function(str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
+	    return '%' + c.charCodeAt(0).toString(16);
+	});
+    }
+
+    var params = new URL(window.location.toString()).searchParams.toString().split("&").reduce((previous, current) => { const [key, value] = current.split("="); previous[key] = value; return previous },{})
+    var brandTag = decodeURIComponent(params["brand"])
+
+    jsonGet(
+	"brands.json",
+	function (data) {
+	    data.forEach(function (brand) {
+		if (brand.tag == brandTag) {
+		    var encodedOverpass = fixedEncodeURIComponent("[out:json];\n" + brand.overpass + "(area:3601741311);\nout center;\n")
+		    var encodedTag = encodeURIComponent(brand.tag)
+
+		    document.getElementById("brand").innerHTML = brand.name
+		    document.getElementById("overpass").href = "https://overpass-turbo.eu/?Q=" + encodedOverpass
+		    document.getElementById("map").href = "map.html?brand=" + encodedTag + "&overpass=" + encodedOverpass
+		    document.getElementById("tag").innerHTML = brand.tag
+
+		    var osmTagsDiv = document.getElementById("tags")
+		    brand.tags.forEach(function (osmTag) {
+			osmTagsDiv.appendChild(document.createTextNode(osmTag))
+			osmTagsDiv.appendChild(document.createElement("br"))
+		    })
+		}
+	    })
+	})
+  </script>
+</html>
