@@ -48,7 +48,7 @@
       //console.log(decodeURIComponent(params["overpass"]));
 
       jsonGet(
-	  "http://overpass-api.de/api/interpreter?data=" + params["overpass"],
+	  "https://overpass-api.de/api/interpreter?data=" + params["overpass"],
 	  function(response) {
 	      var map = L.map("map", {maxBoundsViscosity: 1.0})
 	      map.setMaxBounds ([[-90,-180],[90,180]])
