@@ -24,5 +24,279 @@
 	    "website=https://www.kfc.rs/",
 	    "name=KFC"
 	]
-    }
+    },
+    {
+	"name": "Кафетерија",
+	"tag": "#kafeterija",
+	"overpass": "nwr[amenity=cafe][brand=\"Kafeterija\"]",
+	"tags": [
+	    "amenity=cafe",
+	    "brand=Kafeterija",
+	    "name=Кафетерија",
+	    "name:sr=Кафетерија",
+	    "name:sr-Latn=Kafeterija",
+	    "website=https://www.kafeterija.com/"
+	]
+    },    
+    {
+	"name": "Lidl",
+	"tag": "#lidl",
+	"overpass": "nwr[shop=supermarket][brand=\"Lidl\"]",
+	"tags": [
+	    "shop=supermarket",
+	    "brand=Lidl",
+	    "brand:wikidata=Q151954",
+	    "website=https://www.lidl.rs/",
+	    "name=Lidl",
+	    "name:sr-Latn=Lidl"
+	]
+    },
+    {
+	"name": "dm",
+	"tag": "#dm",
+	"note": "todo, solve shop type ( cosmetics or supermarket )",
+	"overpass": "nwr[brand=\"dm\"]",
+	"tags": [
+	    "brand = dm",
+	    "brand:wikidata = Q266572",
+	    "website = https://www.dm.rs/",
+	    "name = dm",
+	    "name:sr-Latn = dm"
+	]
+    },
+    
+    {
+	"name": "Eurobank",
+	"tag": "#eurobank",
+	"overpass": "nwr[amenity=bank][brand=\"Eurobank\"]",
+	"tags": [
+	    "amenity=bank",
+	    "brand=Eurobank",
+	    "brand:wikidata=Q5411684",
+	    "brand:wikipedia=sr:Eurobanka",
+	    "website=https://www.eurobank.rs/",
+	    "name=Eurobank",
+	    "name:sr-Latn=Eurobank"
+	]
+    },
+    {
+	"name": "Eurobank ATM",
+	"tag": "#eurobankatm",
+	"overpass": "nwr[amenity=atm][brand=\"Eurobank\"]",
+	"tags": [
+	    "amenity=atm",
+	    "brand=Eurobank",
+	    "brand:wikidata=Q5411684",
+	    "brand:wikipedia=sr:Eurobanka",
+	    "website=https://www.eurobank.rs/",
+	    "name=Eurobank",
+	    "name:sr-Latn=Eurobank"
+	]
+    },
+    {
+	"name": "Sberbank",
+	"tag": "#sberbank",
+	"overpass": "nwr[amenity=bank][brand=\"Sberbank\"]",
+	"tags": [
+	    "amenity=bank",
+	    "brand=Sberbank",
+	    "brand:wikidata=Q205012",
+	    "website=https://www.sberbank.rs/",
+	    "name=Sberbank",
+	    "name:sr-Latn=Sberbank"
+	]
+    },
+    {
+	"name": "Sberbank ATM",
+	"tag": "#sberbankatm",
+	"overpass": "nwr[amenity=atm][brand=\"Sberbank\"]",
+	"tags": [
+	    "amenity=atm",
+	    "brand=Sberbank",
+	    "brand:wikidata=Q205012",
+	    "website=https://www.sberbank.rs/",
+	    "name=Sberbank",
+	    "name:sr-Latn=Sberbank"
+	]
+    },
+    {
+	"name": "Erste Bank",
+	"tag": "#erste",
+	"overpass": "nwr[amenity=bank][brand=\"Erste Bank\"]",
+	"tags": [
+	    "amenity=bank",
+	    "brand=Erste Bank",
+	    "brand:wikidata=Q696867",
+	    "website=https://www.erstebank.rs/",
+	    "name=Erste Bank",
+	    "name:sr-Latn=Erste Bank"
+	]
+    },
+    {
+	"name": "Erste Bank ATM",
+	"tag": "#ersteatm",
+	"overpass": "nwr[amenity=atm][brand=\"Erste Bank\"]",
+	"tags": [
+	    "amenity=atm",
+	    "brand=Erste Bank",
+	    "brand:wikidata=Q696867",
+	    "website=https://www.erstebank.rs/",
+	    "name=Erste Bank",
+	    "name:sr-Latn=Erste Bank"
+	]
+    },
+    {
+	"name": "UniCredit Bank",
+	"tag": "#unicredit",
+	"overpass": "nwr[amenity=bank][brand=\"UniCredit Bank\"]",
+	"tags": [
+	    "amenity=bank",
+	    "brand=UniCredit Bank",
+	    "brand:wikidata=Q45568",
+	    "website=https://www.unicreditbank.rs/",
+	    "name=UniCredit Bank",
+	    "name:sr-Latn=UniCredit Bank"
+	]
+    },    
+    {
+	"name": "UniCredit Bank ATM",
+	"tag": "#unicreditatm",
+	"overpass": "nwr[amenity=atm][brand=\"UniCredit Bank\"]",
+	"tags": [
+	    "amenity=atm",
+	    "brand=UniCredit Bank",
+	    "brand:wikidata=Q45568",
+	    "website=https://www.unicreditbank.rs/",
+	    "name=UniCredit Bank",
+	    "name:sr-Latn=UniCredit Bank"
+	]
+    },
+    {
+	"name": "Komercijalna banka",
+	"tag": "#komercijalna",
+	"overpass": "nwr[amenity=bank][brand=\"Komercijalna banka\"]",
+	"tags": [
+	    "amenity=bank",
+	    "name=Комерцијална банка",
+	    "name:sr=Комерцијална банка",
+	    "name:sr-Latn=Komercijalna banka",
+	    "brand=Komercijalna banka",
+	    "brand:wikidata=Q1536320",
+	    "brand:wikipedia=sr:Комерцијална_банка",
+	    "website=https://www.kombank.com/sr/"
+	]
+    },    
+    {
+	"name": "Komercijalna banka ATM",
+	"tag": "#komercijalnaatm",
+	"overpass": "nwr[amenity=atm][brand=\"Komercijalna banka\"]",
+	"tags": [
+	    "amenity=atm",
+	    "name=Комерцијална банка",
+	    "name:sr=Комерцијална банка",
+	    "name:sr-Latn=Komercijalna banka",
+	    "brand=Komercijalna banka",
+	    "brand:wikidata=Q1536320",
+	    "brand:wikipedia=sr:Комерцијална_банка",
+	    "website=https://www.kombank.com/sr/"
+	]
+    },
+    {
+	"name": "Banca Intesa",
+	"tag": "#intesa",
+	"overpass": "nwr[amenity=bank][brand=\"Banca Intesa\"]",
+	"tags": [
+	    "amenity=bank",
+	    "name=Banca Intesa",
+	    "name:sr-Latn=Banca Intesa",
+	    "brand=Banca Intesa",
+	    "brand:wikidata=Q647092",
+	    "brand:wikipedia=en:Banca Intesa",
+	    "website=https://www.bancaintesa.rs/"
+	]
+    },    
+    {
+	"name": "Banca Intesa ATM",
+	"tag": "#intesaatm",
+	"overpass": "nwr[amenity=atm][brand=\"Banca Intesa\"]",
+	"tags": [
+	    "amenity=atm",
+	    "name=Banca Intesa",
+	    "name:sr-Latn=Banca Intesa",
+	    "brand=Banca Intesa",
+	    "brand:wikidata=Q647092",
+	    "brand:wikipedia=en:Banca Intesa",
+	    "website=https://www.bancaintesa.rs/"
+	]
+    },    
+    {
+	"name": "Addiko bank",
+	"tag": "#addiko",
+	"overpass": "nwr[amenity=bank][brand=\"Addiko\"]",
+	"tags": [
+	    "amenity=bank",
+	    "name=Addiko banka",
+	    "name:sr-Latn=Addiko banka",
+	    "brand=Addiko",
+	    "brand:wikidata=Q27926559",
+	    "brand:wikipedia=en:Addiko_Bank",
+	    "website=https://www.addiko.rs/"
+	]
+    },
+    {
+	"name": "Addiko bank ATM",
+	"tag": "#addikoatm",
+	"overpass": "nwr[amenity=atm][brand=\"Addiko\"]",
+	"tags": [
+	    "amenity=atm",
+	    "name=Addiko banka",
+	    "name:sr-Latn=Addiko banka",
+	    "brand=Addiko",
+	    "brand:wikidata=Q27926559",
+	    "brand:wikipedia=en:Addiko_Bank",
+	    "website=https://www.addiko.rs/"
+	]
+    },
+    {
+	"name": "OTP",
+	"tag": "#otp",
+	"overpass": "nwr[amenity=bank][brand=\"OTP\"]",
+	"tags": [
+	    "amenity=bank",
+	    "name=OTP",
+	    "name:sr-Latn=OTP",
+	    "brand=OTP",
+	    "brand:wikidata=Q912778",
+	    "brand:wikipedia=en:OTP_Bank",
+	    "website=https://www.otpsrbija.rs/"
+	]
+    },
+    {
+	"name": "OTP ATM",
+	"tag": "#otp",
+	"overpass": "nwr[amenity=atm][brand=\"OTP\"]",
+	"tags": [
+	    "amenity=atm",
+	    "name=OTP",
+	    "name:sr-Latn=OTP",
+	    "brand=OTP",
+	    "brand:wikidata=Q912778",
+	    "brand:wikipedia=en:OTP_Bank",
+	    "website=https://www.otpsrbija.rs/"
+	]
+    },
+    {
+	"name": "OMV",
+	"tag": "#omv",
+	"overpass": "nwr[amenity=fuel][brand=\"OMV\"]",
+	"tags": [
+	    "amenity=fuel",
+	    "brand=OMV",
+	    "brand:wikipedia = en:OMV",
+	    "brand:wikidata=Q168238",
+	    "website=https://www.omv.co.rs/",
+	    "name:sr-Latn=OMV",
+	    "name=OMV"
+	]
+    }    
 ]
