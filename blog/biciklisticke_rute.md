@@ -73,7 +73,7 @@ https://www.slavonia-bike.com/ruta/308-ruta-sava/
 Обишао бајсем туру од ушћа Саве до Бољевца, мапирао путоказе касније додао и руту.  
 
 ### Дрина
-Видео знак негде и у Кузманиma, село поред Радановаца, Косјерић.  
+Видео знак негде и у Кузманимa, село поред Радановаца, Косјерић.  
 https://www.openstreetmap.org/node/7320378820  
 
 ### Дивчибаре
@@ -83,6 +83,7 @@ http://vilaplamenac.rs/wp-content/uploads/2017/08/Mapa-biciklistickih-staza-001-
 ### Косјерић, Дивчибаре, Западна Србија
 Постоје табле у Косјерићу, Каони и Дивчибарама.  
 https://pedja.supurovic.net/karta-biciklistickih-staza-zlatibor-mokra-gora-tara/  
+https://pedja.supurovic.net/biciklisticka-ruta-carska-tara/?lang=lat  
 https://www.mapa.iz.rs/  
 
 ### Бициклистичка рута Срем
