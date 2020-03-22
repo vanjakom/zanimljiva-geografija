@@ -28,7 +28,7 @@ https://wiki.openstreetmap.org/wiki/Walking_Routes
 Таорско врело, лагана тура уз Бели поток и Скрапеж до водопада и врела. Промашили први део туре, ишли макадамом.  
 https://hiking.waymarkedtrails.org/#route?id=10886455  
 https://www.openstreetmap.org/relation/10886455  
-корисни линкови:
+корисни линкови:  
 [Слапови и водопади Таорских врела](https://planinariavanturisti.org.rs/dogadjaj/slapovi-vodopadi-taorskih-vrela-5/?fbclid=IwAR3g3KzlNY6V5JJ2BiZxc2oER3BlK1ClvjbcZKvdfIqv9LQzI5qlzxet_bo)  
 [Зашто ми волимо Таорска врела](https://savourytrips.com/sr/zasto-mi-volimo-taorska-vrela/)  
 [wikiloc](https://www.wikiloc.com/hiking-trails/povlen-cirovina-mramor-vrh-taorska-stena-taorska-vrela-16853801)  
