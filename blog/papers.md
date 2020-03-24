@@ -7,7 +7,7 @@ https://arxiv.org/pdf/1912.12408.pdf
 https://www2.cs.duke.edu/courses/spring20/compsci527/papers/Agarwal.pdf
 
 #### CITIZENS AS SENSORS: THE WORLD OF VOLUNTEERED GEOGRAPHY 
-Michael F. Goodchild
+Michael F. Goodchild  
 http://www.ncgia.ucsb.edu/projects/vgi/docs/position/Goodchild_VGI2007.pdf
 
 #### Connecting LinkedGeoData and Geonames in the Spatial Semantic Web
