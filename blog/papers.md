@@ -1,5 +1,8 @@
 ## Радови на тему
 
+#### Corporate Editors in the Evolving Landscape of OpenStreetMap
+https://www.mdpi.com/2220-9964/8/5/232
+
 #### RoadTagger: Robust Road Attribute Inference with Graph Neural Networks
 https://arxiv.org/pdf/1912.12408.pdf
 
