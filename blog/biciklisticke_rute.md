@@ -109,6 +109,8 @@ http://vilaplamenac.rs/wp-content/uploads/2017/08/Mapa-biciklistickih-staza-001-
 https://pedja.supurovic.net/karta-biciklistickih-staza-zlatibor-mokra-gora-tara/  
 https://pedja.supurovic.net/biciklisticka-ruta-carska-tara/?lang=lat  
 https://www.mapa.iz.rs/  
+https://sumskirajdivcibare.com/wp-content/uploads/2014/08/biciklisticke_rute_zapadne_srbije.pdf  
+https://www.zlatibor.rs/sites/default/files/vesti_preuzmi/16975/mapa_bikestaze.pdf  
 
 ### Бициклистичка рута Срем
 https://srembike.rs/rs/rute/glavna-biciklisticka-ruta-srem  
