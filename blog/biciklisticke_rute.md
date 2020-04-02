@@ -57,12 +57,12 @@ https://www.openstreetmap.org/relation/2910889 (Србија)
 https://cycling.waymarkedtrails.org/#route?id=10833727  
 https://www.openstreetmap.org/relation/10833727  
 
-Корисни линкови:  
+**Корисни линкови:**  
 http://sava.pedala.hr  
 http://www.ciklonaut.com/index.htm  
 https://www.slavonia-bike.com/ruta/308-ruta-sava/  
 
-Дневник мапирања:  
+**Дневник мапирања:**  
 20200320, track 1584692828  
 Обишао мотором део од Бољевца до Купинова, прелазак Саве. Мапирао и секцију око Обедске баре.  
 
@@ -84,8 +84,25 @@ https://www.slavonia-bike.com/ruta/308-ruta-sava/
 https://www.openstreetmap.org/node/7320378820  
 
 ### Дивчибаре
+Зелена стаза  
+https://www.openstreetmap.org/relation/10948917
+Плава стаза  
+https://www.openstreetmap.org/relation/10948905
+Магента стаза  
+https://www.openstreetmap.org/relation/10950281
+
+**инфо**  
 Постоје три кружне стазе на Дивчибарама, обележене су кружним таблама у три боје.  
+https://divcibareskiresort.com/biciklisticke-staze/
+http://tov.rs/divcibare/
+http://tov.rs/wp-content/uploads/2019/11/DIVCIBARE-PROSPEKT.pdf
+http://www.divcibare.rs/wp-content/uploads/2018/02/Mapa-biciklistickih-staza.pdf
 http://vilaplamenac.rs/wp-content/uploads/2017/08/Mapa-biciklistickih-staza-001-1.jpg  
+
+**дневник мапирања**
+20200402  
+креирао три руте према трацковима ( 1584797934, 1582967020 ) и локацијама знакова.  
+
 
 ### Косјерић, Дивчибаре, Западна Србија
 Постоје табле у Косјерићу, Каони и Дивчибарама.  
