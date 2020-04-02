@@ -93,10 +93,10 @@ https://www.openstreetmap.org/relation/10950281
 
 **инфо**  
 Постоје три кружне стазе на Дивчибарама, обележене су кружним таблама у три боје.  
-https://divcibareskiresort.com/biciklisticke-staze/
-http://tov.rs/divcibare/
-http://tov.rs/wp-content/uploads/2019/11/DIVCIBARE-PROSPEKT.pdf
-http://www.divcibare.rs/wp-content/uploads/2018/02/Mapa-biciklistickih-staza.pdf
+https://divcibareskiresort.com/biciklisticke-staze/  
+http://tov.rs/divcibare/  
+http://tov.rs/wp-content/uploads/2019/11/DIVCIBARE-PROSPEKT.pdf  
+http://www.divcibare.rs/wp-content/uploads/2018/02/Mapa-biciklistickih-staza.pdf  
 http://vilaplamenac.rs/wp-content/uploads/2017/08/Mapa-biciklistickih-staza-001-1.jpg  
 
 **дневник мапирања**  
