@@ -85,11 +85,11 @@ https://www.openstreetmap.org/node/7320378820
 
 ### Дивчибаре
 Зелена стаза  
-https://www.openstreetmap.org/relation/10948917
+https://www.openstreetmap.org/relation/10948917  
 Плава стаза  
-https://www.openstreetmap.org/relation/10948905
+https://www.openstreetmap.org/relation/10948905  
 Магента стаза  
-https://www.openstreetmap.org/relation/10950281
+https://www.openstreetmap.org/relation/10950281  
 
 **инфо**  
 Постоје три кружне стазе на Дивчибарама, обележене су кружним таблама у три боје.  
@@ -99,7 +99,7 @@ http://tov.rs/wp-content/uploads/2019/11/DIVCIBARE-PROSPEKT.pdf
 http://www.divcibare.rs/wp-content/uploads/2018/02/Mapa-biciklistickih-staza.pdf
 http://vilaplamenac.rs/wp-content/uploads/2017/08/Mapa-biciklistickih-staza-001-1.jpg  
 
-**дневник мапирања**
+**дневник мапирања**  
 20200402  
 креирао три руте према трацковима ( 1584797934, 1582967020 ) и локацијама знакова.  
 
