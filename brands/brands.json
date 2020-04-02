@@ -37,7 +37,20 @@
 	    "name:sr-Latn=Kafeterija",
 	    "website=https://www.kafeterija.com/"
 	]
-    },    
+    },
+    {
+	"name": "Грубин",
+	"tag": "#grubin",
+	"overpass": "nwr[shop=shoes][brand=\"Grubin\"]",
+	"tags": [
+	    "brand = Grubin",
+	    "name = Грубин",
+	    "name:sr = Грубин",
+	    "name:sr-Latn = Grubin",
+	    "shop = shoes",
+	    "website = https://grubin.rs/"
+	]
+    },       
     {
 	"name": "Lidl",
 	"tag": "#lidl",
