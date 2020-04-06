@@ -16,9 +16,41 @@ out geom;
 ```
 [overpass-turbo](https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0A%28%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dbicycle%5D%28area%3A3601741311%29%3B%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dmtb%5D%28area%3A3601741311%29%3B%0A%29%3B%0Aout%20geom%3B)  
 
-Како мапирати:  
+**како мапирати:**  
 https://wiki.openstreetmap.org/wiki/Cycle_routes  
-
+https://wiki.openstreetmap.org/wiki/Tag:route%3Dbicycle  
+https://wiki.openstreetmap.org/wiki/Tag:information%3Dguidepost  
+учитати GPX kао позадину у iD  
+додати локације знакова, пример  
+```
+  information = guidepost
+  tourism = information
+  bicycle=yes
+  ref=1320
+```
+прећи руту и поделити путеве где је потребно, унети информације о подлози и проверити класификацију пута  
+https://wiki.openstreetmap.org/wiki/Key:highway  
+https://wiki.openstreetmap.org/wiki/Key:surface  
+отворити Level0 и постојећу руту или додати нову  
+```
+  name = 
+  name:sr = 
+  name:sr-Latn = 
+  network = icn|lcn|rcn
+  ref = 
+  route = bicycle
+  type = route
+  website = 
+```
+користећи overpass додавати путеве и знакове редоследом којим наилазе, од почетка руте  
+```
+[out:json];
+(
+  way[highway]({{bbox}});
+  node[tourism=information][information=guidepost]({{bbox}});
+);
+out geom;
+```
 
 ### EuroVelo 6 - Atlantic – Black Sea
 https://en.eurovelo.com/ev6  
@@ -61,6 +93,17 @@ https://www.openstreetmap.org/relation/10833727
 http://sava.pedala.hr  
 http://www.ciklonaut.com/index.htm  
 https://www.slavonia-bike.com/ruta/308-ruta-sava/  
+
+**одржавање**  
+оборен знак у Јакову, 710  
+Купиново, Тарзан плажа, 600, недостају табле, делује као да главна рута иде на плажу  
+скела је на мапи 550 а на путоказу пре 560  
+знак 530, 540, делује да су обрнути бројеви  
+
+**наставак**  
+мапирати део од Сремске Митровице до границе  
+мапирати алтернативну руту преко Обреновца  
+мапирати скелу, проверити пре како функционише  
 
 **Дневник мапирања:**  
 20200320, track 1584692828  
