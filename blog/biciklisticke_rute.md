@@ -85,9 +85,21 @@ https://www.openstreetmap.org/relation/2910889 (Србија)
 Сремска Митровица - Скела - мапирано  
 Купиново - Бољевац - није мапирано  
 Бољевац - Ушће у Дунаб - мапирано  
+Детур Обедска бара - мапирано  
 
+**Део кроз Словенију**  
+
+**Део кроз Хрватску**  
+
+**Део кроз Босну и Херцеговину**  
+
+**Део кроз Србију**  
 https://cycling.waymarkedtrails.org/#route?id=10833727  
 https://www.openstreetmap.org/relation/10833727  
+Детур Обердска бара  
+https://www.openstreetmap.org/relation/10967738  
+
+
 
 **Корисни линкови:**  
 http://sava.pedala.hr  
