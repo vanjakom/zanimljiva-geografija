@@ -1,50 +1,15 @@
 <html>
   <head>
-    <title>zanimljiva geografija uz OSM</title>
+    <title>занимљива географија уз ОСМ</title>
   </head>
   <body>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/biciklisticke_rute.md">Бициклистичке руте на територији Србије</a></br>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/planinarske_staze.md">Планинарске стазе у Србији</a></br>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/kulturna_dobra.md">Културна добра</a></br>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/kako_mapirati.md">Како мапирати</a></br>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/papers.md">Радови на тему</a></br>
-    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/datasets.md">Отворени скупови података</a></br>
-    </br>
-    Брендови који су присутни у Србији ( списак није потпун ):</br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/biciklisticke_rute.md">бициклистичке руте на територији Србије</a></br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/planinarske_staze.md">планинарске стазе у Србији</a></br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/kulturna_dobra.md">културна добра</a></br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/kako_mapirati.md">како мапирати</a></br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/papers.md">радови на тему</a></br>
+    <a href="https://github.com/vanjakom/zanimljiva-geografija/blob/master/blog/datasets.md">отворени скупови података</a></br>
+    <a href="https://wiki.openstreetmap.org/wiki/Serbia/PSS_staze">увоз планинарских и пешачких стаза евидентираних од стране Планинарског савеза Србије</br>
+    <a href="projects/brands/index.html">брендови у Србији</a></br>
   </body>
-  <script type= "text/javascript">
-    var jsonGet = function (url, callback) {
-	var xhr = new XMLHttpRequest()
-	xhr.open("GET", url, true);
-	xhr.onreadystatechange = function () {
-	    if(xhr.readyState === 4) {
-		callback (JSON.parse(xhr.responseText))
-	    }
-	}
-	xhr.send()
-    }
-
-    var fixedEncodeURIComponent = function(str) {
-	return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
-	    return '%' + c.charCodeAt(0).toString(16);
-	});
-    }
-
-    jsonGet(
-	"brands/brands.json",
-	function (data) {
-	    data.forEach(function (brand) {
-		var encodedOverpass = fixedEncodeURIComponent("[out:json];\n" + brand.overpass + "(area:3601741311);\nout center;\n")
-		var encodedTag = encodeURIComponent(brand.tag)
-
-		var div = document.createElement("div")
-		div.innerHTML =
-		    brand.name + " " +
-		    "<a href='brands/map.html?brand=" + encodedTag + "&overpass=" + encodedOverpass + "' target='_blank'>[M]</a>" + " " +
-		    "<a href='https://overpass-turbo.eu/?Q=" + encodedOverpass + "' target='_blank'>[O]</a>" + " " + 
-		    "<a href='brands/text.html?brand=" + encodedTag + "' target='_blank'>[T]</a>"
-		document.body.appendChild(div)
-	    })
-	})
-  </script>
 </html>

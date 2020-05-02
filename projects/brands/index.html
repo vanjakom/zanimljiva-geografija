@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>брендови у Србији</title>
+  </head>
+  <body>
+    брендови који су присутни у Србији ( списак није потпун ):</br>
+  </body>
+  <script type= "text/javascript">
+    var jsonGet = function (url, callback) {
+	var xhr = new XMLHttpRequest()
+	xhr.open("GET", url, true);
+	xhr.onreadystatechange = function () {
+	    if(xhr.readyState === 4) {
+		callback (JSON.parse(xhr.responseText))
+	    }
+	}
+	xhr.send()
+    }
+
+    var fixedEncodeURIComponent = function(str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
+	    return '%' + c.charCodeAt(0).toString(16);
+	});
+    }
+
+    jsonGet(
+	"data.json",
+	function (data) {
+	    data.forEach(function (brand) {
+		var encodedOverpass = fixedEncodeURIComponent("[out:json];\n" + brand.overpass + "(area:3601741311);\nout center;\n")
+		var encodedTag = encodeURIComponent(brand.tag)
+
+		var div = document.createElement("div")
+		div.innerHTML =
+		    brand.name + " " +
+		    "<a href='map.html?brand=" + encodedTag + "&overpass=" + encodedOverpass + "' target='_blank'>[M]</a>" + " " +
+		    "<a href='https://overpass-turbo.eu/?Q=" + encodedOverpass + "' target='_blank'>[O]</a>" + " " + 
+		    "<a href='text.html?brand=" + encodedTag + "' target='_blank'>[T]</a>"
+		document.body.appendChild(div)
+	    })
+	})
+  </script>
+</html>
