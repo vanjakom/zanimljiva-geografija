@@ -12,3 +12,13 @@ https://www.openstreetmap.org/way/785053578
 ```
 ford=yes
 ```
+
+### Планинарски дом
+```
+tourism=alpine_hut
+building=yes
+ele
+name
+website
+```
+
