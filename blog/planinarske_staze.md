@@ -1,7 +1,7 @@
 # Планинарске стазе у Србији
 
 Преглед планинарских стаза у Србији:  
-https://hiking.waymarkedtrails.org/#?map=8!44.7947!20.4848  
+[waymarkedtrails: hiking](https://hiking.waymarkedtrails.org/#?map=8!44.7947!20.4848)  
 
 или уѕ помоћ следећег упита:
 ```
@@ -15,8 +15,9 @@ out geom;
 [overpass-turbo](https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0A%28%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dhiking%5D%28area%3A3601741311%29%3B%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dfoot%5D%28area%3A3601741311%29%3B%0A%29%3B%0Aout%20geom%3B%0A)  
 
 Како мапирати:  
-https://wiki.openstreetmap.org/wiki/Hiking  
-https://wiki.openstreetmap.org/wiki/Walking_Routes  
+[wiki: Hiking](https://wiki.openstreetmap.org/wiki/Hiking)  
+[wiki: Routes](https://wiki.openstreetmap.org/wiki/Walking_Routes)  
+[wiki: Relation:route](https://wiki.openstreetmap.org/wiki/Relation:route#Walking_routes_.28also_hiking_and_pilgrimage.29)  
 
 планинарски знакови:  
 ```
@@ -34,6 +35,12 @@ https://wiki.openstreetmap.org/wiki/Walking_Routes
   name:sr = 
   name:sr-Latn = 
 ```
+
+ОСМ линкови:  
+[wiki: Path examples](https://wiki.openstreetmap.org/wiki/Path_examples)  
+[wiki: Hikingbook.pl](https://wiki.openstreetmap.org/wiki/Hikingbook.pl)  
+[wiki: Hiking Maps](https://wiki.openstreetmap.org/wiki/Hiking_Maps)  
+[wiki: DE:OSMC Reitkarte](https://wiki.openstreetmap.org/wiki/DE:OSMC_Reitkarte)  
 
 Корисни линкови:  
 [Планинарски савез Србије, објекти и терени](https://pss.rs/planinarski-objekti-i-tereni/objekti/)  
