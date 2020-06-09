@@ -63,6 +63,17 @@ https://www.openstreetmap.org/relation/2764744 (Србија)
 https://en.eurovelo.com/ev11  
 https://cycling.waymarkedtrails.org/#route?id=2766981  
 https://www.openstreetmap.org/relation/2766981  
+```
+  information = guidepost
+  tourism = information
+  bicycle=yes
+  ref=
+```
+
+**дневник мапирања**
+20200517, track 1589720664   
+наишли на знакове у Кањижи, постоји и мапа руте кроз Србију
+
 
 ### EuroVelo 13 - Iron Curtain Trail
 https://en.eurovelo.com/ev13  
@@ -99,7 +110,13 @@ https://www.openstreetmap.org/relation/10833727
 Детур Обердска бара  
 https://www.openstreetmap.org/relation/10967738  
 
-
+### Еко Тамиш
+Наишли на бициклистичку стазу у селу Ботош, води преко Томашевца, Уздина до старог моста, нов пут.
+Знакови обележене са @eko-tamis, није унешено у ОСМ.   
+https://www.ecotamis.rs  
+http://eco-tamis.com/  
+http://www.romania-serbia.net/?page_id=218  
+http://www.romania-serbia.net/wp-content/uploads/lists/fise/2call/RORS-39.docx  
 
 **Корисни линкови:**  
 http://sava.pedala.hr  
@@ -135,8 +152,13 @@ https://www.slavonia-bike.com/ruta/308-ruta-sava/
 
 
 ### Дрина
+Постоји знак и на Дивчибарама, Каона, изнад каменолома. Креирана рута.  
+https://www.openstreetmap.org/relation/11161806  
 Видео знак негде и у Кузманимa, село поред Радановаца, Косјерић.  
 https://www.openstreetmap.org/node/7320378820  
+референце:  
+https://www.zvoncara.com/na-povlenu-dovoljno-je-da-pratite-znakove-pored-puta/
+
 
 ### Дивчибаре
 Зелена стаза  

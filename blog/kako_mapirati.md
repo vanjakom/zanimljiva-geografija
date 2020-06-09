@@ -1,6 +1,14 @@
 # Како мапирати
 
 
+### Запис
+https://sr.wikipedia.org/wiki/Запис  
+```
+natural=tree
+zapis=yes
+```
+
+
 ### Осматрачница
 ```
 man_made=tower
