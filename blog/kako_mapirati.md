@@ -1,7 +1,13 @@
 # Како мапирати
 
+### Воћњак
+#vocnjak
+```
+landuse=orchard
+```
 
 ### Запис
+#zapis  
 https://sr.wikipedia.org/wiki/Запис  
 ```
 natural=tree
@@ -10,6 +16,7 @@ zapis=yes
 
 
 ### Осматрачница
+#osmatracnica  
 ```
 man_made=tower
 tower:type=observation
