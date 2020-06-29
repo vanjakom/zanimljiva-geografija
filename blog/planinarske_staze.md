@@ -51,7 +51,7 @@ out geom;
 [сајт НП Ђердап](https://npdjerdap.rs)  
 [инфо центар Доњи Милановац](https://www.openstreetmap.org/way/744502319)  
 
-| ref | naziv | osm
+| реф | назив | осм
 | --- | --- | --- |
 | | Ковилово | [11252310](https://www.openstreetmap.org/relation/11252310)
 
