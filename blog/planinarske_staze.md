@@ -1,6 +1,6 @@
 # Планинарске стазе у Србији
 
-Преглед планинарских стаза у Србији:  
+### Преглед планинарских стаза у Србији
 [waymarkedtrails: hiking](https://hiking.waymarkedtrails.org/#?map=8!44.7947!20.4848)  
 
 или уѕ помоћ следећег упита:
@@ -14,19 +14,19 @@ out geom;
 ```
 [overpass-turbo](https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0A%28%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dhiking%5D%28area%3A3601741311%29%3B%0A%20%20relation%5Btype%3Droute%5D%5Broute%3Dfoot%5D%28area%3A3601741311%29%3B%0A%29%3B%0Aout%20geom%3B%0A)  
 
-Како мапирати:  
+### Како мапирати
 [wiki: Hiking](https://wiki.openstreetmap.org/wiki/Hiking)  
 [wiki: Routes](https://wiki.openstreetmap.org/wiki/Walking_Routes)  
 [wiki: Relation:route](https://wiki.openstreetmap.org/wiki/Relation:route#Walking_routes_.28also_hiking_and_pilgrimage.29)  
 
-планинарски знакови:  
+**планинарски знакови:**  
 ```
   information = guidepost
   tourism = information
   hiking = yes
 ```
 
-планинарске стазе:  
+**планинарске стазе:**  
 ```
   type = route
   route = hiking
@@ -36,17 +36,47 @@ out geom;
   name:sr-Latn = 
 ```
 
-ОСМ линкови:  
+### Попис стаза у Србији
+
+#### Стазе евидентиране од стране Планинарског савеза Србије
+[wiki: Serbia/PSS staze](https://wiki.openstreetmap.org/wiki/Serbia/PSS_staze)  
+
+#### Ваљевске планине
+
+#### Овчар и Каблар
+[wiki: Serbia/PD Kablar staze](https://wiki.openstreetmap.org/wiki/Serbia/PD_Kablar_staze)  
+
+#### Национални парк Ђердап
+Планинарске стазе се налазе унутар заштићеног подручја, потребно је најавити посету НП Ђердап.  
+[сајт НП Ђердап](https://npdjerdap.rs)  
+[инфо центар Доњи Милановац](https://www.openstreetmap.org/way/744502319)  
+
+{| border=1
+! scope="col" | ref
+! scope="col" | naziv
+! scope="col" | osm
+|-
+| 
+| Ковилово
+| [11252310](https://www.openstreetmap.org/relation/11252310)
+|}
+
+
+### ОСМ линкови
 [wiki: Path examples](https://wiki.openstreetmap.org/wiki/Path_examples)  
 [wiki: Hikingbook.pl](https://wiki.openstreetmap.org/wiki/Hikingbook.pl)  
 [wiki: Hiking Maps](https://wiki.openstreetmap.org/wiki/Hiking_Maps)  
 [wiki: DE:OSMC Reitkarte](https://wiki.openstreetmap.org/wiki/DE:OSMC_Reitkarte)  
 
-Корисни линкови:  
+### Корисни линкови 
 [Планинарски савез Србије, објекти и терени](https://pss.rs/planinarski-objekti-i-tereni/objekti/)  
 [Стазе и богазе](http://www.stazeibogaze.info)  
 
-Дневник мапирања:  
+
+### Дневник мапирања
+
+20200629, track 1593339240  
+Додата стаза Ковилово унутар Националног парка Ђердап.  
 
 20200510, track 1589101106  
 Додате две стазе. Прва преко Малог Штурца је део званичне ПСС стазе 2-8-2 Рудник - Благовештења. Друга која иде директно од дома до Великог Штурца. Изнад дома постоји путоказ који дели ове две стазе али је стаза према Малом Штурцу запуштена, делује да се нова траса одваја у наставку. Стазе су релативно обележене. Стаза преко Малог Штурца пролази поред лепо уређеног археолошког локалитета Прљуша.  

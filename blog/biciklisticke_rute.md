@@ -63,6 +63,12 @@ https://www.openstreetmap.org/relation/2764744 (Србија)
 https://en.eurovelo.com/ev11  
 https://cycling.waymarkedtrails.org/#route?id=2766981  
 https://www.openstreetmap.org/relation/2766981  
+део у Србији:  
+https://www.openstreetmap.org/relation/11124003  
+главна рута:  
+https://www.openstreetmap.org/relation/11122764  
+алтернативна рута:  
+https://www.openstreetmap.org/relation/11123588  
 ```
   information = guidepost
   tourism = information
@@ -71,8 +77,10 @@ https://www.openstreetmap.org/relation/2766981
 ```
 
 **дневник мапирања**
-20200517, track 1589720664   
-наишли на знакове у Кањижи, постоји и мапа руте кроз Србију
+20200605, track 1591332700  
+мото тура, Београд - Перлез  
+20200517, track 1589720664  
+наишли на знакове у Кањижи, постоји и мапа руте кроз Србију  
 
 
 ### EuroVelo 13 - Iron Curtain Trail
@@ -150,6 +158,13 @@ https://www.slavonia-bike.com/ruta/308-ruta-sava/
 #### Рута 2
 Наишао на путоказе, рута 2. На Савском кеју пре почетка насипа, у Јакову пре укључења на главни пут из правца Браће Путниковић, у Бољевцу поред бензинске, валда води у Бојчинску шуму.
 
+#### МТБ Баберијус
+Бициклистичка стаза у околини Раље.  
+http://ciklonaut.com/svrbiguz/baberijus/mtb_baberijus.htm  
+https://www.zvoncara.com/mtb-kros-u-srcu-sumadije-baberijus/  
+https://www.mtbproject.com/trail/7020417/baberijus  
+[знак са мапом стазе](https://commons.wikimedia.org/wiki/File:%D0%9C%D0%A2%D0%91_%D0%A1%D1%82%D0%B0%D0%B7%D0%B0_%D0%91%D0%B0%D0%B1%D0%B5%D1%80%D0%B8%D1%98%D1%83%D1%81.jpeg)  
+https://www.openstreetmap.org/relation/11227980  
 
 ### Дрина
 Постоји знак и на Дивчибарама, Каона, изнад каменолома. Креирана рута.  
@@ -188,6 +203,11 @@ https://pedja.supurovic.net/biciklisticka-ruta-carska-tara/?lang=lat
 https://www.mapa.iz.rs/  
 https://sumskirajdivcibare.com/wp-content/uploads/2014/08/biciklisticke_rute_zapadne_srbije.pdf  
 https://www.zlatibor.rs/sites/default/files/vesti_preuzmi/16975/mapa_bikestaze.pdf  
+
+### Овчар и Каблар
+постоји штампани водич и апликација  
+https://www.wikiloc.com/mountain-biking-trails/kablar-bike-trail-3517693  
+https://www.wikiloc.com/mountain-biking-trails/biciklisticka-ruta-ovcar-bike-trail-ovcar-cicling-route-srb-eng-deu-rus-21687621  
 
 ### Бициклистичка рута Срем
 https://srembike.rs/rs/rute/glavna-biciklisticka-ruta-srem  
