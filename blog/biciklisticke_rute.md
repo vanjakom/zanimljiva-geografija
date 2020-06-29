@@ -118,6 +118,12 @@ https://www.openstreetmap.org/relation/10833727
 Детур Обердска бара  
 https://www.openstreetmap.org/relation/10967738  
 
+### Овчар и Каблар
+https://www.facebook.com/pg/SWOutdoor/photos/?tab=album&album_id=10155982423328755  
+https://www.wikiloc.com/mountain-biking-trails/biciklisticka-ruta-ovcar-bike-trail-ovcar-cicling-route-srb-eng-deu-rus-21687621  
+https://www.wikiloc.com/mountain-biking-trails/kablar-bike-trail-3517693  
+Туристичка организација Чачак
+
 ### Еко Тамиш
 Наишли на бициклистичку стазу у селу Ботош, води преко Томашевца, Уздина до старог моста, нов пут.
 Знакови обележене са @eko-tamis, није унешено у ОСМ.   
