@@ -68,16 +68,12 @@ http://scansfer.com/dl.php?k=muizep2vxdabu7i0fj3xwgmoy0znhsird
 [сајт НП Ђердап](https://npdjerdap.rs)  
 [инфо центар Доњи Милановац](https://www.openstreetmap.org/way/744502319)  
 
-{| border=1
-! scope="col" | ref
-! scope="col" | naziv
-! scope="col" | osm
-|-
-| 
-| Ковилово
-| [11252310](https://www.openstreetmap.org/relation/11252310)
-|}
+| реф | назив | осм
+| --- | --- | --- |
+| | Ковилово | [11252310](https://www.openstreetmap.org/relation/11252310)
 
+#### Национални парк Тара
+[сајт НП Тара](https://www.nptara.rs/)  
 
 ### ОСМ линкови
 [wiki: Path examples](https://wiki.openstreetmap.org/wiki/Path_examples)  
