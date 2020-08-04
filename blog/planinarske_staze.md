@@ -46,6 +46,23 @@ out geom;
 #### Овчар и Каблар
 [wiki: Serbia/PD Kablar staze](https://wiki.openstreetmap.org/wiki/Serbia/PD_Kablar_staze)  
 
+http://scansfer.com/dl.php?k=ukb8kdpz0pn2w2fiichiuxby60t58j4rt
+http://scansfer.com/dl.php?k=6y86wskqv7ehms7wf7re4h4wh88k8ps3c
+http://scansfer.com/dl.php?k=7gn3fb24s0j8jbejma8hf8hjgbd0asc7y
+http://scansfer.com/dl.php?k=bgtz0mxc42cm8ak54jftmfdzeuz3pboog
+http://scansfer.com/dl.php?k=0c0juwmzszgoabtj0p8q0sjeqhmj6nuxp
+http://scansfer.com/dl.php?k=48e4fcc7egajbfazzwbvqr0wdwuxzymsv
+http://scansfer.com/dl.php?k=ozkieqtdvxc5jyvksrkd4zcqwonag07up
+http://scansfer.com/dl.php?k=5uqo8tdp537xbuxoadm3qdwet8djbi473
+http://scansfer.com/dl.php?k=u8nh3pufgzcwx2chnjq3exoit3es3ksmj
+http://scansfer.com/dl.php?k=pbtbzznucqf6fco60qchk5i3bejzkndxp
+http://scansfer.com/dl.php?k=px85bef3ybnnt6ea4ka4a2gdtaehedsuy
+http://scansfer.com/dl.php?k=4of2rtoh4e4a4jh2bb2jy8tcm30685s3j
+http://scansfer.com/dl.php?k=gof34kvc26zio3wb3zk7gwystakr2407i
+
+http://scansfer.com/dl.php?k=760fqoteiki2c6b4vpqja3r3cpiog4bc0
+http://scansfer.com/dl.php?k=muizep2vxdabu7i0fj3xwgmoy0znhsird
+
 #### Национални парк Ђердап
 Планинарске стазе се налазе унутар заштићеног подручја, потребно је најавити посету НП Ђердап.  
 [сајт НП Ђердап](https://npdjerdap.rs)  
