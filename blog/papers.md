@@ -1,5 +1,8 @@
 ## Радови на тему
 
+#### Gender and Experience-Related Motivators for Contributing to OpenStreetMap
+https://publik.tuwien.ac.at/files/PubDat_218905.pdf
+
 #### Corporate Editors in the Evolving Landscape of OpenStreetMap
 https://www.mdpi.com/2220-9964/8/5/232
 
