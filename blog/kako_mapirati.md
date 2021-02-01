@@ -72,6 +72,20 @@ material=wood|metal
 backrest=yes|no
 ```
 
+# #zubar
+node
+	amenity=dentist
+	name=
+	website=
+	phone=
+
+# #kancelarija #firma
+node
+	office=company
+	name=
+	website=
+	phone=
+
 ### Воћњак
 #vocnjak
 ```
