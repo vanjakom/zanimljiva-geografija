@@ -1,5 +1,100 @@
 # Како мапирати
 
+# #potok #kanal #prepust
+koristiti na delu potoka koji ide preko puta
+```
+tunnel=culvert
+waterway=stream
+```
+# #skola
+```
+amenity=school
+```
+za building
+```
+building=school
+```
+
+# #sportskiteren #teren #sport
+```
+leisure=pitch
+surface=asphalt
+```
+
+# #skloniste #vreme #picnic #kisa
+```
+amenity=shelter
+shelter_type=picnic_shelter
+```
+
+# #posta
+name in following format
+11080 Београд-Земун
+spisak
+https://www.posta.rs/DocumentViewer.aspx?IdDokument=1001550&Dokument=spisak-posta-lat.pdf
+
+```
+amenity = post_office
+operator = Пошта Србије
+
+```
+
+
+# #apartman #iznajmljivanje #smestaj
+```
+tourism=apartment
+```
+
+# #pekara
+```
+shop = bakery
+
+```
+
+# #knjizara
+```
+shop = books
+```
+
+# #kljucar
+```
+craft = locksmith
+```
+
+# #pumpa #nis
+http://localhost:7077/howto/NIS
+```
+amenity = fuel
+name = NIS
+name:sr = НИС
+name:sr-Latn = NIS
+brand = NIS
+brand:wikipedia = sr:Нафтна_индустрија_Србије
+brand:wikidata = Q1279721
+website = https://www.nispetrol.rs/
+```
+
+# #drvo #javor
+```
+natural=tree
+genus=Fraxinus
+leaf_type=broadleaved
+```
+
+# #drvo #bor
+```
+natural=tree
+genus=Pinus
+leaf_type=needleleaved
+```
+
+# #reckilaza #staklo #kontejner
+```
+xamenity=recycling
+recycling:glass_bottles=yes
+recycling_type=container
+```
+
 # #groblje
 ```
 amenity=grave_yard
@@ -26,7 +121,7 @@ highway=steps
 surface=concrete
 ```
 
-# #drvo #most
+# #drveni #most
 ```
 bridge=yes
 highway=footway
@@ -38,7 +133,7 @@ surface=wood
 amenity=waste_disposal
 ```
 
-# #voda
+# #voda #cesma
 ```
 amenity=drinking_water
 ```
@@ -56,6 +151,7 @@ amenity=watering_place
   name:sr = 
   name:sr-Latn = 
   roundtrip = yes | no
+  operator=
 ```
 
 # #gazebo #shelter #zastitaodkise
@@ -98,6 +194,14 @@ https://sr.wikipedia.org/wiki/Запис
 ```
 natural=tree
 zapis=yes
+```
+
+# #srpska #pravoslavna #crkva 
+```
+  building = church
+  amenity = place_of_worship
+  denomination = serbian_orthodox
+  religion = christian
 ```
 
 ### Манастир
