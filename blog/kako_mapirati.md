@@ -1,4 +1,19 @@
 # Како мапирати
+Overpass за проверу мапирања
+```
+[out:json];
+node[natural=tree][religion=christian][denomination=serbian_orthodox](area:3601741311);
+out geom;
+
+node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
+```
+
+
+# #domkulture
+```
+amenity=community_centre
+community_centre=cultural_centre
+```
 
 # #potok #kanal #prepust
 koristiti na delu potoka koji ide preko puta
@@ -191,9 +206,13 @@ landuse=orchard
 ### Запис
 #zapis  
 https://sr.wikipedia.org/wiki/Запис  
+https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_zapisa  
 ```
 natural=tree
-zapis=yes
+denomination=serbian_orthodox
+religion=christian
+genus=
+leaf_type=
 ```
 
 # #srpska #pravoslavna #crkva 
