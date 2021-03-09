@@ -24,6 +24,8 @@ waterway=stream
 # #skola
 ```
 amenity=school
+name=ОШ ”<ime>”
+
 ```
 za building
 ```
@@ -53,7 +55,6 @@ amenity = post_office
 operator = Пошта Србије
 
 ```
-
 
 # #apartman #iznajmljivanje #smestaj
 ```

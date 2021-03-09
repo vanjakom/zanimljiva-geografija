@@ -88,6 +88,14 @@ http://scansfer.com/dl.php?k=muizep2vxdabu7i0fj3xwgmoy0znhsird
 
 ### Дневник мапирања
 
+20210307
+Сокобања, субота Жупан - уз Моравицу - Лептерија - Сокоград - Шиљати камен - Големи камен - Стрелиште - центар  
+https://commons.wikimedia.org/wiki/File:Streliste-Golemi_Kamen.jpg  
+https://commons.wikimedia.org/wiki/File:Lepterija-Sokograd-staze.jpg  
+
+[r12417737] Стрелиште - Големи камен
+[r12417738] Сокоград - Големи камен
+
 20200629, track 1593339240  
 Додата стаза Ковилово унутар Националног парка Ђердап.  
 
