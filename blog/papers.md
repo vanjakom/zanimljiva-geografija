@@ -1,5 +1,8 @@
 ## Радови на тему
 
+#### The Sketch Map Tool Facilitates the Assessment ofOpenStreetMap Data for Participatory Mapping
+https://www.mdpi.com/2220-9964/10/3/130
+
 #### Gender and Experience-Related Motivators for Contributing to OpenStreetMap
 https://publik.tuwien.ac.at/files/PubDat_218905.pdf
 

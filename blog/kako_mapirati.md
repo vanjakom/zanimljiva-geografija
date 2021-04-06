@@ -8,6 +8,231 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #bolnica
+```
+amenity = hospital
+```
+
+# #domzdravlja
+```
+amenity = doctors
+healthcare = doctor
+healthcare:speciality = general
+```
+
+# #ambulanta
+```
+amenity = doctors
+healthcare = doctor
+healthcare:speciality = general
+```
+
+# #oftamolog #opticar #naocare
+prodaja
+```
+shop=optician
+```
+pregled
+```
+healthcare=optometrist 
+```
+operacija
+```
+amenity = doctors
+healthcare:speciality = ophthalmology 
+```
+
+# #staracki dom
+```
+amenity = social_facility 
+social_facility = nursing_home
+```
+
+# #apoteka
+```
+amenity = pharmacy
+```
+
+# #veterinar
+```
+amenity = veterinary
+```
+
+# #zubar
+```
+amenity = dentist
+healthcare = dentist
+```
+
+# #mesnazajednica
+name in format "Месна заједница X"
+```
+amenity=townhall
+```
+https://wiki.openstreetmap.org/wiki/Tag:office%3Dgovernment
+https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtownhall
+https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcommunity_centre
+```
+[out:json][timeout:25];
+(
+  nwr[office=government](area:3601741311);
+  nwr[amenity=townhall](area:3601741311);
+  nwr[amenity=community_centre](area:3601741311);
+);
+out center;
+```
+
+
+# #stanica #autobus
+```
+highway=bus_stop
+```
+ukoliko je i zastita od kise
+```
+amenity=shelter
+shelter_type=public_transport
+```
+
+# #reka #potok
+delovi reka, potok
+```
+waterway=river|stream
+```
+relacija za reku
+```
+type = waterway
+waterway = river|stream
+destination = 
+```
+
+# #restoran
+```
+  amenity=restaurant
+```
+
+# #planinarski #znak
+```
+  information = guidepost
+  tourism = information
+  hiking = yes
+```
+
+# #planinarska #staza
+```
+  type = route
+  route = hiking
+  network = lwn
+  note = staza nije mapirana u potpunosti
+  name = 
+  name:sr = 
+  name:sr-Latn = 
+```
+
+# #prodavnica #mala
+prodancica osnovih namernica, hrana, pice
+```
+shop = convenience
+```
+
+# #spomenik #statua #glava
+spomenik osobi, glava i grudi
+```
+historic = memorial
+memorial = bust
+subject:wikidata = 
+subject:wikipedia = 
+wikidata = 
+wikipedia = 
+name = 
+name:sr = 
+name:sr-Latn = 
+```
+
+# #spomenik #statua #telo
+spomenik osobi, celo telo
+```
+historic = memorial
+memorial = statue
+subject:wikidata = 
+subject:wikipedia = 
+wikidata = 
+wikipedia = 
+name = 
+name:sr = 
+name:sr-Latn = 
+```
+
+# #spomenik #rat
+kada nije moguce uci u spomenik  
+https://wiki.openstreetmap.org/wiki/Tag:historic%3Dmemorial  
+```
+historic=memorial
+memorial=war_memorial
+```
+
+# #spomenik #monumentalni
+kada je moguce uci u spomenik, monumentalan spomenik  
+https://wiki.openstreetmap.org/wiki/Tag:historic%3Dmonument  
+```
+historic=monument
+```
+
+# #znak #planinarski
+```
+  information = guidepost
+  tourism = information
+  hiking = yes
+```
+
+# #planinarski #klub
+```
+office=association
+association=sport
+```
+https://www.openstreetmap.org/node/8527932758
+
+# #trafostanica
+```
+nodeman_made=street_cabinet
+street_cabinet=power
+power=substation
+substation=minor_distribution
+```
+https://wiki.openstreetmap.org/wiki/Tag:power%3Dtransformer
+https://wiki.openstreetmap.org/wiki/Tag:power%3Dsubstation
+
+# #cesma #vanupotrebe
+za mapiranje cesmi koji se koriste kao toponim
+```
+abandoned:amenity=drinking_water
+historic=ruins
+```
+
+# #igraliste
+```
+leisure=playground
+```
+
+# #kanalizacija #cevovod
+```
+layer=-1
+location=underground
+man_made=pipeline
+usage=sewage
+```
+
+# #virtuelni #footway #link
+kada je potrebno povezati footway sa centrom puta
+```
+footway=link
+highway=footway
+```
+
+# #pozoriste #otvoreno
+```
+amenity=theatre
+theatre:type=open_air
+```
 
 # #domkulture
 ```
@@ -39,9 +264,16 @@ surface=asphalt
 ```
 
 # #skloniste #vreme #picnic #kisa
+picnic
 ```
 amenity=shelter
 shelter_type=picnic_shelter
+```
+autobuska stanica
+```
+shelter_type=public_transport
+amenity=shelter
+
 ```
 
 # #posta
@@ -90,6 +322,11 @@ brand:wikidata = Q1279721
 website = https://www.nispetrol.rs/
 ```
 
+# #pumpa
+```
+amenity = fuel
+```
+
 # #drvo #javor
 ```
 natural=tree
@@ -112,8 +349,13 @@ recycling_type=container
 ```
 
 # #groblje
+kada je blizu crkve
 ```
-amenity=grave_yard
+amenity = grave_yard
+```
+groblje bez crkve
+```
+landuse = cemetery
 ```
 
 # #struja #bandera #dalekovod
@@ -157,7 +399,10 @@ ili kada voda nije za pice
 ```
 amenity=watering_place
 ```
-
+moguce je mapirati i samu cesmu kao objekat
+```
+man_made=water_tap
+```
 # #staza #planinarskastaza
 ```
   type = route
@@ -192,11 +437,12 @@ node
 	phone=
 
 # #kancelarija #firma
-node
-	office=company
-	name=
-	website=
-	phone=
+```
+office=company
+name=
+website=
+phone=
+```
 
 ### Воћњак
 #vocnjak
@@ -209,19 +455,25 @@ landuse=orchard
 https://sr.wikipedia.org/wiki/Запис  
 https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_zapisa  
 ```
+amenity=place_of_worship
 natural=tree
 denomination=serbian_orthodox
 religion=christian
 genus=
 leaf_type=
 ```
+ukoliko se zapis nalazi na privatnom posedu i pristup nije dozvoljen
+```
+access=private
+```
 
 # #srpska #pravoslavna #crkva 
+ukoliko se dodaju i konture crkve izdvojiti building = church
 ```
-  building = church
   amenity = place_of_worship
   denomination = serbian_orthodox
   religion = christian
+  building = church
 ```
 
 ### Манастир

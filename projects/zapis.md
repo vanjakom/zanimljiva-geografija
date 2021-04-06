@@ -1,5 +1,13 @@
 # белешке сакупљене током истраживања и мапирања записа
 
+"Čajkanović o hrastu i ceru kod Srba" [21]  
+
+Гласање за увођење place_of_worship=holy_well тага. [20]  
+
+Записи се помињу у монографији о Руднику као елементи социјалног повезивања и место окупљања локалне заједнице. Помиње се регистар од 14 записа на Руднику, 10 у Трудељу и 10 у Бољковцима. [19]  
+
+Дискусија на форуму ообележавању записа. [18]  
+
 У Европи постоје стабла на које је закачена нека врста светилишта. [15], [16]  
 ```
 [out:json];
@@ -48,3 +56,11 @@ out center;
 [15] https://wiki.openstreetmap.org/wiki/Tag:historic%3Dwayside_shrine  
 [16] http://overpass-turbo.eu/s/14kH  
 [17] https://de.wikipedia.org/wiki/Bildeiche_(Hahnenkamm)  
+[18] https://forum.openstreetmap.org/viewtopic.php?id=72130  
+[19] Рудник шапат висина, Службени гласник, 751  
+[20] https://wiki.openstreetmap.org/wiki/Proposed_features/holy_well  
+[21] https://nebojsaozimic.wordpress.com/2018/01/06/cajkanovic-o-hrastu-i-ceru-kod-srba/  
+[22]
+[23]
+[24]
+[25]

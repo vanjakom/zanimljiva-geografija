@@ -41,7 +41,7 @@ out geom;
 [14] https://www.openstreetmap.org/node/2222539088  
 [15] https://wiki.openstreetmap.org/wiki/Key:protect_class  
 [16] https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dprotected_area  
-[17]
+[17] 
 [18]
 [19]
-[20]
+[20] "Планинарске активности и заштита природе планина”, Планинарски гласник, 72, страна 26

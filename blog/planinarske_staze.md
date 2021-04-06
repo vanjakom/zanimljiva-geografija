@@ -31,6 +31,7 @@ out geom;
   type = route
   route = hiking
   network = lwn
+  note = staza nije mapirana u potpunosti
   name = 
   name:sr = 
   name:sr-Latn = 
