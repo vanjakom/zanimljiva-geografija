@@ -64,4 +64,4 @@ Facebook група која се бави трансверзалама Југо
 [4] [Bastioni kod Zaječara: Malo poznati biseri srpske vojne arhitekture](https://daljine.rs/bastioni-kod-zajecara-malo-poznati-biseri-srpske-vojne-arhitekture/)  
 [5] [Projekat „Bastionska transverzala“ privodi se kraju!](https://www.glas-zajecara.com/projekat-bastionska-transverzala-privodi-se-kraju/)  
 [6] [„Bastionska transverzala“ primila prve posetioce u ovoj godini!](https://www.glas-zajecara.com/bastionska-transverzala-primila-prve-posetioce-u-ovoj-godini/)  
-
+[7] [Facebook Bastionska transverzala](https://www.facebook.com/bastionskatrasverzala/)  
