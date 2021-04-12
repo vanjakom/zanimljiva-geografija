@@ -8,6 +8,20 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #drvo #stablo #lipa
+```
+natural=tree
+genus=Tilia
+leaf_type=broadleaved
+```
+
+# #mapa turisticka
+```
+tourism=information
+information=map
+
+```
+
 # #bolnica
 ```
 amenity = hospital
@@ -134,11 +148,12 @@ prodancica osnovih namernica, hrana, pice
 shop = convenience
 ```
 
-# #spomenik #statua #glava
+# #spomenik #statua #glava #bista
 spomenik osobi, glava i grudi
 ```
 historic = memorial
 memorial = bust
+subject=
 subject:wikidata = 
 subject:wikipedia = 
 wikidata = 
@@ -250,12 +265,12 @@ waterway=stream
 ```
 amenity=school
 name=ОШ ”<ime>”
-
 ```
 za building
 ```
 building=school
 ```
+moze i da se koristi landuse=school za oblast skole
 
 # #sportskiteren #teren #sport
 ```
