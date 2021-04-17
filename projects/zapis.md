@@ -1,5 +1,7 @@
 # белешке сакупљене током истраживања и мапирања записа
 
+Гласање за увођење place_of_worship=mass_rock тага. [22]  
+
 "Čajkanović o hrastu i ceru kod Srba" [21]  
 
 Гласање за увођење place_of_worship=holy_well тага. [20]  
@@ -60,7 +62,7 @@ out center;
 [19] Рудник шапат висина, Службени гласник, 751  
 [20] https://wiki.openstreetmap.org/wiki/Proposed_features/holy_well  
 [21] https://nebojsaozimic.wordpress.com/2018/01/06/cajkanovic-o-hrastu-i-ceru-kod-srba/  
-[22]
+[22] https://wiki.openstreetmap.org/wiki/Proposed_features/mass_rock  
 [23]
 [24]
 [25]
