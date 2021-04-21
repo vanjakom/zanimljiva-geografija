@@ -195,6 +195,7 @@
 
       var map = L.map("map", {maxBoundsViscosity: 1.0})
       map.setMaxBounds ([[-90,-180],[90,180]])
+      map.setView([44.83153, 20.43869], 10) 
       L.control.scale({imperial: false}).addTo(map)
 
       // base tiles
@@ -207,7 +208,6 @@
 	      bounds: [[-90,-180],[90,180]],
 	      noWrap: true
 	  })
-      osmTile.addTo(map)
 
       var bingAerialTile = new L.BingLayer(
 	  'http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1',
@@ -226,6 +226,14 @@
 	      color: "rgba(255, 255, 255, 1"})
 
       // overlay tiles
+
+      var dataLayer = L.featureGroup()
+
+      L.marker([44, 20]).addTo(dataLayer)
+      
+      if (dataLayer.getLayers().length > 0) {
+	  map.setView(dataLayer.getBounds().getCenter(), map.getZoom())
+      }
 
       var waymarkedHikeTile = L.tileLayer(
 	  'https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png',
@@ -258,8 +266,6 @@
 	      bounds: [[-90,-180], [90, 180]],
 	      noWrap: true,
 	      color: "rgba(0, 0, 0, 0.5"})
-
-      
       
       // map setup
             
@@ -269,6 +275,7 @@
 	  "empty white tile": emptyWhiteTile }
 
       var overlayMaps = {
+	  "data": dataLayer,
 	  "waymakred hike": waymarkedHikeTile,
 	  "waymakred cycle": waymarkedCycleTile,
 	  "tile bounds": tileBoundsTile,
@@ -291,7 +298,152 @@
 		  map.fitBounds(poly.getBounds());
 	      }).addTo(map)
 
-      map.setView([44.82763029742812, 20.50529479980469], 10)
+      // pick location
+      var mousedownInterval;
+      map.on (
+	  "mousedown",
+	  function (e) {
+	      mousedownInterval = setInterval(
+		  function() {
+		      let longitude = Number (e.latlng.lng).toFixed (5)
+		      let latitude = Number (e.latlng.lat).toFixed (5)
+		      let zoom = map.getZoom()
+		      L
+			  .popup({
+			      closeOnClick: false})
+			  .setLatLng(e.latlng)
+			  .setContent(
+			      longitude + ", " + latitude  + "</br>" +
+				  projectedLocationToWord(projectX(longitude), projectY(latitude)) + "</br>" +
+				  "<a href='http://openstreetmap.org/#map=16/" + e.latlng.lat + "/" + e.latlng.lng + "' target='_blank'>osm</a>" + "</br>" +
+				  "<a href='https://preview.ideditor.com/release/#map=16/" + e.latlng.lat + "/" + e.latlng.lng + "' target='_blank'>iD</a>" + "</br>" +
+				  "<a href='http://localhost:8080/#map=16/" + e.latlng.lat + "/" + e.latlng.lng + "' target='_blank'>iD (localhost)</a>" + "</br>" +
+				  "<a href='http://level0.osmz.ru/?center=" + e.latlng.lat + "," + e.latlng.lng + "' target='_blank'>level0</a></br>" +
+				  "<a href='https://www.mapillary.com/app/?focus=map&lat=" + e.latlng.lat + "&lng=" + e.latlng.lng + "&z=16' target='_blank'>mapillary</a>" + "</br>" +
+				  "<a href='https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0Anwr(%7B%7Bbbox%7D%7D)%3B%0Aout%20geom%3B&C=" + e.latlng.lat + ";" + e.latlng.lng + ";16' target='_blank'>overpass</a></br>" +
+				  "<a href='https://hiking.waymarkedtrails.org/#?map=" + zoom + "!" + latitude + "!" + longitude + "' target='_blank'>waymarked hiking</a></br>" +
+				  "<a href='https://cycling.waymarkedtrails.org/#?map=" + zoom + "!" + latitude + "!" + longitude + "' target='_blank'>waymarked cycling</a></br>")
+			  .openOn(map)},
+		  500)})
+      map.on(
+	  "mousemove",
+	  function (e) {
+	      clearInterval(mousedownInterval)})
+      map.on(
+	  "mouseup",
+	  function (e) {
+	      clearInterval(mousedownInterval)})
+
+      // map state
+      var state = {}
+      // to be used during state read apply phase to disable generation of write
+      // events caused by map state change
+      state.ignoreEvent = false
+      state.read = function() {
+	  if (!state.ignoreEvent) {
+	      console.log("state read")
+	      // default
+	      state.zoom = map.getZoom()
+	      state.longitude = map.getCenter().lng
+	      state.latitude = map.getCenter().lat
+	      state.layer = "o"
+	      state.overlays = ""
+
+	      // read
+	      if (window.location.hash) {
+		  var splits = window.location.hash.substring(1).split("/")
+		  if (splits[0] != "") {
+		      state.zoom = parseFloat(splits[0])
+		  }
+		  if (splits[1] != "") {
+		      state.longitude = parseFloat(splits[1])
+		  }
+		  if (splits[2] != "") {
+		      state.latitude = parseFloat(splits[2])
+		  }
+		  if (splits.length > 3) {
+		      state.layer = splits[3]
+		  }
+		  if (splits.length > 4) {
+		      state.overlays = splits[4]
+		  }
+	      }
+
+	      // apply
+
+	      // disable events during setup
+	      state.ignoreEvent = true
+
+	      // clean map since read could be triggered by hash change
+	      map.eachLayer(function(layer) { map.removeLayer(layer)}) 
+	      map.setView([state.latitude, state.longitude], state.zoom)
+	      
+	      if (state.layer == "o") {
+		  osmTile.addTo(map)
+	      } else if (state.layer == "b") {
+		  bingAerialTile.addTo(map)
+	      } else if (state.layer == "e") {
+		  emptyWhiteTile.addTo(map)
+	      }
+
+	      // suport ordering
+	      if (state.overlays.includes("wh_")) {
+		  waymarkedHikeTile.addTo(map)
+	      } else if (state.overlays.includes("wc_")) {
+		  waymarkedCycleTile.addTo(map)
+	      } else if (state.overlays.includes("tb_")) {
+		  tileBoundsTile.addTo(map)
+	      } else if (state.overlays.includes("wb_")) {
+		  wordBoundsTile.addTo(map)
+	      } else if (state.overlays.includes("da_")) {
+		  dataLayer.addTo(map)
+	      }
+
+	      // enable events
+	      state.ignoreEvent = false
+	  }
+      }
+      state.write = function() {
+	  if (!state.ignoreEvent) {
+	      console.log("state write")
+	      
+	      state.zoom =  map.getZoom()
+	      state.longitude = map.getCenter().lng
+	      state.latitude = map.getCenter().lat
+
+	      if (map.hasLayer(osmTile)) {
+		  state.layer = "o"
+	      } else if (map.hasLayer(bingAerialTile)) {
+		  state.layer = "b"
+	      } else if (map.hasLayer(emptyWhiteTile)) {
+		  state.layer = "e"
+	      }
+
+	      state.ignoreEvent = true
+	      window.location.hash = "#" +
+		  state.zoom + "/" +
+		  state.longitude + "/" +
+		  state.latitude + "/" +
+		  state.layer
+	      state.ignoreEvent = false
+
+	      console.log("state write end")
+	  }
+      }
+
+      state.read()
+      
+      // register for changes
+      window.onhashchange = function() {
+	  console.log("hash change")
+	  state.read()
+      }
+      map.on("moveend", state.write)
+      map.on("baselayerchange", state.write)
+      map.on("overlayadd", state.write)
+      map.on("overlayremove", state.write)
+
+      // todo add support for active layes tracking
     </script>
   </body>
 </html>
