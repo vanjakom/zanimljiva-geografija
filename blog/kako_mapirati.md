@@ -8,6 +8,18 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #put #relacija
+```
+type = route
+route = road
+```
+
+# #hotel #napusten
+```
+disused:tourism=hotel
+building=hotel
+```
+
 # #drvo #stablo #lipa
 ```
 natural=tree
@@ -295,6 +307,7 @@ amenity=shelter
 name in following format
 11080 Београд-Земун
 spisak
+https://www.posta.rs/DocumentViewer.aspx?IdDokument=1550&Dokument=spisak-posta-cir.pdf
 https://www.posta.rs/DocumentViewer.aspx?IdDokument=1001550&Dokument=spisak-posta-lat.pdf
 
 ```
