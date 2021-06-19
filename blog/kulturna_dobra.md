@@ -40,6 +40,9 @@ out center;
 [overpass-turbo](https://overpass-turbo.eu/?Q=%5Bout%3Ajson%5D%3B%0Anwr%5Bheritage%3D1%5D%5B%22heritage%3Aoperator%22%3Dwhc%5D%28area%3A3609088937%29%3B%0Aout%20center%3B)  
 
 ## како мапирати?  
+https://wiki.openstreetmap.org/wiki/Key:heritage#Serbia  
+https://sr.wikipedia.org/wiki/Списак_споменика_културе_у_Србији  
+https://sr.wikipedia.org/wiki/Списак_споменика_културе_у_Београду  
 https://www.openstreetmap.org/way/295686327  
 ```
 heritage = 2

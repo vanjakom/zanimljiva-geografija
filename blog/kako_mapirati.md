@@ -8,6 +8,58 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #mobilni #operater #prodancica
+```
+shop = mobile_phone
+```
+
+# #bazen
+```
+leisure=swimming_pool
+```
+# #sportskicentar #bazen
+```
+leisure=sports_centre
+sport=swimming
+```
+# #paintball #teren
+```
+leisure=pitch 
+sport=paintball
+```
+
+# #javni #toalet #wc
+```
+amenity=toilets
+```
+# #pijaca
+```
+amenity=marketplace
+```
+# #antena #repetitor #toranj #komunikacija
+https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dtower  
+ako je samo odasiljac, bez platformi, manji  
+```
+man_made=mast
+tower:type=communication
+```
+ako je toranj, ima platforme, srednja velicina  
+```
+man_made=tower
+tower:type=communication
+```
+ako je veliki toranj za komunikaciju, > 100m  
+https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dcommunications_tower  
+```
+man_made=communications_tower
+```
+
+# #zaselak
+```
+place=hamlet
+name=
+```
+
 # #put #relacija
 ```
 type = route
@@ -313,6 +365,7 @@ https://www.posta.rs/DocumentViewer.aspx?IdDokument=1001550&Dokument=spisak-post
 ```
 amenity = post_office
 operator = Пошта Србије
+ref=
 
 ```
 

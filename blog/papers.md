@@ -1,5 +1,8 @@
 ## Радови на тему
 
+####  Curious Cases of Corporations in OpenStreetMap 
+https://media.ccc.de/v/state-of-the-map-2020-academic-track-4858-curious-cases-of-corporations-in-openstreetmap
+
 #### The Sketch Map Tool Facilitates the Assessment ofOpenStreetMap Data for Participatory Mapping
 https://www.mdpi.com/2220-9964/10/3/130
 
