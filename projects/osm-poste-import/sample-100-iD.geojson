@@ -1,0 +1,1574 @@
+{"type":"FeatureCollection",
+ "features":
+ [{"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"34240 \u041a\u043d\u0438\u045b",
+    "name:sr":"34240 \u041a\u043d\u0438\u045b",
+    "name:sr-Latn":"34240 Kni\u0107",
+    "ref":"34240",
+    "opening_hours":"Mo-Fr 08.00-16.00; Sa 07.00-14.00",
+    "phone":"+381 34 504-085;+381 34 510-125",
+    "addr:pak":"558002"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7199578756112, 43.9262965931834]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11186 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 85",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"34",
+    "name":"11186 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 85",
+    "amenity":"post_office",
+    "phone":"+381 11 3714-099;+381 11 6619-331",
+    "ref":"11186",
+    "name:sr-Latn":"11186 Beograd 85",
+    "addr:pak":"201026",
+    "addr:street":
+    "\u041c\u043e\u043c\u0447\u0438\u043b\u0430 \u0420\u0430\u0434\u0438\u0432\u043e\u0458\u0435\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3698077037382, 44.8571143556451]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"36207 \u0412\u0438\u0442\u043a\u043e\u0432\u0430\u0446",
+    "name:sr":
+    "36207 \u0412\u0438\u0442\u043a\u043e\u0432\u0430\u0446",
+    "name:sr-Latn":"36207 Vitkovac",
+    "ref":"36207",
+    "opening_hours":"Mo-Fr 09.00-15.00",
+    "phone":"+381 36 5873-112",
+    "addr:pak":"566001"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7897768788118, 43.7906643873061]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"26112 \u041f\u0430\u043d\u0447\u0435\u0432\u043e 12",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "addr:housenumber":"42",
+    "name":"26112 \u041f\u0430\u043d\u0447\u0435\u0432\u043e 12",
+    "amenity":"post_office",
+    "phone":"+381 13 310-551",
+    "ref":"26112",
+    "name:sr-Latn":"26112 Pan\u010devo 12",
+    "addr:pak":"300626",
+    "addr:street":"\u0412\u0430\u0459\u0435\u0432\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.6449041572183, 44.8824107901648]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"32106 \u0427\u0430\u0447\u0430\u043a 6",
+    "opening_hours":"Mo-Fr 09.00-16.00",
+    "addr:housenumber":"228",
+    "name":"32106 \u0427\u0430\u0447\u0430\u043a 6",
+    "amenity":"post_office",
+    "phone":"+381 32 372-597",
+    "ref":"32106",
+    "name:sr-Latn":"32106 \u010ca\u010dak 6",
+    "addr:pak":"521873",
+    "addr:street":
+    "\u0412\u043e\u0458\u0432\u043e\u0434\u0435 \u0421\u0442\u0435\u043f\u0435"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3299288789392, 43.8896692555138]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"36208 \u0421\u0438\u0440\u0447\u0430",
+    "name:sr":"36208 \u0421\u0438\u0440\u0447\u0430",
+    "name:sr-Latn":"36208 Sir\u010da",
+    "ref":"36208",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "phone":"+381 36 5446-651",
+    "addr:pak":"565942"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7210875946125, 43.746473960786]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21210 \u0420\u0443\u043c\u0435\u043d\u043a\u0430",
+    "opening_hours":
+    "Mo-Sa 07.30-19.30; Su 07.00-13.00; PH 07.30-19.30",
+    "addr:housenumber":"54",
+    "name":"21210 \u0420\u0443\u043c\u0435\u043d\u043a\u0430",
+    "amenity":"post_office",
+    "phone":"+381 21 621-6454",
+    "ref":"21210",
+    "name:sr-Latn":"21210 Rumenka",
+    "addr:pak":"407225",
+    "addr:street":
+    "\u041f\u0430\u0440\u0442\u0438\u0437\u0430\u043d\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.7394214271771, 45.2958463980435]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "24427 \u0422\u043e\u0442\u043e\u0432\u043e \u0421\u0435\u043b\u043e",
+    "name:sr":
+    "24427 \u0422\u043e\u0442\u043e\u0432\u043e \u0421\u0435\u043b\u043e",
+    "name:sr-Latn":"24427 Totovo Selo",
+    "ref":"24427",
+    "opening_hours":"Mo-Fr 08.00-10.00",
+    "phone":"+381 24 887-000",
+    "addr:pak":"445905"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.9179522074174, 45.9621815205862]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"23311 \u041d\u0430\u043a\u043e\u0432\u043e",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"999",
+    "name":"23311 \u041d\u0430\u043a\u043e\u0432\u043e",
+    "amenity":"post_office",
+    "phone":"+381 230 454-300",
+    "ref":"23311",
+    "name:sr-Latn":"23311 Nakovo",
+    "addr:pak":"372255",
+    "addr:street":
+    "\u0413\u043b\u0430\u0432\u043d\u0430 \u0423\u043b\u0438\u0446\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5668628305081, 45.8743500887996]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "18241 \u0413\u043e\u0440\u045a\u0438 \u0411\u0430\u0440\u0431\u0435\u0448",
+    "name:sr":
+    "18241 \u0413\u043e\u0440\u045a\u0438 \u0411\u0430\u0440\u0431\u0435\u0448",
+    "name:sr-Latn":"18241 Gornji Barbe\u0161",
+    "ref":"18241",
+    "opening_hours":"Mo,We,Fr 07.30-10.30",
+    "phone":"+381 18 4868-321",
+    "addr:pak":"692310"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.956837547659, 43.2002013245123]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"18321 \u0413\u0440\u0430\u0434\u0438\u043d\u0430",
+    "name:sr":"18321 \u0413\u0440\u0430\u0434\u0438\u043d\u0430",
+    "name:sr-Latn":"18321 Gradina",
+    "ref":"18321",
+    "opening_hours":"Mo-Su,PH 07.30-18.30",
+    "phone":"+381 10 361-781",
+    "addr:pak":"625502"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.8131010719178, 42.9937189037818]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "18310 \u0411\u0435\u043b\u0430 \u041f\u0430\u043b\u0430\u043d\u043a\u0430",
+    "opening_hours":"Mo-Fr 07.00-17.00; Sa 07.00-12.00",
+    "addr:housenumber":"2",
+    "name":
+    "18310 \u0411\u0435\u043b\u0430 \u041f\u0430\u043b\u0430\u043d\u043a\u0430",
+    "amenity":"post_office",
+    "phone":"+381 18 518-093;+381 18 855-490",
+    "ref":"18310",
+    "name:sr-Latn":"18310 Bela Palanka",
+    "addr:pak":"691010",
+    "addr:street":
+    "\u041a\u0440\u0441\u0442\u0435 \u0408\u043e\u0446\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.3111303743171, 43.2179372544557]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"31253 \u0417\u043b\u043e\u0434\u043e\u043b",
+    "name:sr":"31253 \u0417\u043b\u043e\u0434\u043e\u043b",
+    "name:sr-Latn":"31253 Zlodol",
+    "ref":"31253",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "phone":"+381 31 3857-055",
+    "addr:pak":"507440"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.6840037802455, 43.9454772281548]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"26215 \u041f\u0430\u0434\u0438\u043d\u0430",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"2",
+    "name":"26215 \u041f\u0430\u0434\u0438\u043d\u0430",
+    "amenity":"post_office",
+    "phone":"+381 13 309-115",
+    "ref":"26215",
+    "name:sr-Latn":"26215 Padina",
+    "addr:pak":"308470",
+    "addr:street":"\u041d\u043e\u0432\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7282823370898, 45.1175641582036]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"26109 \u041f\u0430\u043d\u0447\u0435\u0432\u043e 9",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"69",
+    "name":"26109 \u041f\u0430\u043d\u0447\u0435\u0432\u043e 9",
+    "amenity":"post_office",
+    "phone":"+381 13 371-833",
+    "ref":"26109",
+    "name:sr-Latn":"26109 Pan\u010devo 9",
+    "addr:pak":"302404",
+    "addr:street":
+    "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.6678511085401, 44.8770475256193]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "38213 \u041f\u0440\u0438\u043b\u0443\u0436\u0458\u0435",
+    "opening_hours":"Mo-Fr 07.00-15.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"38213 \u041f\u0440\u0438\u043b\u0443\u0436\u0458\u0435",
+    "amenity":"post_office",
+    "phone":"+381 28 467-010",
+    "ref":"38213",
+    "name:sr-Latn":"38213 Prilu\u017eje",
+    "addr:pak":"912004",
+    "addr:street":
+    "\u0412\u0438\u0434\u043e\u0432\u0434\u0430\u043d\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.024962081991, 42.7315537303137]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21420 \u0411\u0430\u0447",
+    "opening_hours":"Mo-Fr 08.00-14.00; Sa 08.00-13.00",
+    "addr:housenumber":"8",
+    "name":"21420 \u0411\u0430\u0447",
+    "amenity":"post_office",
+    "phone":"+381 21 4807-086;+381 21 770-500",
+    "ref":"21420",
+    "name:sr-Latn":"21420 Ba\u010d",
+    "addr:pak":"390301",
+    "addr:street":
+    "\u0422\u0440\u0433 \u0434\u0440 \u0417\u043e\u0440\u0430\u043d\u0430 \u0402\u0438\u043d\u0452\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.2292660838825, 45.3929884759309]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"22306 \u0411\u0435\u043b\u0435\u0433\u0438\u0448",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"38",
+    "name":"22306 \u0411\u0435\u043b\u0435\u0433\u0438\u0448",
+    "amenity":"post_office",
+    "phone":"+381 22 361-386",
+    "ref":"22306",
+    "name:sr-Latn":"22306 Belegi\u0161",
+    "addr:pak":"343157",
+    "addr:street":
+    "\u041a\u0440\u0430\u0459\u0430 \u041f\u0435\u0442\u0440\u0430 \u043f\u0440\u0432\u043e\u0433"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3326192519259, 45.0189740945238]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "34105 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"158\u0410",
+    "name":
+    "34105 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+    "amenity":"post_office",
+    "phone":"+381 34 312-640",
+    "ref":"34105",
+    "name:sr-Latn":"34105 Kragujevac",
+    "addr:pak":"552401",
+    "addr:street":
+    "\u041a\u043d\u0435\u0437\u0430 \u041c\u0438\u0445\u0430\u0438\u043b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.8992122301339, 44.0043167274997]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "11550 \u041b\u0430\u0437\u0430\u0440\u0435\u0432\u0430\u0446",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-15.00",
+    "addr:housenumber":"30",
+    "name":
+    "11550 \u041b\u0430\u0437\u0430\u0440\u0435\u0432\u0430\u0446",
+    "amenity":"post_office",
+    "phone":"+381 11 3535-104;+381 11 3535-106",
+    "ref":"11550",
+    "name:sr-Latn":"11550 Lazarevac",
+    "addr:pak":"214217",
+    "addr:street":
+    "\u041a\u0430\u0440\u0430\u0452\u043e\u0440\u0452\u0435\u0432\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.2607292109451, 44.3815706664942]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"19221 \u0421\u043b\u0430\u0442\u0438\u043d\u0430",
+    "opening_hours":"Mo-Fr 07.00-13.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"19221 \u0421\u043b\u0430\u0442\u0438\u043d\u0430",
+    "amenity":"post_office",
+    "phone":"+381 30 433-404",
+    "ref":"19221",
+    "name:sr-Latn":"19221 Slatina",
+    "addr:pak":"603003",
+    "addr:street":"\u0421\u043b\u0430\u0442\u0438\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.1627585612043, 44.0403571959218]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"24425 \u0410\u0434\u043e\u0440\u0458\u0430\u043d",
+    "opening_hours":"Mo-Fr 07.00-10.00",
+    "addr:housenumber":"10",
+    "name":"24425 \u0410\u0434\u043e\u0440\u0458\u0430\u043d",
+    "amenity":"post_office",
+    "phone":"+381 24 4884-158",
+    "ref":"24425",
+    "name:sr-Latn":"24425 Adorjan",
+    "addr:pak":"445605",
+    "addr:street":
+    "\u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0422\u0438\u0442\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.0404226075913, 46.0050496961673]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"11461 \u0411\u0435\u0459\u0438\u043d\u0430",
+    "name:sr":"11461 \u0411\u0435\u0459\u0438\u043d\u0430",
+    "name:sr-Latn":"11461 Beljina",
+    "ref":"11461",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "phone":"+381 11 8321-464",
+    "addr:pak":"219002"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3951712965101, 44.5200247105391]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"24215 \u0409\u0443\u0442\u043e\u0432\u043e",
+    "opening_hours":"Mo-Fr 06.30-13.00",
+    "addr:housenumber":"367",
+    "name":"24215 \u0409\u0443\u0442\u043e\u0432\u043e",
+    "amenity":"post_office",
+    "phone":"+381 24 4767-020",
+    "ref":"24215",
+    "name:sr-Latn":"24215 Ljutovo",
+    "addr:pak":"457354",
+    "addr:street":
+    "\u0421\u043b\u043e\u0431\u043e\u0434\u0430\u043d\u0430 \u041f\u0440\u0438\u043d\u0446\u0438\u043f\u0430 \u0421\u0435\u0459\u0435"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.5255797019629, 46.0664000174928]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "12308 \u041e\u0440\u0435\u0448\u043a\u043e\u0432\u0438\u0446\u0430",
+    "name:sr":
+    "12308 \u041e\u0440\u0435\u0448\u043a\u043e\u0432\u0438\u0446\u0430",
+    "name:sr-Latn":"12308 Ore\u0161kovica",
+    "ref":"12308",
+    "opening_hours":"Mo,We,Fr 08.00-11.00",
+    "phone":"+381 12 345750",
+    "addr:pak":"282701"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.3262622878689, 44.3170843224056]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"36000 \u041a\u0440\u0430\u0459\u0435\u0432\u043e 6",
+    "opening_hours":"Mo-Fr 07.00-19.00; Sa 07.00-14.00",
+    "addr:housenumber":"6",
+    "name":"36000 \u041a\u0440\u0430\u0459\u0435\u0432\u043e 6",
+    "amenity":"post_office",
+    "phone":"+381 36 303-066;+381 36 303-062;+381 36 303-063",
+    "ref":"36000",
+    "name:sr-Latn":"36000 Kraljevo 6",
+    "addr:pak":"562005",
+    "addr:street":
+    "\u0408\u043e\u0432\u0430\u043d\u0430 \u0414\u0435\u0440\u043e\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.6611463310104, 43.7305444320479]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "32255 \u041c\u0435\u0452\u0443\u0440\u0435\u0447\u0458\u0435",
+    "name:sr":
+    "32255 \u041c\u0435\u0452\u0443\u0440\u0435\u0447\u0458\u0435",
+    "name:sr-Latn":"32255 Me\u0111ure\u010dje",
+    "ref":"32255",
+    "opening_hours":"Tu,Th 08.00-14.30",
+    "phone":"+381 32 638-200",
+    "addr:pak":"532510"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.2270999898742, 43.5314735294953]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "34114 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+    "opening_hours":"Mo-Fr 07.00-18.00; Sa 08.00-14.00",
+    "addr:housenumber":"103",
+    "name":
+    "34114 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+    "amenity":"post_office",
+    "phone":"+381 34 356-720",
+    "ref":"34114",
+    "name:sr-Latn":"34114 Kragujevac",
+    "addr:pak":"555222",
+    "addr:street":
+    "\u041a\u0440\u0430\u0459\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u043f\u0440\u0432\u043e\u0433 \u041a\u0430\u0440\u0430\u0452\u043e\u0440\u0452\u0435\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.9066446843705, 44.0154260765842]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "18242 \u0414\u043e\u045a\u0438 \u0414\u0443\u0448\u043d\u0438\u043a",
+    "name:sr":
+    "18242 \u0414\u043e\u045a\u0438 \u0414\u0443\u0448\u043d\u0438\u043a",
+    "name:sr-Latn":"18242 Donji Du\u0161nik",
+    "ref":"18242",
+    "opening_hours":"Mo,We,Fr 07.00-10.00",
+    "phone":"+381 18 867-082",
+    "addr:pak":"692410"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.1096578494431, 43.1626272818186]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "18400 \u041f\u0440\u043e\u043a\u0443\u043f\u0459\u0435",
+    "opening_hours":"Mo-Fr 07.00-19.00; Sa 07.30-15.00",
+    "addr:housenumber":"6",
+    "name":"18400 \u041f\u0440\u043e\u043a\u0443\u043f\u0459\u0435",
+    "amenity":"post_office",
+    "phone":"+381 27 320-313;+381 27 320-315",
+    "ref":"18400",
+    "name:sr-Latn":"18400 Prokuplje",
+    "addr:pak":"650401",
+    "addr:street":
+    "\u0408\u0443\u0433 \u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.586216624833, 43.2338018756831]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"24213 \u0402\u0443\u0440\u0452\u0438\u043d",
+    "opening_hours":"Mo-Fr 07.00-11.00",
+    "addr:housenumber":"15",
+    "name":"24213 \u0402\u0443\u0440\u0452\u0438\u043d",
+    "amenity":"post_office",
+    "phone":"+381 24 4768-000",
+    "ref":"24213",
+    "name:sr-Latn":"24213 \u0110ur\u0111in",
+    "addr:pak":"457001",
+    "addr:street":
+    "\u0411\u043e\u0440\u0438\u0441\u0430 \u041a\u0438\u0434\u0440\u0438\u0447\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.5386314811089, 45.9441415245695]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "36300 \u041d\u043e\u0432\u0438 \u041f\u0430\u0437\u0430\u0440",
+    "name:sr":
+    "36300 \u041d\u043e\u0432\u0438 \u041f\u0430\u0437\u0430\u0440",
+    "name:sr-Latn":"36300 Novi Pazar",
+    "ref":"36300",
+    "opening_hours":"Mo-Fr 07.00-19.00; Sa 08.00-15.00",
+    "phone":"+381 20 332-130;+381 20 313-155;+381 20 313-288",
+    "addr:pak":"570313"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5149936396162, 43.143344470644]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "18240 \u0413\u0430\u045f\u0438\u043d \u0425\u0430\u043d",
+    "opening_hours":"Mo-Fr 07.30-15.00; Sa 07.00-11.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"18240 \u0413\u0430\u045f\u0438\u043d \u0425\u0430\u043d",
+    "amenity":"post_office",
+    "phone":"+381 18 861-221",
+    "ref":"18240",
+    "name:sr-Latn":"18240 Gad\u017ein Han",
+    "addr:pak":"692001",
+    "addr:street":
+    "\u041c\u0438\u043b\u043e\u0448\u0430 \u041e\u0431\u0438\u043b\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.0320772575048, 43.2215749390325]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21126 \u041d\u043e\u0432\u0438 \u0421\u0430\u0434",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"17",
+    "name":"21126 \u041d\u043e\u0432\u0438 \u0421\u0430\u0434",
+    "amenity":"post_office",
+    "phone":"+381 21 403-151",
+    "ref":"21126",
+    "name:sr-Latn":"21126 Novi Sad",
+    "addr:pak":"402437",
+    "addr:street":
+    "\u0411\u0430\u0442\u0435 \u0411\u0440\u043a\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.7944810906639, 45.2543155071066]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "23244 \u0421\u0443\u0442\u0458\u0435\u0441\u043a\u0430",
+    "opening_hours":"Mo-Fr 07.30-14.00",
+    "addr:housenumber":"37",
+    "name":"23244 \u0421\u0443\u0442\u0458\u0435\u0441\u043a\u0430",
+    "amenity":"post_office",
+    "phone":"+381 23 851-000",
+    "ref":"23244",
+    "name:sr-Latn":"23244 Sutjeska",
+    "addr:pak":"367501",
+    "addr:street":
+    "\u0411\u043e\u0440\u0438\u0441\u0430 \u041a\u0438\u0434\u0440\u0438\u0447\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.6986251432673, 45.3812578310442]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "21203 \u0412\u0435\u0442\u0435\u0440\u043d\u0438\u043a",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-13.00",
+    "addr:housenumber":"8",
+    "name":"21203 \u0412\u0435\u0442\u0435\u0440\u043d\u0438\u043a",
+    "amenity":"post_office",
+    "phone":"+381 21 4807-092;+381 21 821-003",
+    "ref":"21203",
+    "name:sr-Latn":"21203 Veternik",
+    "addr:pak":"407556",
+    "addr:street":
+    "\u041e\u043c\u043b\u0430\u0434\u0438\u043d\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.7540836405591, 45.2505159833433]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"31237 \u0420\u043e\u0433\u0435",
+    "name:sr":"31237 \u0420\u043e\u0433\u0435",
+    "name:sr-Latn":"31237 Roge",
+    "ref":"31237",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "phone":"+381 31 820-811",
+    "addr:pak":"505701"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.9819145103758, 43.7760622760429]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11093 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 138",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"17",
+    "name":"11093 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 138",
+    "amenity":"post_office",
+    "phone":"+381 11 7561890",
+    "ref":"11093",
+    "name:sr-Latn":"11093 Beograd 138",
+    "addr:pak":"180720",
+    "addr:street":
+    "\u041f\u0435\u0440\u0435 \u0412\u0435\u043b\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4522432688066, 44.7570686487998]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "12102 \u041f\u043e\u0436\u0430\u0440\u0435\u0432\u0430\u0446 2",
+    "opening_hours":"Mo-Fr 08.30-14.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":
+    "12102 \u041f\u043e\u0436\u0430\u0440\u0435\u0432\u0430\u0446 2",
+    "amenity":"post_office",
+    "phone":"+381 12 553295",
+    "ref":"12102",
+    "name:sr-Latn":"12102 Po\u017earevac 2",
+    "addr:pak":"292802",
+    "addr:street":"\u0417\u0430\u0431\u0435\u043b\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.1486761796219, 44.6511155439712]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"11560 \u0412\u0440\u0435\u043e\u0446\u0438",
+    "name:sr":"11560 \u0412\u0440\u0435\u043e\u0446\u0438",
+    "name:sr-Latn":"11560 Vreoci",
+    "ref":"11560",
+    "opening_hours":"Mo-Fr 08.00-14.30",
+    "phone":"+381 11 8144-306",
+    "addr:pak":"217606"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.2827540682351, 44.454503551506]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"18104 \u041d\u0438\u0448",
+    "opening_hours":"Mo-Fr 07.00-19.00; Sa 07.00-13.00",
+    "addr:housenumber":"27",
+    "name":"18104 \u041d\u0438\u0448",
+    "amenity":"post_office",
+    "phone":"+381 18 524-970",
+    "ref":"18104",
+    "name:sr-Latn":"18104 Ni\u0161",
+    "addr:pak":"704126",
+    "addr:street":
+    "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 12. \u0444\u0435\u0431\u0440\u0443\u0430\u0440"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.889985294912, 43.3241654022739]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"35208 \u0412\u043e\u0458\u0441\u043a\u0430",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"35208 \u0412\u043e\u0458\u0441\u043a\u0430",
+    "amenity":"post_office",
+    "phone":"+381 35 8339-269",
+    "ref":"35208",
+    "name:sr-Latn":"35208 Vojska",
+    "addr:pak":"587321",
+    "addr:street":
+    "\u0421\u0442\u0435\u0432\u0430\u043d\u0430 \u0421\u0438\u043d\u0452\u0435\u043b\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.2151640500112, 44.0904828360823]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"23234 \u041c\u0435\u0452\u0430",
+    "name:sr":"23234 \u041c\u0435\u0452\u0430",
+    "name:sr-Latn":"23234 Me\u0111a",
+    "ref":"23234",
+    "opening_hours":"Mo,We,Fr 07.30-14.00",
+    "phone":"+381 23 830-099",
+    "addr:pak":"362401"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.8033848701444, 45.5363782797783]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "16214 \u0421\u0442\u0430\u0458\u043a\u043e\u0432\u0446\u0435",
+    "name:sr":
+    "16214 \u0421\u0442\u0430\u0458\u043a\u043e\u0432\u0446\u0435",
+    "name:sr-Latn":"16214 Stajkovce",
+    "ref":"16214",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "phone":"+381 16 3869-012",
+    "addr:pak":"645604"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.0618576333383, 42.9856419042817]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "11565 \u0411\u0430\u0440\u043e\u0448\u0435\u0432\u0430\u0446",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"51",
+    "name":
+    "11565 \u0411\u0430\u0440\u043e\u0448\u0435\u0432\u0430\u0446",
+    "amenity":"post_office",
+    "phone":"+381 11 8158-047",
+    "ref":"11565",
+    "name:sr-Latn":"11565 Baro\u0161evac",
+    "addr:pak":"216109",
+    "addr:street":
+    "\u0418\u0432\u0430\u045a\u0434\u0430\u043d\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.367181966577, 44.3960698223264]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11041 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 147",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"25",
+    "name":"11041 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 147",
+    "amenity":"post_office",
+    "phone":"+381 11 3535-155;+381 11 3535-156",
+    "ref":"11041",
+    "name:sr-Latn":"11041 Beograd 147",
+    "addr:pak":"165871",
+    "addr:street":
+    "\u0413\u0435\u043d\u0435\u0440\u0430\u043b\u0430 \u0428\u0442\u0435\u0444\u0430\u043d\u0438\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4920509511086, 44.7586221396955]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11072 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 126",
+    "opening_hours":"Mo-Fr 08.00-15.30",
+    "addr:housenumber":"16",
+    "name":"11072 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 126",
+    "amenity":"post_office",
+    "phone":"+381 11 2018-352",
+    "ref":"11072",
+    "name:sr-Latn":"11072 Beograd 126",
+    "addr:pak":"190403",
+    "addr:street":
+    "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u041c\u0438\u0445\u0430\u0438\u043b\u0430 \u041f\u0443\u043f\u0438\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4114873353529, 44.8320374889264]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"22240 \u0428\u0438\u0434",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"1",
+    "name":"22240 \u0428\u0438\u0434",
+    "amenity":"post_office",
+    "phone":"+381 22 600-680;+381 22 711-144",
+    "ref":"22240",
+    "name:sr-Latn":"22240 \u0160id",
+    "addr:pak":"326406",
+    "addr:street":
+    "\u041a\u0430\u0440\u0430\u0452\u043e\u0440\u0452\u0435\u0432\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.2266051867285, 45.1279334975202]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11131 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 40",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"146",
+    "name":"11131 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 40",
+    "amenity":"post_office",
+    "phone":"+381 11 3535-133;+381 11 3554-924",
+    "ref":"11131",
+    "name:sr-Latn":"11131 Beograd 40",
+    "addr:pak":"173208",
+    "addr:street":"\u041f\u043e\u0436\u0435\u0448\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4133662287262, 44.7749712535325]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"23274 \u0411\u043e\u0447\u0430\u0440",
+    "opening_hours":"Mo-Fr 07.30-14.00",
+    "addr:housenumber":"8",
+    "name":"23274 \u0411\u043e\u0447\u0430\u0440",
+    "amenity":"post_office",
+    "phone":"+381 23 789-240",
+    "ref":"23274",
+    "name:sr-Latn":"23274 Bo\u010dar",
+    "addr:pak":"366911",
+    "addr:street":
+    "\u0412\u043e\u0458\u0432\u043e\u0452\u0430\u043d\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.2788100195927, 45.7683340362345]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21130 \u041d\u043e\u0432\u0438 \u0421\u0430\u0434",
+    "opening_hours":"Mo-Su,PH 07.00-20.00",
+    "addr:housenumber":"23",
+    "name":"21130 \u041d\u043e\u0432\u0438 \u0421\u0430\u0434",
+    "amenity":"post_office",
+    "phone":"+381 21 419-510",
+    "ref":"21130",
+    "name:sr-Latn":"21130 Novi Sad",
+    "addr:pak":"400867",
+    "addr:street":
+    "\u0422\u0435\u043e\u0434\u043e\u0440\u0430 \u041c\u0430\u043d\u0434\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.8315189766519, 45.2728919693068]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "11323 \u0412\u0435\u043b\u0438\u043a\u043e \u041e\u0440\u0430\u0448\u0458\u0435",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "addr:housenumber":"1",
+    "name":
+    "11323 \u0412\u0435\u043b\u0438\u043a\u043e \u041e\u0440\u0430\u0448\u0458\u0435",
+    "amenity":"post_office",
+    "phone":"+381 26 871-002",
+    "ref":"11323",
+    "name:sr-Latn":"11323 Veliko Ora\u0161je",
+    "addr:pak":"239422",
+    "addr:street":"\u041c\u043e\u0440\u0430\u0432\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.0886132502154, 44.3732423399037]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "25272 \u0411\u0430\u0447\u043a\u0438 \u041c\u043e\u043d\u043e\u0448\u0442\u043e\u0440",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"28",
+    "name":
+    "25272 \u0411\u0430\u0447\u043a\u0438 \u041c\u043e\u043d\u043e\u0448\u0442\u043e\u0440",
+    "amenity":"post_office",
+    "phone":"+381 25 807-516",
+    "ref":"25272",
+    "name:sr-Latn":"25272 Ba\u010dki Mono\u0161tor",
+    "addr:pak":"426602",
+    "addr:street":
+    "\u0418\u0432\u0430\u043d\u0430 \u0413\u043e\u0440\u0430\u043d\u0430 \u041a\u043e\u0432\u0430\u0447\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[18.9335298941399, 45.7933652755888]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"19214 \u0420\u0433\u043e\u0442\u0438\u043d\u0430",
+    "opening_hours":"Mo-Fr 07.00-11.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"19214 \u0420\u0433\u043e\u0442\u0438\u043d\u0430",
+    "amenity":"post_office",
+    "phone":"+381 19 466-022",
+    "ref":"19214",
+    "name:sr-Latn":"19214 Rgotina",
+    "addr:pak":"612606",
+    "addr:street":
+    "\u0421\u0432\u0435\u0442\u043e\u0441\u0430\u0432\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.2713902808305, 44.0087299102165]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "26232 \u0421\u0442\u0430\u0440\u0447\u0435\u0432\u043e",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"4",
+    "name":"26232 \u0421\u0442\u0430\u0440\u0447\u0435\u0432\u043e",
+    "amenity":"post_office",
+    "phone":"+381 13 309-106",
+    "ref":"26232",
+    "name:sr-Latn":"26232 Star\u010devo",
+    "addr:pak":"307989",
+    "addr:street":
+    "\u041f\u0430\u043d\u0447\u0435\u0432\u0430\u0447\u043a\u0438 \u043f\u0443\u0442"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7057493476142, 44.8063953370457]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "21227 \u041c\u0438\u043b\u0435\u0448\u0435\u0432\u043e",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "addr:housenumber":"3",
+    "name":"21227 \u041c\u0438\u043b\u0435\u0448\u0435\u0432\u043e",
+    "amenity":"post_office",
+    "phone":"+381 21 808-450",
+    "ref":"21227",
+    "name:sr-Latn":"21227 Mile\u0161evo",
+    "addr:pak":"381721",
+    "addr:street":
+    "\u0414\u0432\u0430\u043d\u0430\u0435\u0441\u0442\u043e\u0433 \u043e\u043a\u0442\u043e\u0431\u0440\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.8242804086383, 45.7321738829531]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "37103 \u041a\u0440\u0443\u0448\u0435\u0432\u0430\u0446 3",
+    "opening_hours":"Mo-Fr 07.00-18.00; Sa 08.00-14.00",
+    "addr:housenumber":"54",
+    "name":"37103 \u041a\u0440\u0443\u0448\u0435\u0432\u0430\u0446 3",
+    "amenity":"post_office",
+    "phone":"+381 37 3541-550",
+    "ref":"37103",
+    "name:sr-Latn":"37103 Kru\u0161evac 3",
+    "addr:pak":"671531",
+    "addr:street":
+    "\u0412\u0435\u0446\u0435 \u041a\u043e\u0440\u0447\u0430\u0433\u0438\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.3354710262987, 43.5785899159972]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "31305 \u0411\u0440\u043e\u0434\u0430\u0440\u0435\u0432\u043e",
+    "opening_hours":"Mo-Fr 08.00-15.00; Sa 08.00-12.00",
+    "addr:housenumber":"45",
+    "name":
+    "31305 \u0411\u0440\u043e\u0434\u0430\u0440\u0435\u0432\u043e",
+    "amenity":"post_office",
+    "phone":"+381 33 2150106;+381 33 2150107",
+    "ref":"31305",
+    "name:sr-Latn":"31305 Brodarevo",
+    "addr:pak":"512602",
+    "addr:street":
+    "\u0411\u0440\u0430\u0442\u0441\u0442\u0432\u0430 \u0408\u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.7158096540574, 43.2325653305635]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "36343 \u0421\u0442\u0443\u0434\u0435\u043d\u0438\u0446\u0430",
+    "name:sr":
+    "36343 \u0421\u0442\u0443\u0434\u0435\u043d\u0438\u0446\u0430",
+    "name:sr-Latn":"36343 Studenica",
+    "ref":"36343",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "phone":"+381 36 5436-411",
+    "addr:pak":"565601"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5336772545887, 43.4843105246317]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11032 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 133",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"2\u0411",
+    "name":"11032 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 133",
+    "amenity":"post_office",
+    "phone":"+381 11 3535-154;+381 11 2461-732",
+    "ref":"11032",
+    "name:sr-Latn":"11032 Beograd 133",
+    "addr:pak":"173762",
+    "addr:street":
+    "\u0410\u0446\u0435 \u0408\u043e\u043a\u0441\u0438\u043c\u043e\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4158698919345, 44.7589054181698]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11236 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 137",
+    "opening_hours":"Mo-Fr 08.00-15.00; Sa 08.00-13.00",
+    "addr:housenumber":"78",
+    "name":"11236 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 137",
+    "amenity":"post_office",
+    "phone":"+381 11 8042-329",
+    "ref":"11236",
+    "name:sr-Latn":"11236 Beograd 137",
+    "addr:pak":"185349",
+    "addr:street":
+    "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0412\u043e\u0458\u0438\u043d\u043e\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point", "coordinates":
+                    [20.44922138124, 44.7047035328824]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "32300 \u0413\u043e\u0440\u045a\u0438 \u041c\u0438\u043b\u0430\u043d\u043e\u0432\u0430\u0446 1",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-16.00",
+    "addr:housenumber":"1",
+    "name":
+    "32300 \u0413\u043e\u0440\u045a\u0438 \u041c\u0438\u043b\u0430\u043d\u043e\u0432\u0430\u0446 1",
+    "amenity":"post_office",
+    "phone":"+381 32 304-079;+381 32 304-067;+381 32 716-058",
+    "ref":"32300",
+    "name:sr-Latn":"32300 Gornji Milanovac 1",
+    "addr:pak":"526124",
+    "addr:street":
+    "\u0425\u0435\u0440\u043e\u0458\u0430 \u0414\u0440\u0430\u0436\u0435\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4607893366961, 44.0223012341571]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "24214 \u0422\u0430\u0432\u0430\u043d\u043a\u0443\u0442",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "addr:housenumber":"2",
+    "name":"24214 \u0422\u0430\u0432\u0430\u043d\u043a\u0443\u0442",
+    "amenity":"post_office",
+    "phone":"+381 24 4767-000",
+    "ref":"24214",
+    "name:sr-Latn":"24214 Tavankut",
+    "addr:pak":"457101",
+    "addr:street":
+    "\u0408\u043e\u0432\u0430\u043d\u0430 \u041c\u0438\u043a\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.4933676937039, 46.047341140692]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"22250 \u0418\u043b\u0438\u043d\u0446\u0438",
+    "opening_hours":"Mo,We,Fr 07.30-12.00",
+    "addr:housenumber":"2",
+    "name":"22250 \u0418\u043b\u0438\u043d\u0446\u0438",
+    "amenity":"post_office",
+    "phone":"+381 22 732-131",
+    "ref":"22250",
+    "name:sr-Latn":"22250 Ilinci",
+    "addr:pak":"329290",
+    "addr:street":
+    "\u041f\u0440\u043e\u043b\u0435\u0442\u0435\u0440\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.1246978310348, 45.113835893676]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11114 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 21",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-13.00",
+    "addr:housenumber":"60",
+    "name":"11114 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 21",
+    "amenity":"post_office",
+    "phone":"+381 11 3471-219;+381 11 3470-499",
+    "ref":"11114",
+    "name:sr-Latn":"11114 Beograd 21",
+    "addr:pak":"147809",
+    "addr:street":
+    "\u0423\u0447\u0438\u0442\u0435\u0459\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5069704405717, 44.7862612273177]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"15309 \u0411\u0440\u0435\u0437\u0458\u0430\u043a",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"2",
+    "name":"15309 \u0411\u0440\u0435\u0437\u0458\u0430\u043a",
+    "amenity":"post_office",
+    "phone":"+381 15 843-488",
+    "ref":"15309",
+    "name:sr-Latn":"15309 Brezjak",
+    "addr:pak":"263215",
+    "addr:street":
+    "\u0421\u0442\u0435\u0432\u0430\u043d\u0430 \u0421\u0438\u043d\u0452\u0435\u043b\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.3420450402426, 44.5100844661258]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"12309 \u0428\u0435\u0442\u043e\u045a\u0435",
+    "name:sr":"12309 \u0428\u0435\u0442\u043e\u045a\u0435",
+    "name:sr-Latn":"12309 \u0160etonje",
+    "ref":"12309",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "phone":"+381 12 347400",
+    "addr:pak":"282801"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.4738462830446, 44.2736723112621]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "22444 \u0414\u043e\u045a\u0438 \u0422\u043e\u0432\u0430\u0440\u043d\u0438\u043a",
+    "opening_hours":"Mo-Fr 07.00-10.30",
+    "addr:housenumber":"1",
+    "name":
+    "22444 \u0414\u043e\u045a\u0438 \u0422\u043e\u0432\u0430\u0440\u043d\u0438\u043a",
+    "amenity":"post_office",
+    "phone":"+381 22 483-511",
+    "ref":"22444",
+    "name:sr-Latn":"22444 Donji Tovarnik",
+    "addr:pak":"338636",
+    "addr:street":
+    "\u0411\u0440\u0430\u045b\u0435 \u0428\u043e\u0432\u0459\u0430\u043d\u0441\u043a\u0438"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.9451249976757, 44.8132151847587]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"22403 \u0420\u0443\u043c\u0430",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"1",
+    "name":"22403 \u0420\u0443\u043c\u0430",
+    "amenity":"post_office",
+    "phone":"+381 22 471-410",
+    "ref":"22403",
+    "name:sr-Latn":"22403 Ruma",
+    "addr:pak":"330784",
+    "addr:street":
+    "\u0421\u0430\u0432\u0435 \u0428\u0443\u043c\u0430\u043d\u043e\u0432\u0438\u045b\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.7983659846386, 45.0072647679523]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"18207 \u041c\u0430\u043b\u0447\u0430",
+    "name:sr":"18207 \u041c\u0430\u043b\u0447\u0430",
+    "name:sr-Latn":"18207 Mal\u010da",
+    "ref":"18207",
+    "opening_hours":"Mo-Fr 07.00-11.00",
+    "phone":"+381 18 4661-655",
+    "addr:pak":"707603"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.0299586951542, 43.3332311217185]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"23250 \u0408\u0430\u0440\u043a\u043e\u0432\u0430\u0446",
+    "name:sr":
+    "23250 \u0408\u0430\u0440\u043a\u043e\u0432\u0430\u0446",
+    "name:sr-Latn":"23250 Jarkovac",
+    "ref":"23250",
+    "opening_hours":"Mo-Fr 07.30-14.00",
+    "phone":"+381 23 857-000",
+    "addr:pak":"367721"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7635867738899, 45.2696849214182]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "11462 \u0412\u0435\u043b\u0438\u043a\u0438 \u0411\u043e\u0440\u0430\u043a",
+    "name:sr":
+    "11462 \u0412\u0435\u043b\u0438\u043a\u0438 \u0411\u043e\u0440\u0430\u043a",
+    "name:sr-Latn":"11462 Veliki Borak",
+    "ref":"11462",
+    "opening_hours":"Mo-Fr 08.00-14.30",
+    "phone":"+381 11 8354-001",
+    "addr:pak":"219415"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3511311483629, 44.5389879689668]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11052 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 141",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-14.00",
+    "addr:housenumber":"516\u0416",
+    "name":"11052 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 141",
+    "amenity":"post_office",
+    "phone":"+381 11 3476-609;+381 11 3210-148",
+    "ref":"11052",
+    "name:sr-Latn":"11052 Beograd 141",
+    "addr:pak":"148401",
+    "addr:street":
+    "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u043a\u0440\u0430\u0459\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5197221524746, 44.7840118951178]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"36202 \u0421\u0430\u043c\u0430\u0438\u043b\u0430",
+    "name:sr":"36202 \u0421\u0430\u043c\u0430\u0438\u043b\u0430",
+    "name:sr-Latn":"36202 Samaila",
+    "ref":"36202",
+    "opening_hours":"Mo-Sa 08.00-14.00",
+    "phone":"+381 36 5882-234",
+    "addr:pak":"564701"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5461703767642, 43.7622271404422]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "36322 \u041d\u043e\u0432\u0438 \u041f\u0430\u0437\u0430\u0440",
+    "name:sr":
+    "36322 \u041d\u043e\u0432\u0438 \u041f\u0430\u0437\u0430\u0440",
+    "name:sr-Latn":"36322 Novi Pazar",
+    "ref":"36322",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "phone":"+381 20 371-346",
+    "addr:pak":"571616"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.5291674601991, 43.1649330539044]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"19343 \u041b\u0435\u043d\u043e\u0432\u0430\u0446",
+    "opening_hours":"Tu,Th 08.00-12.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"19343 \u041b\u0435\u043d\u043e\u0432\u0430\u0446",
+    "amenity":"post_office",
+    "phone":"+381 19 453-001",
+    "ref":"19343",
+    "name:sr-Latn":"19343 Lenovac",
+    "addr:pak":"613902",
+    "addr:street":
+    "\u0413\u043e\u0440\u045a\u0438 \u043a\u0440\u0430\u0458"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.1628309673149, 43.8048190665453]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "37233 \u0412\u0435\u043b\u0438\u043a\u0430 \u0412\u0440\u0431\u043d\u0438\u0446\u0430",
+    "name:sr":
+    "37233 \u0412\u0435\u043b\u0438\u043a\u0430 \u0412\u0440\u0431\u043d\u0438\u0446\u0430",
+    "name:sr-Latn":"37233 Velika Vrbnica",
+    "ref":"37233",
+    "opening_hours":"Mo-Fr 07.00-10.00",
+    "phone":"+381 37 882-110",
+    "addr:pak":"661301"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.1914976386344, 43.5253978058217]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"24435 \u041c\u043e\u043b",
+    "opening_hours":"Mo-Fr 07.00-14.00; Sa 07.00-12.00",
+    "addr:housenumber":"61",
+    "name":"24435 \u041c\u043e\u043b",
+    "amenity":"post_office",
+    "phone":"+381 24 862-000",
+    "ref":"24435",
+    "name:sr-Latn":"24435 Mol",
+    "addr:pak":"449229",
+    "addr:street":
+    "\u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0422\u0438\u0442\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.1322820470331, 45.7637294768339]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"17527 \u041f\u0440\u0435\u0448\u0435\u0432\u043e 3",
+    "opening_hours":"Mo-Su,PH 07.00-18.30",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"17527 \u041f\u0440\u0435\u0448\u0435\u0432\u043e 3",
+    "amenity":"post_office",
+    "phone":"+381 17 7666-105",
+    "ref":"17527",
+    "name:sr-Latn":"17527 Pre\u0161evo 3",
+    "addr:pak":"637152",
+    "addr:street":"\u0427\u0443\u043a\u0430\u0440\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.7033490146097, 42.2366408531008]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11154 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 70",
+    "opening_hours":"Mo,Tu,We,Th,Fr 07.30-14.30",
+    "addr:housenumber":"17",
+    "name":"11154 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 70",
+    "amenity":"post_office",
+    "phone":"+381 11 3670-827;+381 11 3535-136",
+    "ref":"11154",
+    "name:sr-Latn":"11154 Beograd 70",
+    "addr:pak":"116585",
+    "addr:street":
+    "\u0426\u0440\u043d\u043e\u0442\u0440\u0430\u0432\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4672292025967, 44.7642239668296]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "36309 \u0420\u0438\u0431\u0430\u0440\u0438\u045b\u0435",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":"36309 \u0420\u0438\u0431\u0430\u0440\u0438\u045b\u0435",
+    "amenity":"post_office",
+    "phone":"+381 20 821-066",
+    "ref":"36309",
+    "name:sr-Latn":"36309 Ribari\u0107e",
+    "addr:pak":"577001",
+    "addr:street":"\u0420\u0438\u0431\u0430\u0440\u0438\u045b\u0435"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4525775943646, 42.9708214927]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"32307 \u0411\u0440\u0435\u0437\u043d\u0430",
+    "name:sr":"32307 \u0411\u0440\u0435\u0437\u043d\u0430",
+    "name:sr-Latn":"32307 Brezna",
+    "ref":"32307",
+    "opening_hours":"Mo,We 08.00-13.00",
+    "phone":"+381 32 742-319",
+    "addr:pak":"528401"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.2807423420927, 44.056593433527]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"31251 \u041c\u0438\u0442\u0440\u043e\u0432\u0430\u0446",
+    "name:sr":
+    "31251 \u041c\u0438\u0442\u0440\u043e\u0432\u0430\u0446",
+    "name:sr-Latn":"31251 Mitrovac",
+    "ref":"31251",
+    "opening_hours":"Mo-Fr 08.00-11.00",
+    "phone":"+381 31 3859-730",
+    "addr:pak":"507301"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.4241513373585, 43.9192303095571]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "38239 \u0414\u0440\u0430\u0458\u043a\u043e\u0432\u0446\u0435",
+    "opening_hours":"Mo-Fr 07.00-15.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":
+    "38239 \u0414\u0440\u0430\u0458\u043a\u043e\u0432\u0446\u0435",
+    "amenity":"post_office",
+    "phone":"+381 290 75-395",
+    "ref":"38239",
+    "name:sr-Latn":"38239 Drajkovce",
+    "addr:pak":"960704",
+    "addr:street":"\u041a\u043e\u0441\u043e\u0432\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.0836790280017, 42.2572680181575]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"23270 \u041c\u0435\u043b\u0435\u043d\u0446\u0438",
+    "opening_hours":"Mo-Fr 07.30-13.30; Sa 08.00-12.00",
+    "addr:housenumber":"54",
+    "name":"23270 \u041c\u0435\u043b\u0435\u043d\u0446\u0438",
+    "amenity":"post_office",
+    "phone":"+381 23 593-457",
+    "ref":"23270",
+    "name:sr-Latn":"23270 Melenci",
+    "addr:pak":"355231",
+    "addr:street":
+    "\u0421\u0440\u043f\u0441\u043a\u0438\u0445 \u0432\u043b\u0430\u0434\u0430\u0440\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3173336988812, 45.5141924972462]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21235 \u0422\u0435\u043c\u0435\u0440\u0438\u043d",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-13.00",
+    "addr:housenumber":"326",
+    "name":"21235 \u0422\u0435\u043c\u0435\u0440\u0438\u043d",
+    "amenity":"post_office",
+    "phone":"+381 21 4807-082;+381 21 843-358",
+    "ref":"21235",
+    "name:sr-Latn":"21235 Temerin",
+    "addr:pak":"385601",
+    "addr:street":
+    "\u041d\u043e\u0432\u043e\u0441\u0430\u0434\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.8887884508572, 45.4078393072343]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11104 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 5",
+    "opening_hours":"Mo-Fr 08.00-19.00; Sa 08.00-15.00",
+    "addr:housenumber":"8",
+    "name":"11104 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 5",
+    "amenity":"post_office",
+    "phone":"+381 11 3210-114;+381 11 2436-626",
+    "ref":"11104",
+    "name:sr-Latn":"11104 Beograd 5",
+    "addr:pak":"125704",
+    "addr:street":
+    "\u0411\u0435\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4672813434091, 44.803364192568]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11129 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 102",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"26",
+    "name":"11129 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 102",
+    "amenity":"post_office",
+    "phone":"+381 11 3610-511",
+    "ref":"11129",
+    "name:sr-Latn":"11129 Beograd 102",
+    "addr:pak":"112109",
+    "addr:street":
+    "\u0412\u0438\u0448\u0435\u0433\u0440\u0430\u0434\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.4570591099065, 44.7985816214389]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"37272 \u0421\u0443\u0431\u043e\u0442\u0438\u0446\u0430",
+    "name:sr":
+    "37272 \u0421\u0443\u0431\u043e\u0442\u0438\u0446\u0430",
+    "name:sr-Latn":"37272 Subotica",
+    "ref":"37272",
+    "opening_hours":
+    "Mo 07.00-14.00; Tu 07.00-11.00; We 07.00-14.00; Th 07.00-11.00; Fr 07.00-14.00",
+    "phone":"+381 37 765-100",
+    "addr:pak":"661805"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.1432980188995, 43.445921360566]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"26350 \u0421\u0430\u043c\u043e\u0448",
+    "opening_hours":"Mo-Fr 07.00-11.00",
+    "addr:housenumber":"19",
+    "name":"26350 \u0421\u0430\u043c\u043e\u0448",
+    "amenity":"post_office",
+    "phone":"+381 13 675-100",
+    "ref":"26350",
+    "name:sr-Latn":"26350 Samo\u0161",
+    "addr:pak":"308901",
+    "addr:street":
+    "\u041c\u0430\u0440\u0448\u0430\u043b\u0430 \u0422\u0438\u0442\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.7712423144261, 45.2007938861769]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "37216 \u041d\u043e\u0432\u0438 \u0411\u0440\u0430\u0447\u0438\u043d",
+    "opening_hours":"Mo-Fr 07.00-10.00",
+    "addr:housenumber":"\u0411\u0411",
+    "name":
+    "37216 \u041d\u043e\u0432\u0438 \u0411\u0440\u0430\u0447\u0438\u043d",
+    "amenity":"post_office",
+    "phone":"+381 37 842-100",
+    "ref":"37216",
+    "name:sr-Latn":"37216 Novi Bra\u010din",
+    "addr:pak":"669905",
+    "addr:street":
+    "\u041d\u043e\u0432\u0438 \u0411\u0440\u0430\u0447\u0438\u043d"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.509408645585, 43.7494209000895]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"35220 \u0420\u0438\u0431\u0430\u0440\u0435",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"141",
+    "name":"35220 \u0420\u0438\u0431\u0430\u0440\u0435",
+    "amenity":"post_office",
+    "phone":"+381 35 274-100",
+    "ref":"35220",
+    "name:sr-Latn":"35220 Ribare",
+    "addr:pak":"582607",
+    "addr:street":
+    "\u0426\u0430\u0440\u0430 \u0414\u0443\u0448\u0430\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[21.2873097324694, 44.0123302930026]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11189 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 71",
+    "opening_hours":"Mo-Fr 09.00-16.00",
+    "addr:housenumber":"155",
+    "name":"11189 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 71",
+    "amenity":"post_office",
+    "phone":"+381 11 2692-096;+381 11 2604-230",
+    "ref":"11189",
+    "name:sr-Latn":"11189 Beograd 71",
+    "addr:pak":"190281",
+    "addr:street":
+    "\u0422\u043e\u0448\u0438\u043d \u0431\u0443\u043d\u0430\u0440"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[20.3990382169002, 44.8236901138582]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"15357 \u041a\u043b\u0435\u045a\u0435",
+    "opening_hours":"Mo-Fr 08.00-14.00",
+    "addr:housenumber":"1",
+    "name":"15357 \u041a\u043b\u0435\u045a\u0435",
+    "amenity":"post_office",
+    "phone":"+381 15 458-002",
+    "ref":"15357",
+    "name:sr-Latn":"15357 Klenje",
+    "addr:pak":"276821",
+    "addr:street":
+    "\u0426\u0430\u0440\u0430 \u0414\u0443\u0448\u0430\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.4347346647473, 44.8072214890433]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11123 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 44",
+    "opening_hours":"Mo-Fr 08.00-15.00",
+    "addr:housenumber":"4",
+    "name":"11123 \u0411\u0435\u043e\u0433\u0440\u0430\u0434 44",
+    "amenity":"post_office",
+    "phone":"+381 11 3210-119;+381 11 7618-661",
+    "ref":"11123",
+    "name:sr-Latn":"11123 Beograd 44",
+    "addr:pak":"111406",
+    "addr:street":
+    "\u0416\u0435\u043b\u0435\u0437\u043d\u0438\u0447\u043a\u0430"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.454080150378, 44.81006649599]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"24331 \u0411\u0430\u0458\u0448\u0430",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"4",
+    "name":"24331 \u0411\u0430\u0458\u0448\u0430",
+    "amenity":"post_office",
+    "phone":"+381 24 721-000",
+    "ref":"24331",
+    "name:sr-Latn":"24331 Baj\u0161a",
+    "addr:pak":"441720",
+    "addr:street":"\u0417\u0430\u043a\u0438\u043d\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.5854764319241, 45.7770093951133]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"19103 \u0417\u0430\u0458\u0435\u0447\u0430\u0440 3",
+    "opening_hours":"Mo-Fr 08.00-14.00; Sa 08.00-12.00",
+    "addr:housenumber":"1",
+    "name":"19103 \u0417\u0430\u0458\u0435\u0447\u0430\u0440 3",
+    "amenity":"post_office",
+    "phone":"+381 19 420-120",
+    "ref":"19103",
+    "name:sr-Latn":"19103 Zaje\u010dar 3",
+    "addr:pak":"611842",
+    "addr:street":
+    "\u0421\u043e\u043a\u043e\u0431\u0430\u045a\u0441\u043a\u0430"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.2631393703443, 43.9061013604734]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":
+    "17538 \u0413\u043e\u0440\u045a\u0430 \u041b\u0438\u0441\u0438\u043d\u0430",
+    "name:sr":
+    "17538 \u0413\u043e\u0440\u045a\u0430 \u041b\u0438\u0441\u0438\u043d\u0430",
+    "name:sr-Latn":"17538 Gornja Lisina",
+    "ref":"17538",
+    "opening_hours":"Mo,We,Th 07.00-11.00",
+    "phone":"+381 64 6327936",
+    "addr:pak":"638801"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[22.3628245186291, 42.5595348613336]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"21434 \u041f\u0430\u0440\u0430\u0433\u0435",
+    "opening_hours":"Mo,We,Fr 07.00-11.00",
+    "addr:housenumber":"6\u0410",
+    "name":"21434 \u041f\u0430\u0440\u0430\u0433\u0435",
+    "amenity":"post_office",
+    "phone":"+381 21 2066-002",
+    "ref":"21434",
+    "name:sr-Latn":"21434 Parage",
+    "addr:pak":"394101",
+    "addr:street":
+    "\u041a\u0440\u0430\u0459\u0430 \u041f\u0435\u0442\u0440\u0430 \u043f\u0440\u0432\u043e\u0433"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.4016767084663, 45.4174054634313]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":
+    "24224 \u0421\u0442\u0430\u0440\u0438 \u0416\u0435\u0434\u043d\u0438\u043a",
+    "opening_hours":"Mo-Fr 07.00-14.00",
+    "addr:housenumber":"4",
+    "name":
+    "24224 \u0421\u0442\u0430\u0440\u0438 \u0416\u0435\u0434\u043d\u0438\u043a",
+    "amenity":"post_office",
+    "phone":"+381 24 787-050",
+    "ref":"24224",
+    "name:sr-Latn":"24224 Stari \u017dednik",
+    "addr:pak":"458167",
+    "addr:street":
+    "\u0422\u0440\u0433 \u0421\u043b\u043e\u0431\u043e\u0434\u0435"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.629517615902, 45.9497855280876]}}]}
