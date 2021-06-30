@@ -200,6 +200,7 @@ destination =
   type = route
   route = hiking
   network = lwn
+  operator = 
   note = staza nije mapirana u potpunosti
   name = 
   name:sr = 
