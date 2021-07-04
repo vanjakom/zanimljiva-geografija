@@ -1,4 +1,11 @@
+
 ## Радови на тему
+
+#### The Guardian: OpenStreetMap looks to relocate to EU due to Brexit limitations
+https://www.theguardian.com/politics/2021/jun/30/openstreetmap-looks-to-relocate-to-eu-due-to-brexit-limitations
+
+#### Ima jedna vikendica u planini
+https://blog.kokanovic.org/ima-jedna-vikendica-u-planini/
 
 ####  Curious Cases of Corporations in OpenStreetMap 
 https://media.ccc.de/v/state-of-the-map-2020-academic-track-4858-curious-cases-of-corporations-in-openstreetmap
