@@ -8,9 +8,13 @@ Facebook група која се бави трансверзалама Југо
 
 Секција о трансверзалама на сајту Планинарског савеза Србије [3].  
 
+Списак трансверзала у свету. [4].  
+
 [1] Планинарске трансверзале у Србији, Борисав Челиковић  
 [2] Facebook група, https://www.facebook.com/groups/413990532019300  
 [3] https://pss.rs/planinarski-objekti-i-tereni/tereni/?tip=planinarske-transverzale  
+[4] https://en.wikipedia.org/wiki/List_of_long-distance_footpaths#Serbia
+
 
 *Чика Душкове Рајачке стазе*
 
@@ -132,3 +136,13 @@ KT-27 Манастир Старо Хопово - у манастиру Ново 
 [5] [Projekat „Bastionska transverzala“ privodi se kraju!](https://www.glas-zajecara.com/projekat-bastionska-transverzala-privodi-se-kraju/)  
 [6] [„Bastionska transverzala“ primila prve posetioce u ovoj godini!](https://www.glas-zajecara.com/bastionska-transverzala-primila-prve-posetioce-u-ovoj-godini/)  
 [7] [Facebook Bastionska transverzala](https://www.facebook.com/bastionskatrasverzala/)  
+
+*Приморска Планинарска Трансверзала (ППТ)*
+
+Приватни водић кроз трансверзалу у PDF формату. [1]  
+
+[1] https://hikingisgood.com/primorska-planinarska-transverzala-ppt-hiking-guide/  
+[2] https://www.traildino.com/trace/continents-Europe/countries-Montenegro/trails-Primorska_Planinarska_Transverzala  
+[3]  
+[4]  
+[5]   

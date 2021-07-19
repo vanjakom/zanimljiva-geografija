@@ -8,6 +8,12 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# kameni zid
+```
+barrier=wall
+wall=stone_wall
+```
+
 # #mesara
 
 
@@ -34,6 +40,10 @@ sport=paintball
 # #javni #toalet #wc
 ```
 amenity=toilets
+```
+ukoliko je gradjevina predvidjena za wc
+```
+building=toilets
 ```
 # #pijaca
 ```
