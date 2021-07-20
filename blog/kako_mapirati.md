@@ -8,6 +8,29 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #cvecara
+```
+shop=florist
+```
+
+# #prihvatiliste
+https://wiki.openstreetmap.org/wiki/Key:social_facility
+
+# #ev #punjac #elektro
+```
+amenity=charging_station
+capacity=
+```
+
+# #policija
+```
+amenity=police
+```
+ако објекат не служи за контакт са грађанством користити
+```
+police=offices
+```
+
 # kameni zid
 ```
 barrier=wall
