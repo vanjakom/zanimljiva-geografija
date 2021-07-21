@@ -1,0 +1,32 @@
+{"type":"FeatureCollection",
+ "features":
+ [{"type":"Feature",
+   "properties":
+   {"name:sr":"21101 Нови Сад",
+    "opening_hours":"Mo-Fr 08:00-19:00; Sa 08:00-14:00; PH off",
+    "addr:housenumber":"2",
+    "name":"21101 Нови Сад",
+    "amenity":"post_office",
+    "phone":"+381 21 4807-068;+381 21 4807-069",
+    "ref":"21101",
+    "name:sr-Latn":"21101 Novi Sad",
+    "addr:pak":"400101",
+    "addr:street":"Народних хероја"},
+   "geometry":
+   {"type":"Point",
+    "coordinates":[19.8426479227964, 45.253526982646]}},
+  {"type":"Feature",
+   "properties":
+   {"name:sr":"11078 Београд 140",
+    "opening_hours":
+    "Mo-Sa 08:00-20:00; Su 09:30-16:30; PH 08:00-20:00",
+    "addr:housenumber":"68Б",
+    "name":"11078 Београд 140",
+    "amenity":"post_office",
+    "phone":"+381 11 2283-681",
+    "ref":"11078",
+    "name:sr-Latn":"11078 Beograd 140",
+    "addr:pak":"192790",
+    "addr:street":"Нехруова"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.3771319217036, 44.80399621771]}}]}
