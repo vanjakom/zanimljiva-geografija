@@ -1,0 +1,288 @@
+{"type":"FeatureCollection",
+ "features":
+ [{"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Главна пошта",
+    "name:en":"Main Post Office",
+    "name:sr":"Главна пошта",
+    "name:sr-Latn":"Glavna pošta"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.6938989, 44.7548382]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"12",
+    "addr:postcode":"11121",
+    "addr:street":"Гундулићев венац",
+    "amenity":"post_office",
+    "name":"Београд 36 (11121)",
+    "name:sr":"Београд 36 (11121)",
+    "name:sr-Latn":"Beograd 36 (11121)"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4711589, 44.8181506]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"2",
+    "addr:street":"Привредникова",
+    "amenity":"post_office",
+    "name":"АКС брза пошта",
+    "operator":"АКС"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.8180152, 45.2801439]}},
+  {"type":"Feature",
+   "properties":
+   {"survey:date":"2014-11-08",
+    "brand":"Daily Express",
+    "operator":"Daily Express",
+    "addr:postcode":"21000",
+    "website":"http:\/\/www.dailyexpress.rs",
+    "addr:city":"Veternik",
+    "opening_hours":"Mo-Fr 08:00-17:00; Sa 09:00-14:00",
+    "addr:housenumber":"162",
+    "name":"Daily Express",
+    "amenity":"post_office",
+    "phone":"0113313340",
+    "addr:country":"RS",
+    "addr:street":"Новосадски пут"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.7829317, 45.243187]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.6840194, 46.0996091]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"54",
+    "addr:street":"Српcких Владара",
+    "amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.3172532, 45.5151476]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4695484, 44.8519436]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.589068, 45.8554942]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"11",
+    "addr:street":"Ђуре Јакшића",
+    "amenity":"post_office",
+    "brand":"DHL",
+    "name":"DHL Service point",
+    "opening_hours":"Mo-Fr 10:00-18:00"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4559022, 44.8170093]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.474792, 44.7634421]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.6670156, 46.0882009]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта 34108 Багремар",
+    "name:en":"Post Office 34108 Bagremar",
+    "name:sr":"Пошта 34108 Багремар",
+    "name:sr-Latn":"Pošta 34108 Bagremar"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.8886267, 44.0063482]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.8513365, 45.227044]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.9130472, 44.0098033]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:city":"Novi Sad",
+    "addr:country":"RS",
+    "addr:postcode":"21000",
+    "amenity":"post_office",
+    "building":"yes",
+    "name":"Пошта Рибарац",
+    "survey:date":"2014-11-07"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.8331359, 45.2293999]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.9104642, 44.018875]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта Станово",
+    "name:sr":"Пошта Станово",
+    "name:sr-Latn":"Pošta Stanovo"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.8855555, 43.9990725]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:city":"Мајданпек",
+    "addr:housenumber":"24",
+    "addr:postcode":"19250",
+    "addr:street":"Кнеза Милоша",
+    "amenity":"post_office",
+    "name":"Шалтер 19250",
+    "operator":"Пошта Србије"},
+   "geometry":
+   {"type":"Point", "coordinates":[21.9445132, 44.4269896]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[21.9358964, 44.4220889]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.7995102, 45.246475]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4579788, 44.8216644]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:postcode":"11401",
+    "amenity":"post_office",
+    "name":"Пошта Драпшин",
+    "name:sr":"Пошта Драпшин",
+    "name:sr-Latn":"Pošta Drapšin"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.6866233, 44.4454402]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:street":"Војвођанска",
+    "amenity":"post_office",
+    "name":"Posta"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.7439109, 45.2916378]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office", "name:en":"Posta Srbije"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.8764778, 45.2485463]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"110V",
+    "addr:street":"Вишњичка",
+    "amenity":"post_office",
+    "name":"11162 Београд 18",
+    "name:sr":"11162 Београд 18",
+    "name:sr-Latn":"11162 Beograd 18"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.5232535, 44.8179382]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Uslužni šalter pošte",
+    "name:en":"Post office",
+    "opening_hours":"Mo-Fr 09:00-17:30; Sa 08:00-12:30"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4133479, 44.762913]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:city":"Subotica",
+    "addr:country":"RS",
+    "addr:street":"Park Rajhl Ferenca",
+    "amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.6699184, 46.0999617]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"31",
+    "addr:postcode":"21000",
+    "addr:street":"Балзакова",
+    "amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.8330367, 45.2385319]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office", "name":"Bex", "operator":"Bex"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.3882806, 44.801847]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта",
+    "name:sr":"Пошта",
+    "name:sr-Latn":"Pošta"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4973302, 44.7663556]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.6746814, 46.0862807]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта Ердоглија",
+    "name:sr":"Пошта Ердоглија",
+    "name:sr-Latn":"Pošta Erdoglija"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.8973239, 44.0129687]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "building":"yes",
+    "name":"Пошта",
+    "name:sr":"Пошта",
+    "name:sr-Latn":"Pošta"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.2890329, 44.8166351]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office", "building":"yes"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.649761, 45.8198882]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта",
+    "name:sr":"Пошта",
+    "name:sr-Latn":"Pošta"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.5849444, 45.5194681]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:city":"Kisač",
+    "addr:street":"Др Јанка Гомбара",
+    "amenity":"post_office",
+    "building":"yes"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.7268199, 45.3469143]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"210b",
+    "addr:street":"Угриновачка",
+    "amenity":"post_office",
+    "building":"yes"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.3751606, 44.8493923]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "building":"yes",
+    "name":"Пошта Србија",
+    "name:sr":"Пошта Србија",
+    "name:sr-Latn":"Pošta Srbija"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4889597, 44.7629076]}},
+  {"type":"Feature",
+   "properties":
+   {"addr:housenumber":"591",
+    "addr:street":"Пут за Колонију",
+    "amenity":"post_office",
+    "building":"yes",
+    "name":"11234 Рипањ 3",
+    "name:sr":"11234 Рипањ 3",
+    "name:sr-Latn":"11234 Ripanj 3"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4906767, 44.6675039]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office", "building":"yes"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.5628698, 43.8921605]}}]}
