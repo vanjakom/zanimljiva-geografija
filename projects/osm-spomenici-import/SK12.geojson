@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Капетан Мишино здање",
+                "ref:RS:nkd": "SK12",
+                "heritage:RS:criteria": "exceptional",
+                "heritage:RS:institution": "zzskgb",
+                "heritage": 2,
+                "protect_class": 22,
+                "website": "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107186",
+                "description": "Капетан Мишино здање, Студентски трг 1, О Стари град, Београд\r\nБеоград, Студентски трг 1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "20.457452",
+                    "44.818669"
+                ]
+            }
+        }
+    ]
+}
