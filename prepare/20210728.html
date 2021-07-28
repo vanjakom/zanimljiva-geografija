@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>a map</title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""></link>
+		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+		<script src="https://unpkg.com/leaflet-simplestyle"></script>
+		<script src="https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.js" crossorigin=""></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.css"></link>
+		<style>
+			::-webkit-scrollbar {display: none;}
+			.content {white-space: nowrap;overflow: hidden;}
+			.map {position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; cursor: crosshair;}
+			.leaflet-popup {
+				width: 300px;
+				white-space: normal;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content" class="content">
+			<map id="map" class="map"></map>
+		</div>
+		<script type="text/javascript">
+			// utils
+			var projectX = function(longitude) {
+				return Math.floor((longitude / 360 + 0.5) * Math.pow(2, 24))
+			}
+			var projectY = function(latitude) {
+				const sin = Math.sin(latitude * Math.PI / 180);
+				const y2 = 0.5 - 0.25 * Math.log((1 + sin) / (1 - sin)) / Math.PI;
+				const y3 = y2 < 0 ? 0 : y2 > 1 ? 1 : y2;
+				return Math.floor(y3 * Math.pow(2, 24))
+			}
+
+			var projectedLocationToWord = function(x, y) {
+				var key =''
+				for (var i = 24; i >= 2; i -= 2) {
+					var xUpper = (x & (1 << (i - 1))) != 0 ? 2 : 0
+					var xLower = (x & (1 << (i - 2))) != 0 ? 1 : 0
+					var yUpper = (y & (1 << (i - 1))) != 0 ? 2 : 0
+					var yLower = (y & (1 << (i - 2))) != 0 ? 1 : 0
+					var index = xUpper + xLower + (yUpper  + yLower) * 4
+					key = key + String.fromCharCode(97 + index).toUpperCase()
+				}
+				return key
+			}
+
+			var BingLayer = L.TileLayer.extend({
+				getTileUrl: function (tilePoint) {
+					return L.Util.template(
+						this._url,
+						{q: this._quadKey(tilePoint.x, tilePoint.y, this._getZoomForUrl())});
+					},
+					_quadKey: function (x, y, z) {
+						var quadKey = []
+						for (var i = z; i > 0; i--) {
+							var digit = '0'
+							var mask = 1 << (i - 1)
+							if ((x & mask) != 0) {
+								digit++
+							}
+							if ((y & mask) != 0) {
+								digit++
+								digit++
+							}
+							quadKey.push(digit)
+						}
+						return quadKey.join('')
+					}
+			})
+
+			var map = L.map('map', {maxBoundsViscosity: 1.0})
+			map.setMaxBounds ([[-90,-180],[90,180]])
+			L.control.scale({imperial: false}).addTo(map)
+			var layers = L.control.layers()
+			layers.addTo(map)
+			new L.Control.Geocoder({
+				geocoder: L.Control.Geocoder.nominatim(),
+				defaultMarkGeocode: false}).on(
+					'markgeocode',
+					function(e) {
+						var bbox = e.geocode.bbox
+						var poly = L.polygon([
+							bbox.getSouthEast(),
+							bbox.getNorthEast(),
+							bbox.getNorthWest(),
+							bbox.getSouthWest()])
+						map.fitBounds(poly.getBounds())
+					}).addTo(map)
+
+			var defaultBounds = null
+
+			var mousedownInterval;
+			map.on(
+				'mousedown',
+				function (e) {
+					mousedownInterval = setInterval(
+						function() {
+							let longitude = Number (e.latlng.lng).toFixed (5)
+							let latitude = Number (e.latlng.lat).toFixed (5)
+							let zoom = map.getZoom()
+							L
+								.popup({closeOnClick: false})
+								.setLatLng(e.latlng)
+								.setContent(
+									longitude + ', ' + latitude + '<br/>' + 
+									projectedLocationToWord(projectX(longitude), projectY(latitude)) + '<br/>' + 
+									'<a href="http://openstreetmap.org/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">osm</a></br>' + 
+									'<a href="https://preview.ideditor.com/release/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD</a></br>' + 
+									'<a href="http://localhost:8080/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD (localhost)</a></br>' + 
+									'<a href="https://www.mapillary.com/app/?focus=map&z=16&lat=' + e.latlng.lat + '&lng=' + e.latlng.lng + '" target="_blank">mapillary</a></br>' + 
+									'<a href="https://kartaview.org/map/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">kartaview</a></br>' + 
+									'<a href="https://www.google.com/maps/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">google maps</a></br>' 
+									)
+								.openOn(map)},
+						500)})
+			map.on(
+				'mousemove',
+				function(e) { clearInterval(mousedownInterval) })
+			map.on(
+				'mouseup',
+				function(e) { clearInterval(mousedownInterval) })
+
+			var layer136 = L.tileLayer(
+				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+					maxZoom: 21,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layer136.addTo(map)
+			layers.addBaseLayer(layer136, 'osm tile')
+
+			var layer137 = new BingLayer(
+				'http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1',
+				{
+					attribution: '&copy; Bing Maps',
+					maxZoom: 21,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer137, 'bing satellite')
+
+			var layer138 = L.geoJSON(
+				{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stroke":"#0000FF"},"geometry":{"type":"LineString","coordinates":[[20.001874,44.108968],[20.001879,44.108978],[20.001872,44.109011],[20.001823,44.109056],[20.001786,44.109137],[20.001759,44.109226],[20.001871,44.109384],[20.001841,44.109566],[20.001839,44.109584],[20.001788,44.109696],[20.001783,44.109867],[20.001855,44.110004],[20.001903,44.110191],[20.00193,44.110401],[20.001957,44.110513],[20.002,44.110618],[20.002024,44.110734],[20.001981,44.110817],[20.001871,44.110911],[20.001794,44.110993],[20.00178,44.110997],[20.001329,44.111158],[20.001168,44.111173],[20.001068,44.111152],[20.000626,44.111061],[20.000192,44.111088],[19.999786,44.11124],[19.999366,44.111396],[19.999132,44.111535],[19.999129,44.111516],[19.999132,44.111535],[19.999176,44.111871],[19.999194,44.112009],[19.999049,44.112198],[19.998757,44.11238],[19.998524,44.112525],[19.998195,44.11262],[19.99736,44.112886],[19.997015,44.112995],[19.996636,44.113122],[19.996585,44.11314],[19.996103,44.112812],[19.995635,44.11249],[19.995545,44.112426],[19.995415,44.112315],[19.995334,44.112236],[19.995282,44.112172],[19.99523,44.112104],[19.994732,44.111338],[19.994718,44.111317],[19.993791,44.112078],[19.993526,44.112182],[19.993486,44.112193],[19.993526,44.112182],[19.992813,44.114116],[19.992619,44.114642],[19.992533,44.11498],[19.992427,44.115345],[19.992408,44.115445],[19.992408,44.115449],[19.992504,44.115628],[19.992523,44.115807],[19.992389,44.116104],[19.992259,44.116251],[19.992074,44.116395],[19.991505,44.11661],[19.991365,44.116717],[19.991216,44.116972],[19.991106,44.117108],[19.990682,44.11742],[19.990562,44.117524],[19.990429,44.117725],[19.990451,44.117721],[19.990429,44.117725],[19.990317,44.117777],[19.990175,44.117832],[19.989941,44.118081],[19.989619,44.118202],[19.989496,44.118262],[19.989416,44.118335],[19.989365,44.118395],[19.989241,44.118466],[19.989112,44.118528],[19.989065,44.118542],[19.989052,44.118595],[19.989067,44.118613]]}}]},
+				{
+					useSimpleStyle: true
+				})
+			layer138.addTo(map)
+			layers.addOverlay(layer138, 'segment 1')
+
+			var layer139 = L.geoJSON(
+				{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stroke":"#0000FF"},"geometry":{"type":"LineString","coordinates":[[19.987335,44.117986],[19.987164,44.11792],[19.987094,44.117817],[19.98703,44.117678],[19.986953,44.117594],[19.986944,44.117585],[19.986756,44.117528],[19.98611,44.117366],[19.985944,44.117197],[19.985724,44.117035],[19.985386,44.116954],[19.985136,44.11694],[19.985103,44.116939],[19.984906,44.116371],[19.984805,44.11616],[19.984829,44.115933],[19.98482,44.11574],[19.98481,44.115526],[19.984803,44.115501],[19.984695,44.115109],[19.98444,44.114785],[19.98421,44.114619],[19.984201,44.114612],[19.985096,44.11373],[19.985327,44.113365],[19.985369,44.113245],[19.985391,44.113183],[19.985016,44.113349],[19.98463,44.113392],[19.984152,44.113376],[19.983895,44.113268],[19.983594,44.113037],[19.983455,44.112798],[19.983439,44.112801],[19.983455,44.112798],[19.983396,44.112275],[19.983498,44.111901],[19.984135,44.111386],[19.984142,44.111381],[19.984318,44.111351],[19.98454,44.111101],[19.984666,44.110928],[19.985241,44.10995],[19.98551,44.109705],[19.986092,44.10925],[19.98631,44.108921],[19.986325,44.108576],[19.986364,44.10858],[19.986325,44.108576],[19.986019,44.1082],[19.985982,44.108143],[19.985961,44.108111],[19.986034,44.108048],[19.986121,44.107766],[19.986267,44.107448],[19.986361,44.107139],[19.986376,44.106868],[19.986454,44.106821],[19.9865,44.106795],[19.986745,44.106698],[19.986941,44.106538],[19.987086,44.106275],[19.98721,44.106122],[19.98741,44.105484],[19.987495,44.105181],[19.987518,44.105156],[19.987602,44.105071],[19.987794,44.104933],[19.988575,44.104734],[19.988839,44.104685],[19.989086,44.104501],[19.989633,44.104339],[19.98976,44.104281],[19.989799,44.104222],[19.989786,44.104152],[19.989671,44.10406],[19.989603,44.103971],[19.989603,44.10387],[19.989641,44.103824],[19.989824,44.1038],[19.990149,44.103806],[19.990392,44.103852],[19.990285,44.103794],[19.990007,44.103643],[19.989988,44.10364],[19.990007,44.103643],[19.989938,44.103443],[19.989884,44.103288],[19.989831,44.103002],[19.989816,44.1028],[19.989815,44.102784],[19.98992,44.102683],[19.990074,44.102653],[19.990431,44.102622],[19.990483,44.102603],[19.990523,44.102565],[19.990571,44.102569],[19.990647,44.10255],[19.990667,44.102529]]}}]},
+				{
+					useSimpleStyle: true
+				})
+			layer139.addTo(map)
+			layers.addOverlay(layer139, 'segment 2')
+
+			var layer140 = L.geoJSON(
+				{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stroke":"#0000FF"},"geometry":{"type":"LineString","coordinates":[[19.990599,44.102561],[19.990571,44.102569],[19.990523,44.102565],[19.990483,44.102603],[19.990431,44.102622],[19.990074,44.102653],[19.98992,44.102683],[19.989815,44.102784],[19.989831,44.103002],[19.989884,44.103288],[19.989938,44.103443],[19.990007,44.103643],[19.98997,44.103638],[19.990007,44.103643],[19.990392,44.103852],[19.991004,44.104299],[19.991306,44.104517],[19.991455,44.104599],[19.991528,44.104643],[19.991675,44.104755],[19.99169,44.104763],[19.992649,44.105293],[19.9928,44.105447],[19.992988,44.105811],[19.993058,44.105814],[19.993229,44.105823],[19.993329,44.105862],[19.993604,44.105969],[19.994232,44.106439],[19.994356,44.106491],[19.994362,44.106556],[19.994356,44.106491],[19.994484,44.106543],[19.995246,44.106591],[19.995269,44.106591],[19.995382,44.106588],[19.995498,44.106586],[19.995718,44.106489],[19.996614,44.106382],[19.996807,44.106439],[19.996921,44.106664],[19.996935,44.106642],[19.996981,44.106575],[19.997143,44.106426],[19.997684,44.105901],[19.99795,44.105777],[19.997966,44.105747],[19.998015,44.105659],[19.998152,44.105555],[19.998588,44.105346],[19.99905,44.10502],[19.999342,44.104893],[19.999392,44.104851],[19.999478,44.104795],[19.999673,44.104722],[19.999878,44.104707],[20.000104,44.104652],[20.000222,44.104625],[20.000516,44.104914],[20.000522,44.104919],[20.000734,44.105152],[20.000819,44.105259],[20.000938,44.105409],[20.001956,44.106989],[20.002462,44.107698],[20.002468,44.107705],[20.002085,44.107767],[20.001808,44.107822],[20.00178,44.107854],[20.001853,44.108041],[20.001942,44.108377],[20.002041,44.108592],[20.0021,44.108708],[20.002143,44.108799],[20.002171,44.108866]]}}]},
+				{
+					useSimpleStyle: true
+				})
+			layer140.addTo(map)
+			layers.addOverlay(layer140, 'segment 3')
+			if (window.location.hash) {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[1]), parseFloat(splits[2])], parseInt(splits[0]))
+			} else {
+				if (defaultBounds != null) { 
+					map.fitBounds(defaultBounds, null)
+				} else {
+					map.setView([44.82763029742812, 20.50529479980469], 10)
+				}
+			}
+			window.onhashchange = function() {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[1]), parseFloat(splits[2])], parseInt(splits[0]))
+			}
+			map.on(
+				'moveend',
+				function() {
+					window.location.hash = '#map=' + map.getZoom() + '/' + map.getCenter().lat + '/' + map.getCenter().lng
+				})
+
+		</script>
+	</body>
+</html>
