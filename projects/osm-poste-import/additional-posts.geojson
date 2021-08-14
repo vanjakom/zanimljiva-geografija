@@ -1,42 +1,49 @@
 {"type":"FeatureCollection",
  "features":
  [{"type":"Feature",
-   "properties":
-   {"addr:pak":"603003",
-    "amenity":"post_office",
-    "name":"19221 Слатина",
-    "name:sr":"19221 Слатина",
-    "name:sr-Latn":"19221 Slatina",
-    "opening_hours":"Mo-Fr 07:00-13:00; PH off",
-    "phone":"+381 30 433-404",
-    "ref":"19221"},
+   "properties":{"amenity":"post_office"},
    "geometry":
-   {"type":"Point", "coordinates":[22.1627907, 44.0403514]}},
+   {"type":"Point", "coordinates":[20.4695484, 44.8519436]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.9130472, 44.0098033]}},
   {"type":"Feature",
    "properties":
-   {"name:sr":"24425 Адорјан",
-    "opening_hours":"Mo-Fr 07:00-10:00; PH off",
-    "addr:housenumber":"10",
-    "name":"24425 Адорјан",
+   {"addr:city":"Novi Sad",
+    "addr:country":"RS",
+    "addr:postcode":"21000",
     "amenity":"post_office",
-    "phone":"+381 24 4884-158",
-    "ref":"24425",
-    "name:sr-Latn":"24425 Adorjan",
-    "addr:pak":"445605",
-    "addr:street":"Маршала Тита"},
+    "building":"yes",
+    "name":"Пошта Рибарац",
+    "survey:date":"2014-11-07"},
    "geometry":
-   {"type":"Point", "coordinates":[20.0404782, 46.0050081]}},
+   {"type":"Point", "coordinates":[19.8331359, 45.2293999]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.9104642, 44.018875]}},
   {"type":"Feature",
    "properties":
-   {"name:sr":"24117 Суботица",
-    "opening_hours":"Mo-Fr 07:30-14:00; PH off",
-    "addr:housenumber":"3",
-    "name":"24117 Суботица",
-    "amenity":"post_office",
-    "phone":"+381 24 555-390",
-    "ref":"24117",
-    "name:sr-Latn":"24117 Subotica",
-    "addr:pak":"455595",
-    "addr:street":"Изворска"},
+   {"amenity":"post_office",
+    "name":"Пошта Станово",
+    "name:sr":"Пошта Станово",
+    "name:sr-Latn":"Pošta Stanovo"},
    "geometry":
-   {"type":"Point", "coordinates":[19.6711859, 46.0815128]}}]}
+   {"type":"Point", "coordinates":[20.8855555, 43.9990725]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[19.7995102, 45.246475]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.4579788, 44.8216644]}},
+  {"type":"Feature",
+   "properties":
+   {"amenity":"post_office",
+    "name":"Пошта Ердоглија",
+    "name:sr":"Пошта Ердоглија",
+    "name:sr-Latn":"Pošta Erdoglija"},
+   "geometry":
+   {"type":"Point", "coordinates":[20.8973239, 44.0129687]}}]}
