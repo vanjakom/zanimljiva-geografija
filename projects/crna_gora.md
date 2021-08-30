@@ -10,21 +10,21 @@
 
 Унешене планинарске стазе у OSM можете видети на [8].  
 
-[1] [https://orjen.me/ Парк природе Орјен]  
-[2] [https://orjen.me/wp-content/uploads/2019/05/Planinarenje-i-hodanje-KARTA-MARKIRANIH-STAZA-ZA-PLANINARENJE-I-%C5%A0ETNJU.jpg Парк природе Орјен: мапа планинарских стаза]  
-[7] [https://orjen.me/ponuda-parka/planinarenje-i-hodanje/ Парк природе Орјен: Планинарење и ходање]  
-[8] [https://hiking.waymarkedtrails.org/#?map=13!42.5714!18.5359 WaymarkedTrails: Орјен]  
+[1] [Парк природе Орјен](https://orjen.me/)  
+[2] [Парк природе Орјен: мапа планинарских стаза](https://orjen.me/wp-content/uploads/2019/05/Planinarenje-i-hodanje-KARTA-MARKIRANIH-STAZA-ZA-PLANINARENJE-I-%C5%A0ETNJU.jpg)  
+[7] [Парк природе Орјен: Планинарење и ходање](https://orjen.me/ponuda-parka/planinarenje-i-hodanje/)  
+[8] [WaymarkedTrails: Орјен](https://hiking.waymarkedtrails.org/#?map=13!42.5714!18.5359)  
 
 ## Приморска планинарска трансверзала
 
-[6] [https://www.openstreetmap.org/relation/2776159 OSM: Приморска планинарска трансверзала]  
+[6] [OSM: Приморска планинарска трансверзала](https://www.openstreetmap.org/relation/2776159)  
 
 ## Top Trails
 
 ТТТ1 Слатко и слано креће и завршава у Херцег Новом. [3],[4],[5] 
 
-[3] [https://www.montenegro.travel/files/TT1 Top biking trail Salty & Sweet.pdf  TT1 english]  
-[4] [https://www.montenegro.travel/files/multimedia/www_montenegro_bild_studio_me/stranice/fajlovi/2012/02/biciklisticka_staza_1.pdf TT1 српски]  
-[5] [https://www.openstreetmap.org/relation/2790147 OSM:TT1]  
+[3] [Top biking trail Salty & Sweet.pdf  TT1 english](https://www.montenegro.travel/files/TT1)  
+[4] [TT1 српски](https://www.montenegro.travel/files/multimedia/www_montenegro_bild_studio_me/stranice/fajlovi/2012/02/biciklisticka_staza_1.pdf)  
+[5] [OSM:TT1](https://www.openstreetmap.org/relation/2790147)  
 
 [9]  
