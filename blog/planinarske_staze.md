@@ -35,6 +35,7 @@ out geom;
   name = 
   name:sr = 
   name:sr-Latn = 
+  roundtrip = yes
 ```
 
 ### Попис стаза у Србији

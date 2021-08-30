@@ -1,6 +1,34 @@
 
 [Geomob Podcast - 57. Jez Nicholson: OSMUK](https://thegeomob.com/podcast/episode-57)  
 
+*Неформална порука за људе који се интересују за мапу*
+```
+Добро дошли!
+
+У Србији постоји заједница људи који доприносе OSM мапи на територији Републике Србије. Више о ОСМ пројекту можете видети на [2] а о заједници у Србији можете више прочитати на [3] и на званичном сајту [4].  
+
+Форум [5] је одлично место за праћење активности и размену идеја. За мање формалне дискусије можете користити Telegram групу корисника из Србије "osm_sr" [6]. Поред форума и Telegram групе постоји и званична мејлинг листа [7].  
+
+Кратак преглед стандарда за мапирање најбитнијих објеката можете видети на [8]. Више о пријектима у којима учествује ОСМ заједница у Србији можете видети на [9].  
+
+Уколико су вам потребне додатне информације стојим на располагању.  
+
+Срећно мапирање!
+
+Вања
+
+[1] https://www.openstreetmap.org/  
+[2] https://wiki.openstreetmap.org/wiki/Main_Page  
+[3] https://wiki.openstreetmap.org/wiki/WikiProject_Serbia  
+[4] https://openstreetmap.rs  
+[5] https://forum.openstreetmap.org/viewforum.php?id=62  
+[6] https://t.me/osm_sr  
+[7] https://lists.openstreetmap.org/listinfo/talk-rs  
+[8] https://wiki.openstreetmap.org/wiki/Serbia/Mapping_Serbia  
+[9] https://wiki.openstreetmap.org/wiki/Serbia/Projekti  
+
+```
+
 *Предлог поруке добродошлице која би се слала новим маперима са територије Србије.*
 ```
 Добро дошли!

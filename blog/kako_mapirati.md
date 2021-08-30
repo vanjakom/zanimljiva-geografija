@@ -7,6 +7,9 @@ out geom;
 
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
+# #survey #check #date
+survey:date - use to mark when last on site check was
+check_date - should be used to mark all tags are correct
 
 # #cvecara
 ```
@@ -459,9 +462,9 @@ genus=Pinus
 leaf_type=needleleaved
 ```
 
-# #reckilaza #staklo #kontejner
+# #reciklaza #staklo #kontejner
 ```
-xamenity=recycling
+amenity=recycling
 recycling:glass_bottles=yes
 recycling_type=container
 ```
