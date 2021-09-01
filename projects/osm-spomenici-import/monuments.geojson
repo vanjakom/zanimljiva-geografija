@@ -1700,6 +1700,18 @@
    "geometry":{"type":"Point", "coordinates":[21.920664, 43.312368]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1004",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100431",
+    "heritage:RS:inscription_date":"1993-07-14",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "heritage:RS:name":"Зграда Народног купатила"},
+   "geometry":{"type":"Point", "coordinates":[22.115945, 43.835341]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1006",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100434",
@@ -1800,6 +1812,19 @@
     "heritage:RS:inscription_date":"2002-07-18",
     "heritage:RS:name":"Кућа породице Перлић"},
    "geometry":{"type":"Point", "coordinates":[20.278964, 44.285887]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1551",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100532",
+    "heritage:RS:inscription_date":"1999-12-27",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
+    "heritage:RS:name":
+    "Кућа Радована Ранковића у Сремским Михаљевцима"},
+   "geometry":{"type":"Point", "coordinates":[20.037315, 44.85942]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK2023",
@@ -2002,11 +2027,13 @@
    {"ref:RS:nkd":"AN23",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100589",
-    "heritage:RS:inscription_date":"1982-03-30",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Лазарева пећина",
+    "wikidata":"Q25048156",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1982-03-30",
     "heritage:RS:name":"Лазарева пећина"},
    "geometry":{"type":"Point", "coordinates":[21.962424, 44.029445]}},
   {"type":"Feature",
@@ -2050,11 +2077,13 @@
    {"ref:RS:nkd":"AN178",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100611",
-    "heritage:RS:inscription_date":"2014-06-16",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Салдум",
+    "wikidata":"Q61135268",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2014-06-16",
     "heritage:RS:name":"Локалитет Салдум"},
    "geometry":{"type":"Point", "coordinates":[21.959172, 44.630758]}},
   {"type":"Feature",
@@ -2290,6 +2319,22 @@
     "Покрајински завод за заштиту споменика културе Петроварадин",
     "heritage:RS:name":"Салаш Илије-Ице Шокице"},
    "geometry":{"type":"Point", "coordinates":[20.099024, 45.390173]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK2082",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100788",
+    "wikipedia":
+    "sr:Салашарска црква посвеђена Узнесењу Богородице у Бикову",
+    "wikidata":"Q12634317",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2011-02-03",
+    "heritage:RS:name":
+    "Салашарска црква Узнесења  Богородице у Бикову"},
+   "geometry":{"type":"Point", "coordinates":[19.760377, 46.007547]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1773",
@@ -3315,6 +3360,18 @@
    "geometry":{"type":"Point", "coordinates":[22.25163, 43.56583]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK848",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=101781",
+    "heritage:RS:inscription_date":"1990-02-11",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "heritage:RS:name":"Зграда Учитељске школе- зграда Суда"},
+   "geometry":{"type":"Point", "coordinates":[21.708651, 43.542557]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK847",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=101782",
@@ -3344,11 +3401,13 @@
    {"ref:RS:nkd":"AN175",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=101787",
-    "heritage:RS:inscription_date":"2014-06-16",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Пинкум",
+    "wikidata":"Q12757288",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2014-06-16",
     "heritage:RS:name":"Локалитет Пинкум"},
    "geometry":{"type":"Point", "coordinates":[21.523169, 44.767869]}},
   {"type":"Feature",
@@ -4640,6 +4699,18 @@
    "geometry":{"type":"Point", "coordinates":[21.89509, 43.319929]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK871",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102440",
+    "heritage:RS:inscription_date":"1990-02-11",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "heritage:RS:name":"Зграда Монопола"},
+   "geometry":{"type":"Point", "coordinates":[21.900128, 42.546901]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1693",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102519",
@@ -4664,6 +4735,18 @@
     "heritage:RS:inscription_date":"2004-02-24",
     "heritage:RS:name":"Споменик стрељаним мештанима села Бешке"},
    "geometry":{"type":"Point", "coordinates":[20.057486, 45.13753]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1695",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102521",
+    "heritage:RS:inscription_date":"2004-02-24",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
+    "heritage:RS:name":"Кућа Милене Миросављевић"},
+   "geometry":{"type":"Point", "coordinates":[19.967364, 44.847329]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1696",
@@ -5350,14 +5433,28 @@
    "geometry":{"type":"Point", "coordinates":[19.235983, 45.133236]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"AN143",
+   {"ref:RS:nkd":"SK1562",
     "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102664",
-    "heritage:RS:inscription_date":"2005-02-17",
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102663",
+    "heritage:RS:inscription_date":"1999-12-27",
     "protect_class":"22",
     "heritage":"2",
     "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
+    "heritage:RS:name":"Салаш Бугарских"},
+   "geometry":{"type":"Point", "coordinates":[19.964685, 44.87285]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"AN143",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102664",
+    "wikipedia":"sr:Градац (Фрушка гора)",
+    "wikidata":"Q97193585",
+    "heritage:RS:jurisdiction":
     "Покрајински завод за заштиту споменика културе Петроварадин",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2005-02-17",
     "heritage:RS:name":"Археолошко налазиште \"Градац\""},
    "geometry":{"type":"Point", "coordinates":[19.654525, 45.177536]}},
   {"type":"Feature",
@@ -9324,6 +9421,20 @@
    "geometry":{"type":"Point", "coordinates":[20.474688, 44.801264]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1806",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=104121",
+    "wikipedia":"sr:Јеврејско гробље у Суботици",
+    "wikidata":"Q37790828",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Јеврејско гробље"},
+   "geometry":{"type":"Point", "coordinates":[19.638704, 46.108207]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1316",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=104138",
@@ -12559,11 +12670,13 @@
    {"ref:RS:nkd":"AN10",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105097",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Чаршија Рипањ",
+    "wikidata":"Q97201890",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Чаршија Рипањ"},
    "geometry":{"type":"Point", "coordinates":[20.524546, 44.631275]}},
   {"type":"Feature",
@@ -12628,11 +12741,13 @@
    {"ref:RS:nkd":"AN83",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105115",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Забран Петровчић",
+    "wikidata":"Q85991704",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1988-05-05",
     "heritage:RS:name":"Забран-Петровчић"},
    "geometry":{"type":"Point", "coordinates":[20.119736, 44.797513]}},
   {"type":"Feature",
@@ -13190,6 +13305,20 @@
    "geometry":{"type":"Point", "coordinates":[20.13924, 45.76388]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1803",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105478",
+    "wikipedia":"sr:Заветни крст у Молу",
+    "wikidata":"Q85994415",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Заветни крст"},
+   "geometry":{"type":"Point", "coordinates":[20.141309, 45.764766]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1145",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105479",
@@ -13296,6 +13425,20 @@
    "geometry":{"type":"Point", "coordinates":[19.43929, 45.89804]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1823",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105488",
+    "wikipedia":"sr:Мађарска реформаторска црква у Старој Моравици",
+    "wikidata":"Q38298742",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Мађарска реформаторска црква"},
+   "geometry":{"type":"Point", "coordinates":[19.4653, 45.86971]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1802",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105491",
@@ -13365,6 +13508,35 @@
     "heritage:RS:inscription_date":"2004-11-18",
     "heritage:RS:name":"Капела на Православном гробљу"},
    "geometry":{"type":"Point", "coordinates":[20.051682, 46.109335]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1844",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105497",
+    "wikipedia":
+    "sr:Српска православна црква Преноса моштију Св. оца Николаја у Мартоношу",
+    "wikidata":"Q85999388",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"СПЦ Преноса моштију Св. оца Николаја"},
+   "geometry":{"type":"Point", "coordinates":[20.063064, 46.116303]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1843",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105498",
+    "wikipedia":"sr:Српска православна народна школа у Мартоношу",
+    "wikidata":"Q85999385",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Српска православна народна школа"},
+   "geometry":{"type":"Point", "coordinates":[20.063322, 46.115989]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1830",
@@ -13655,11 +13827,13 @@
    {"ref:RS:nkd":"AN132",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105590",
-    "heritage:RS:inscription_date":"1999-01-20",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Сигет Анка",
+    "wikidata":"Q97202487",
     "heritage:RS:jurisdiction":
     "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1999-01-20",
     "heritage:RS:name":"Локалитет Сигет Анка"},
    "geometry":{"type":"Point", "coordinates":[20.247538, 46.105919]}},
   {"type":"Feature",
@@ -14952,6 +15126,20 @@
    "geometry":{"type":"Point", "coordinates":[19.67024, 46.10215]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1825",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105817",
+    "wikipedia":"sr:Зграда у Ул. Максима Горког бр. 21 у Суботици",
+    "wikidata":"Q38298745",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Зграда у Ул. Максима Горког бр. 21"},
+   "geometry":{"type":"Point", "coordinates":[19.666684, 46.098088]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1826",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105818",
@@ -15068,6 +15256,22 @@
     "Међуопштински завод за заштиту споменика културе Суботица",
     "heritage:RS:name":"Споменик палим борцима"},
    "geometry":{"type":"Point", "coordinates":[19.659138, 46.099185]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1832",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105826",
+    "wikipedia":
+    "sr:Зграда машинско-електротехничког школског центра у Суботици",
+    "wikidata":"Q38298773",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":
+    "Зграда машинско-електротехничког школског центра"},
+   "geometry":{"type":"Point", "coordinates":[19.671126, 46.097638]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1783",
@@ -15358,6 +15562,18 @@
    "geometry":{"type":"Point", "coordinates":[20.167314, 45.889034]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1837",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105865",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "heritage:RS:name":"Римокатоличка црква"},
+   "geometry":{"type":"Point", "coordinates":[20.105885, 45.976484]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1136",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105866",
@@ -15580,14 +15796,12 @@
    {"ref:RS:nkd":"AN33",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105935",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Велика хумка",
-    "wikidata":"Q3114843",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Велика хумка"},
    "geometry":{"type":"Point", "coordinates":[20.099911, 43.829016]}},
   {"type":"Feature",
@@ -16091,11 +16305,13 @@
    {"ref:RS:nkd":"AN138",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106108",
-    "heritage:RS:inscription_date":"2003-06-12",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет „Зајачак“",
+    "wikidata":"Q61134317",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2003-06-12",
     "heritage:RS:name":"Локалитет \"Зајачак\""},
    "geometry":{"type":"Point", "coordinates":[20.709635, 43.355054]}},
   {"type":"Feature",
@@ -16249,14 +16465,12 @@
    {"ref:RS:nkd":"AN116",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106142",
+    "heritage:RS:inscription_date":"1995-12-08",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Археолошки локалитет „Градиште”",
-    "wikidata":"Q12750414",
-    "heritage:RS:jurisdiction":
-    "Међуопштински завод за заштиту споменика културе Суботица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-12-08",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
     "heritage:RS:name":"Археолошки локалитет \"Градиште\""},
    "geometry":{"type":"Point", "coordinates":[20.390865, 45.854123]}},
   {"type":"Feature",
@@ -16276,11 +16490,13 @@
    {"ref:RS:nkd":"AN184",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106152",
-    "heritage:RS:inscription_date":"2014-06-16",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Госпођин вир",
+    "wikidata":"Q61135307",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2014-06-16",
     "heritage:RS:name":"Локалитет Госпођин вир"},
    "geometry":{"type":"Point", "coordinates":[21.999839, 44.615008]}},
   {"type":"Feature",
@@ -17025,14 +17241,12 @@
    {"ref:RS:nkd":"AN35",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106284",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Римска некропола (Коловрат)",
-    "wikidata":"Q16084723",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Римска некропола"},
    "geometry":{"type":"Point", "coordinates":[19.624895, 43.370885]}},
   {"type":"Feature",
@@ -17382,14 +17596,12 @@
    {"ref:RS:nkd":"AN28",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106324",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Блашковина (Висибаба)",
-    "wikidata":"Q16082254",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Висибаба- локалитет  Блашковина"},
    "geometry":{"type":"Point", "coordinates":[20.012833, 43.838486]}},
   {"type":"Feature",
@@ -17425,11 +17637,13 @@
    {"ref:RS:nkd":"AN34",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106332",
-    "heritage:RS:inscription_date":"1983-06-27",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Злоступ (тврђава)",
+    "wikidata":"Q12752032",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:name":"Локалитет Римско или Мађарско гробље"},
    "geometry":{"type":"Point", "coordinates":[19.958169, 43.979841]}},
   {"type":"Feature",
@@ -19297,6 +19511,18 @@
    "geometry":{"type":"Point", "coordinates":[19.884931, 44.269618]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK2044",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106764",
+    "heritage:RS:inscription_date":"2010-07-06",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ваљево",
+    "heritage:RS:name":"Зграда у Карађорђевој бр. 37"},
+   "geometry":{"type":"Point", "coordinates":[19.697192, 44.755174]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1547",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106765",
@@ -19342,13 +19568,29 @@
    {"ref:RS:nkd":"AN153",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106770",
-    "heritage:RS:inscription_date":"2010-07-06",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Рановизантијско утврђење Коњуша на Церу",
+    "wikidata":"Q16085716",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2010-07-06",
     "heritage:RS:name":"Рановизантијско утврђење Коњуша на Церу"},
    "geometry":{"type":"Point", "coordinates":[19.530965, 44.593724]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1545",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106772",
+    "wikipedia":"sr:Црква Покрова Пресвете Богородице у Белановици",
+    "wikidata":"Q16088320",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1999-02-26",
+    "heritage:RS:name":"Црква Покрова Пресвете Богородице"},
+   "geometry":{"type":"Point", "coordinates":[20.398398, 44.251966]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1474",
@@ -20270,6 +20512,20 @@
    "geometry":{"type":"Point", "coordinates":[22.67395, 43.009471]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK665",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107004",
+    "wikipedia":"sr:Манастир Грлиште",
+    "wikidata":"Q31184112",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1986-03-18",
+    "heritage:RS:name":"Манастир Грлиште"},
+   "geometry":{"type":"Point", "coordinates":[22.352884, 43.699885]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK314",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107007",
@@ -20442,11 +20698,13 @@
    {"ref:RS:nkd":"AN151",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107026",
-    "heritage:RS:inscription_date":"2009-12-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Кале (археолошко налазиште)",
+    "wikidata":"Q6351846",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2009-12-17",
     "heritage:RS:name":"Археолошко налазиште 'Кале – Кршевица'"},
    "geometry":{"type":"Point", "coordinates":[21.851023, 42.445058]}},
   {"type":"Feature",
@@ -20712,6 +20970,19 @@
    "geometry":{"type":"Point", "coordinates":[21.837872, 44.649675]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK2187",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107103",
+    "heritage:RS:inscription_date":"2016-08-15",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "heritage:RS:name":
+    "Споменик ослободиоцима Пирота од Турака у Пироту"},
+   "geometry":{"type":"Point", "coordinates":[22.590799, 43.161293]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK463",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107104",
@@ -20798,14 +21069,12 @@
    {"ref:RS:nkd":"AN29",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107123",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Весовина и Крчевина",
-    "wikidata":"Q12749695",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Висибаба-локалитет Весовина и Крчевина"},
    "geometry":{"type":"Point", "coordinates":[20.018939, 43.834954]}},
   {"type":"Feature",
@@ -20813,14 +21082,12 @@
    {"ref:RS:nkd":"AN30",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107124",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Варошиште (Висибаба)",
-    "wikidata":"Q12749580",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Висибаба-локалитет Варошиште"},
    "geometry":{"type":"Point", "coordinates":[20.001902, 43.847018]}},
   {"type":"Feature",
@@ -20828,14 +21095,12 @@
    {"ref:RS:nkd":"AN32",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107125",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Савинац (Висибаба)",
-    "wikidata":"Q12758502",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Висибаба-локалитет Савинац"},
    "geometry":{"type":"Point", "coordinates":[20.0143, 43.842126]}},
   {"type":"Feature",
@@ -20942,14 +21207,12 @@
    {"ref:RS:nkd":"AN26",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107153",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Мраморје",
-    "wikidata":"Q49968844",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"98",
     "heritage":"1",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Мраморје"},
    "geometry":{"type":"Point", "coordinates":[19.430389, 43.957721]}},
   {"type":"Feature",
@@ -21487,6 +21750,18 @@
    "geometry":{"type":"Point", "coordinates":[20.159271, 44.984477]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1553",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107257",
+    "heritage:RS:inscription_date":"1999-12-27",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
+    "heritage:RS:name":"Кућа у Старој Пазови"},
+   "geometry":{"type":"Point", "coordinates":[20.14888, 44.98619]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1578",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107258",
@@ -21660,14 +21935,12 @@
    {"ref:RS:nkd":"AN21",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107279",
+    "heritage:RS:inscription_date":"1981-12-15",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Рисовача",
-    "wikidata":"Q5240279",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Крагујевац",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1981-12-15",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Крагујевац",
     "heritage:RS:name":"Пећина Рисовача"},
    "geometry":{"type":"Point", "coordinates":[20.581952, 44.303308]}},
   {"type":"Feature",
@@ -22075,11 +22348,13 @@
    {"ref:RS:nkd":"AN86",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107352",
-    "heritage:RS:inscription_date":"1990-10-29",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Јевтића Луке",
+    "wikidata":"Q31183214",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1990-10-29",
     "heritage:RS:name":"Јевтића Луке"},
    "geometry":{"type":"Point", "coordinates":[19.58356, 43.97385]}},
   {"type":"Feature",
@@ -22344,11 +22619,13 @@
    {"ref:RS:nkd":"AN163",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107440",
-    "heritage:RS:inscription_date":"2012-08-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Хисар (Лесковац)",
+    "wikidata":"Q16843450",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-08-17",
     "heritage:RS:name":"Локалитет Хисар у Лесковцу"},
    "geometry":{"type":"Point", "coordinates":[21.937814, 42.991372]}},
   {"type":"Feature",
@@ -22884,11 +23161,13 @@
    {"ref:RS:nkd":"AN78",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107691",
-    "heritage:RS:inscription_date":"1987-08-06",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Утврђење „Јеринин град” у селу Белица",
+    "wikidata":"Q61134928",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Крагујевац",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1987-08-06",
     "heritage:RS:name":"Утврђење \"Јеринин град\""},
    "geometry":{"type":"Point", "coordinates":[21.078991, 43.956753]}},
   {"type":"Feature",
@@ -24648,11 +24927,13 @@
    {"ref:RS:nkd":"AN164",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108238",
-    "heritage:RS:inscription_date":"2012-08-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Плочник (археолошко налазиште)",
+    "wikidata":"Q12757361",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-08-17",
     "heritage:RS:name":"Локалитет Плочник код Прокупља"},
    "geometry":{"type":"Point", "coordinates":[21.364466, 43.210619]}},
   {"type":"Feature",
@@ -25711,6 +25992,19 @@
    "geometry":{"type":"Point", "coordinates":[19.825422, 45.000926]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"ZM57",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108397",
+    "heritage:RS:inscription_date":"1999-12-27",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
+    "heritage:RS:name":
+    "Споменик палим борцима и жртвама фашистичког терора  у  Чортановцима"},
+   "geometry":{"type":"Point", "coordinates":[20.019144, 45.154655]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"ZM58",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108398",
@@ -26494,6 +26788,18 @@
    "geometry":{"type":"Point", "coordinates":[20.410163, 45.93451]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK2080",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108508",
+    "heritage:RS:inscription_date":"2011-02-03",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "heritage:RS:name":"Стара општинска зграда у Мокрину"},
+   "geometry":{"type":"Point", "coordinates":[20.40952, 45.93443]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1259",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108509",
@@ -26821,11 +27127,13 @@
    {"ref:RS:nkd":"AN139",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108601",
-    "heritage:RS:inscription_date":"2004-04-24",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Некропола „Бељњача”",
+    "wikidata":"Q61129041",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Сремска Митровица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-04-24",
     "heritage:RS:name":"Некропола \"Бељњача\""},
    "geometry":{"type":"Point", "coordinates":[19.237964, 45.127623]}},
   {"type":"Feature",
@@ -27335,11 +27643,13 @@
    {"ref:RS:nkd":"AN157",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108689",
-    "heritage:RS:inscription_date":"2012-08-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет преко Слатине у Омољици",
+    "wikidata":"Q97573209",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Панчево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-08-17",
     "heritage:RS:name":"Локалитет преко Слатине у Омољици"},
    "geometry":{"type":"Point", "coordinates":[20.783146, 44.792779]}},
   {"type":"Feature",
@@ -28557,11 +28867,13 @@
    {"ref:RS:nkd":"AN1",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108838",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Ледине у Жаркову",
+    "wikidata":"Q43062769",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Ледине у Жаркову"},
    "geometry":{"type":"Point", "coordinates":[20.407291, 44.755936]}},
   {"type":"Feature",
@@ -28569,11 +28881,13 @@
    {"ref:RS:nkd":"AN2",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108839",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Бели брег",
+    "wikidata":"Q85991695",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Бели Брег"},
    "geometry":{"type":"Point", "coordinates":[20.773043, 44.644199]}},
   {"type":"Feature",
@@ -28581,11 +28895,13 @@
    {"ref:RS:nkd":"AN3",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108840",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Голи брег",
+    "wikidata":"Q97201870",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Голи Брег"},
    "geometry":{"type":"Point", "coordinates":[20.800166, 44.653114]}},
   {"type":"Feature",
@@ -28605,14 +28921,12 @@
    {"ref:RS:nkd":"AN5",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108842",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Винча — Бело брдо",
-    "wikidata":"Q3560333",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1981-08-19",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Бело Брдо у Винчи"},
    "geometry":{"type":"Point", "coordinates":[20.623203, 44.762001]}},
   {"type":"Feature",
@@ -28620,11 +28934,13 @@
    {"ref:RS:nkd":"AN8",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108845",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Сингидунум",
+    "wikidata":"Q1309687",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Сингидунум"},
    "geometry":{"type":"Point", "coordinates":[20.460159, 44.816289]}},
   {"type":"Feature",
@@ -28632,11 +28948,13 @@
    {"ref:RS:nkd":"AN8",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108845",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Сингидунум",
+    "wikidata":"Q1309687",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Сингидунум"},
    "geometry":{"type":"Point", "coordinates":[20.460159, 44.816289]}},
   {"type":"Feature",
@@ -28644,11 +28962,13 @@
    {"ref:RS:nkd":"AN8",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108845",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Сингидунум",
+    "wikidata":"Q1309687",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Сингидунум"},
    "geometry":{"type":"Point", "coordinates":[20.460159, 44.816289]}},
   {"type":"Feature",
@@ -28656,11 +28976,13 @@
    {"ref:RS:nkd":"AN8",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108845",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Сингидунум",
+    "wikidata":"Q1309687",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Сингидунум"},
    "geometry":{"type":"Point", "coordinates":[20.460159, 44.816289]}},
   {"type":"Feature",
@@ -28668,11 +28990,13 @@
    {"ref:RS:nkd":"AN8",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108845",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Сингидунум",
+    "wikidata":"Q1309687",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Сингидунум"},
    "geometry":{"type":"Point", "coordinates":[20.460159, 44.816289]}},
   {"type":"Feature",
@@ -28680,11 +29004,13 @@
    {"ref:RS:nkd":"AN9",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108846",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Утврђење Ад Октавум",
+    "wikidata":"Q61132080",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Утврђење Ад Октавум"},
    "geometry":{"type":"Point", "coordinates":[20.568518, 44.840857]}},
   {"type":"Feature",
@@ -28692,11 +29018,13 @@
    {"ref:RS:nkd":"AN11",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108847",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Рамадан",
+    "wikidata":"Q16511352",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Рамадан"},
    "geometry":{"type":"Point", "coordinates":[20.562862, 44.825595]}},
   {"type":"Feature",
@@ -28704,11 +29032,13 @@
    {"ref:RS:nkd":"AN12",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108848",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Дубочај (археолошки локалитет)",
+    "wikidata":"Q16511343",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Дубочај"},
    "geometry":{"type":"Point", "coordinates":[20.740024, 44.655611]}},
   {"type":"Feature",
@@ -28716,11 +29046,13 @@
    {"ref:RS:nkd":"AN13",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108849",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Таурунум",
+    "wikidata":"Q12759924",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Антички Таурунум"},
    "geometry":{"type":"Point", "coordinates":[20.41323, 44.845956]}},
   {"type":"Feature",
@@ -28728,11 +29060,13 @@
    {"ref:RS:nkd":"AN14",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108850",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Брестове Међе",
+    "wikidata":"Q3485387",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Брестове Међе"},
    "geometry":{"type":"Point", "coordinates":[20.180116, 44.924148]}},
   {"type":"Feature",
@@ -28740,11 +29074,13 @@
    {"ref:RS:nkd":"AN14",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108850",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Брестове Међе",
+    "wikidata":"Q3485387",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Брестове Међе"},
    "geometry":{"type":"Point", "coordinates":[20.180116, 44.924148]}},
   {"type":"Feature",
@@ -28752,11 +29088,13 @@
    {"ref:RS:nkd":"AN15",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108851",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Црквине у селу Мислођин",
+    "wikidata":"Q31181726",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Црквине"},
    "geometry":{"type":"Point", "coordinates":[20.224982, 44.630514]}},
   {"type":"Feature",
@@ -28764,11 +29102,13 @@
    {"ref:RS:nkd":"AN16",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108852",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Манастир Сланци",
+    "wikidata":"Q1565546",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Манастир Сланци"},
    "geometry":{"type":"Point", "coordinates":[20.58404, 44.795473]}},
   {"type":"Feature",
@@ -28776,11 +29116,13 @@
    {"ref:RS:nkd":"AN17",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108853",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Праисторијска Карабурма",
+    "wikidata":"Q16508418",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Праисторијска Карабурма"},
    "geometry":{"type":"Point", "coordinates":[20.511966, 44.81943]}},
   {"type":"Feature",
@@ -28788,11 +29130,13 @@
    {"ref:RS:nkd":"AN18",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108856",
-    "heritage:RS:inscription_date":"1981-12-15",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Праисторијско насеље у селу Дивостин",
+    "wikidata":"Q61135128",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Крагујевац",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-12-15",
     "heritage:RS:name":"Праисторијско насеље"},
    "geometry":{"type":"Point", "coordinates":[20.830722, 44.031409]}},
   {"type":"Feature",
@@ -28800,14 +29144,12 @@
    {"ref:RS:nkd":"AN19",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108857",
+    "heritage:RS:inscription_date":"1981-12-15",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Градац (археолошко налазиште)",
-    "wikidata":"Q12750400",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Крагујевац",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1981-12-15",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Крагујевац",
     "heritage:RS:name":"Пећина у Градцу"},
    "geometry":{"type":"Point", "coordinates":[21.031807, 44.153859]}},
   {"type":"Feature",
@@ -28827,11 +29169,13 @@
    {"ref:RS:nkd":"AN25",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108861",
-    "heritage:RS:inscription_date":"1983-06-27",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Терме у Новопазарској Бањи",
+    "wikidata":"Q97199162",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:name":"Терме у Новопазарској Бањи"},
    "geometry":{"type":"Point", "coordinates":[20.550131, 43.155861]}},
   {"type":"Feature",
@@ -28839,14 +29183,12 @@
    {"ref:RS:nkd":"AN31",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108862",
+    "heritage:RS:inscription_date":"1983-06-27",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Болница (Висибаба)",
-    "wikidata":"Q12749154",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-06-27",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Краљево",
     "heritage:RS:name":"Висибаба-локалитет Болница"},
    "geometry":{"type":"Point", "coordinates":[20.016266, 43.839896]}},
   {"type":"Feature",
@@ -28854,11 +29196,13 @@
    {"ref:RS:nkd":"AN36",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108864",
-    "heritage:RS:inscription_date":"1983-12-20",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Идумум",
+    "wikidata":"Q61135266",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Крагујевац",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:name":"Археолошко налазиште Идимум"},
    "geometry":{"type":"Point", "coordinates":[21.356367, 44.144662]}},
   {"type":"Feature",
@@ -28866,11 +29210,13 @@
    {"ref:RS:nkd":"AN38",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108866",
-    "heritage:RS:inscription_date":"1983-12-20",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Мокрањске Стене",
+    "wikidata":"Q61135313",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:name":"Мокрањске Стене"},
    "geometry":{"type":"Point", "coordinates":[22.526499, 44.163245]}},
   {"type":"Feature",
@@ -28893,14 +29239,12 @@
    {"ref:RS:nkd":"AN41",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108868",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Дренград",
-    "wikidata":"Q12751199",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-12-20",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
     "heritage:RS:name":"Дренград"},
    "geometry":{"type":"Point", "coordinates":[21.565956, 43.070173]}},
   {"type":"Feature",
@@ -28920,14 +29264,12 @@
    {"ref:RS:nkd":"AN47",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108872",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Кулина (Балајнац)",
-    "wikidata":"Q12754315",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-12-20",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
     "heritage:RS:name":"Кулина (Балајнац)"},
    "geometry":{"type":"Point", "coordinates":[21.76558, 43.267232]}},
   {"type":"Feature",
@@ -28972,23 +29314,39 @@
    {"ref:RS:nkd":"AN52",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108876",
+    "wikipedia":"sr:Градац (археолошко налазиште)",
+    "wikidata":"Q12750400",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1986-03-20",
+    "heritage:RS:name":"Градац"},
+   "geometry":{"type":"Point", "coordinates":[21.979297, 43.061519]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"AN53",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108877",
     "heritage:RS:inscription_date":"1986-03-20",
     "protect_class":"22",
     "heritage":"2",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Градац"},
-   "geometry":{"type":"Point", "coordinates":[21.979297, 43.061519]}},
+    "heritage:RS:name":"Равна"},
+   "geometry":{"type":"Point", "coordinates":[22.055089, 44.516564]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"AN54",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108878",
-    "heritage:RS:inscription_date":"1986-03-20",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Хајдучка воденица",
+    "wikidata":"Q60998815",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1986-03-20",
     "heritage:RS:name":"Хајдучка воденица"},
    "geometry":{"type":"Point", "coordinates":[22.303292, 44.638517]}},
   {"type":"Feature",
@@ -29072,11 +29430,13 @@
    {"ref:RS:nkd":"AN129",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108903",
-    "heritage:RS:inscription_date":"1999-01-15",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Неолитско насеље Лађариште",
+    "wikidata":"Q61134308",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1999-01-15",
     "heritage:RS:name":"Неолитско насеље Лађариште"},
    "geometry":{"type":"Point", "coordinates":[20.922898, 43.644585]}},
   {"type":"Feature",
@@ -29084,11 +29444,13 @@
    {"ref:RS:nkd":"AN76",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108904",
-    "heritage:RS:inscription_date":"1986-12-16",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Петничка пећина",
+    "wikidata":"Q12044790",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1986-12-16",
     "heritage:RS:name":"Археолошки терен код села Петнице"},
    "geometry":{"type":"Point", "coordinates":[19.9357, 44.245517]}},
   {"type":"Feature",
@@ -29108,14 +29470,12 @@
    {"ref:RS:nkd":"AN79",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108906",
+    "heritage:RS:inscription_date":"1988-02-17",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Ремезијана",
-    "wikidata":"Q1135157",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1988-02-17",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
     "heritage:RS:name":"Ремесиана"},
    "geometry":{"type":"Point", "coordinates":[22.310663, 43.217411]}},
   {"type":"Feature",
@@ -29135,11 +29495,13 @@
    {"ref:RS:nkd":"AN81",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108908",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Лугови",
+    "wikidata":"Q97201879",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1988-05-05",
     "heritage:RS:name":"Лугови"},
    "geometry":{"type":"Point", "coordinates":[20.226227, 44.345392]}},
   {"type":"Feature",
@@ -29147,11 +29509,13 @@
    {"ref:RS:nkd":"AN82",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108909",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Баташина",
+    "wikidata":"Q16511348",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1988-05-05",
     "heritage:RS:name":"Баташина"},
    "geometry":{"type":"Point", "coordinates":[20.283603, 44.508602]}},
   {"type":"Feature",
@@ -29269,11 +29633,13 @@
    {"ref:RS:nkd":"AN84",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108917",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Прогарски виногради",
+    "wikidata":"Q61131046",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1988-05-05",
     "heritage:RS:name":"Прогарски виногради"},
    "geometry":{"type":"Point", "coordinates":[20.167801, 44.718037]}},
   {"type":"Feature",
@@ -29281,14 +29647,12 @@
    {"ref:RS:nkd":"AN85",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108918",
+    "heritage:RS:inscription_date":"1989-05-03",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Петрус",
-    "wikidata":"Q16089198",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Крагујевац",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1989-05-03",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Крагујевац",
     "heritage:RS:name":"Средњовековни град \"Петрус\""},
    "geometry":{"type":"Point", "coordinates":[21.530089, 43.920998]}},
   {"type":"Feature",
@@ -29353,14 +29717,28 @@
    "geometry":{"type":"Point", "coordinates":[22.090029, 44.059398]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"AN95",
+   {"ref:RS:nkd":"AN94",
     "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108927",
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108926",
     "heritage:RS:inscription_date":"1991-04-24",
     "protect_class":"22",
     "heritage":"2",
     "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
+    "heritage:RS:name":"Остаци фортификације \"Кастел\" на Мирочу"},
+   "geometry":{"type":"Point", "coordinates":[22.251006, 44.475511]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"AN95",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108927",
+    "wikipedia":"sr:Пећинска црква у Паљеву",
+    "wikidata":"Q104471789",
+    "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1991-04-24",
     "heritage:RS:name":"Пећинска црква у Паљеву"},
    "geometry":{"type":"Point", "coordinates":[20.396997, 43.011073]}},
   {"type":"Feature",
@@ -29368,11 +29746,13 @@
    {"ref:RS:nkd":"AN96",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108928",
-    "heritage:RS:inscription_date":"1991-04-24",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Градина",
+    "wikidata":"Q61134663",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1991-04-24",
     "heritage:RS:name":"Локалитет Градина"},
    "geometry":{"type":"Point", "coordinates":[20.548334, 43.17327]}},
   {"type":"Feature",
@@ -29405,11 +29785,13 @@
    {"ref:RS:nkd":"AN99",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108931",
-    "heritage:RS:inscription_date":"1992-12-22",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Римско утврђење (Mansio Municipium)",
+    "wikidata":"Q31187467",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1992-12-22",
     "heritage:RS:name":"Римско утврђење"},
    "geometry":{"type":"Point", "coordinates":[21.322068, 44.515086]}},
   {"type":"Feature",
@@ -29429,11 +29811,13 @@
    {"ref:RS:nkd":"AN101",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108933",
-    "heritage:RS:inscription_date":"1992-12-22",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Манастир Брадача",
+    "wikidata":"Q12754820",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1992-12-22",
     "heritage:RS:name":"Комплекс манастира Брадаче"},
    "geometry":{"type":"Point", "coordinates":[21.401403, 44.500484]}},
   {"type":"Feature",
@@ -29441,14 +29825,12 @@
    {"ref:RS:nkd":"AN102",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108934",
+    "heritage:RS:inscription_date":"1992-12-22",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Ледерата",
-    "wikidata":"Q3829351",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1992-12-22",
+    "heritage:RS:jurisdiction":
+    "Регионални завод за заштиту споменика културе Смедерево",
     "heritage:RS:name":"Римско утврђење Ледерата"},
    "geometry":{"type":"Point", "coordinates":[21.339639, 44.816921]}},
   {"type":"Feature",
@@ -29456,14 +29838,12 @@
    {"ref:RS:nkd":"AN104",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108937",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Старчево (археолошки локалитет)",
-    "wikidata":"Q3485397",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Старчево"},
    "geometry":{"type":"Point", "coordinates":[20.687365, 44.821633]}},
   {"type":"Feature",
@@ -29471,14 +29851,12 @@
    {"ref:RS:nkd":"AN105",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108938",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Басијана",
-    "wikidata":"Q2887419",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Римски град Басијана"},
    "geometry":{"type":"Point", "coordinates":[19.973941, 44.971088]}},
   {"type":"Feature",
@@ -29486,14 +29864,12 @@
    {"ref:RS:nkd":"AN108",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108940",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Гомолава",
-    "wikidata":"Q1536893",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Гомолава"},
    "geometry":{"type":"Point", "coordinates":[19.748176, 44.888533]}},
   {"type":"Feature",
@@ -29516,14 +29892,12 @@
    {"ref:RS:nkd":"AN111",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108942",
+    "heritage:RS:inscription_date":"1995-02-24",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Градина (Нови Раковац)",
-    "wikidata":"Q12750408",
-    "heritage:RS:jurisdiction":
-    "Покрајински завод за заштиту споменика културе Петроварадин",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-02-24",
+    "heritage:RS:jurisdiction":
+    "Покрајински завод за заштиту споменика културе Петроварадин",
     "heritage:RS:name":"Градина код Новог Раковца"},
    "geometry":{"type":"Point", "coordinates":[19.766469, 45.205254]}},
   {"type":"Feature",
@@ -29531,14 +29905,12 @@
    {"ref:RS:nkd":"AN112",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108943",
+    "heritage:RS:inscription_date":"1995-02-24",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Калакача",
-    "wikidata":"Q12752498",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-02-24",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
     "heritage:RS:name":"Калакача код Бешке"},
    "geometry":{"type":"Point", "coordinates":[20.08304, 45.167473]}},
   {"type":"Feature",
@@ -29546,14 +29918,12 @@
    {"ref:RS:nkd":"AN113",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108944",
+    "heritage:RS:inscription_date":"1995-02-24",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Чарнок",
-    "wikidata":"Q12761154",
-    "heritage:RS:jurisdiction":
-    "Покрајински завод за заштиту споменика културе Петроварадин",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-02-24",
+    "heritage:RS:jurisdiction":
+    "Покрајински завод за заштиту споменика културе Петроварадин",
     "heritage:RS:name":"Земљано утврђење \"Чарнок\" код Врбаса"},
    "geometry":{"type":"Point", "coordinates":[19.658049, 45.527119]}},
   {"type":"Feature",
@@ -29561,14 +29931,12 @@
    {"ref:RS:nkd":"AN114",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108945",
+    "heritage:RS:inscription_date":"1995-02-24",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Онагринум",
-    "wikidata":"Q12756529",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Новог Сада",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-02-24",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе града Новог Сада",
     "heritage:RS:name":
     "Археолошко налазиште Цастеллум Онагринум код Бегеча"},
    "geometry":{"type":"Point", "coordinates":[19.620476, 45.22612]}},
@@ -29577,14 +29945,12 @@
    {"ref:RS:nkd":"AN115",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108946",
+    "heritage:RS:inscription_date":"1995-12-08",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Хумка код Варцалове воденице",
-    "wikidata":"Q12760975",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-12-08",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
     "heritage:RS:name":"Хумка код \"Врцалове воденице\""},
    "geometry":{"type":"Point", "coordinates":[19.846737, 44.951024]}},
   {"type":"Feature",
@@ -29592,14 +29958,12 @@
    {"ref:RS:nkd":"AN118",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108947",
+    "heritage:RS:inscription_date":"1995-12-08",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Михаљевачка шума",
-    "wikidata":"Q12755638",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-12-08",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
     "heritage:RS:name":
     "Археолошко налазиште \"Михаљевачка шума\" код Чортановаца"},
    "geometry":{"type":"Point", "coordinates":[20.011387, 45.169964]}},
@@ -29608,14 +29972,12 @@
    {"ref:RS:nkd":"AN119",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108948",
+    "heritage:RS:inscription_date":"1995-12-08",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Црквине (Хоргош)",
-    "wikidata":"Q16085556",
-    "heritage:RS:jurisdiction":
-    "Међуопштински завод за заштиту споменика културе Суботица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1995-12-08",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
     "heritage:RS:name":
     "Археолошки локалитет  \"Црквине\" код Хоргоша"},
    "geometry":{"type":"Point", "coordinates":[19.911656, 46.144436]}},
@@ -29624,14 +29986,12 @@
    {"ref:RS:nkd":"AN122",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108949",
+    "heritage:RS:inscription_date":"1997-12-30",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Градина на Босуту",
-    "wikidata":"Q5591931",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1997-12-30",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Сремска Митровица",
     "heritage:RS:name":"Археолошки локалитет \"Градина на Босуту\""},
    "geometry":{"type":"Point", "coordinates":[19.146753, 45.074064]}},
   {"type":"Feature",
@@ -29680,11 +30040,13 @@
    {"ref:RS:nkd":"AN144",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108952",
-    "heritage:RS:inscription_date":"2005-02-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Доња Брањевина",
+    "wikidata":"Q25464965",
     "heritage:RS:jurisdiction":
     "Покрајински завод за заштиту споменика културе Петроварадин",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2005-02-17",
     "heritage:RS:name":"Археолошко налазиште \"Доња Брањевина\""},
    "geometry":{"type":"Point", "coordinates":[19.138459, 45.456167]}},
   {"type":"Feature",
@@ -29779,11 +30141,13 @@
    {"ref:RS:nkd":"AN141",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108961",
-    "heritage:RS:inscription_date":"2004-11-08",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Шљункара",
+    "wikidata":"Q97573208",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Панчево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-08",
     "heritage:RS:name":"Локалитет Шљункара"},
    "geometry":{"type":"Point", "coordinates":[21.402239, 44.89855]}},
   {"type":"Feature",
@@ -29827,11 +30191,13 @@
    {"ref:RS:nkd":"AN152",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108966",
-    "heritage:RS:inscription_date":"2010-07-06",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Шалитрена пећина",
+    "wikidata":"Q16086052",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2010-07-06",
     "heritage:RS:name":"Шалитрена пећина"},
    "geometry":{"type":"Point", "coordinates":[20.078406, 44.190853]}},
   {"type":"Feature",
@@ -29863,11 +30229,13 @@
    {"ref:RS:nkd":"AN156",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108969",
-    "heritage:RS:inscription_date":"2011-12-07",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Тодорчево – Стрна жита",
+    "wikidata":"Q61135134",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Крагујевац",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2011-12-07",
     "heritage:RS:name":"Локалитет Тодорчево – Стрна жита"},
    "geometry":{"type":"Point", "coordinates":[20.930035, 44.026339]}},
   {"type":"Feature",
@@ -29890,11 +30258,13 @@
    {"ref:RS:nkd":"AN167",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108972",
-    "heritage:RS:inscription_date":"2012-09-10",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Беловоде",
+    "wikidata":"Q12748821",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-09-10",
     "heritage:RS:name":"Локалитет Беловоде код Петровца на Млави"},
    "geometry":{"type":"Point", "coordinates":[21.401431, 44.311585]}},
   {"type":"Feature",
@@ -29902,11 +30272,13 @@
    {"ref:RS:nkd":"AN167",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108972",
-    "heritage:RS:inscription_date":"2012-09-10",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Беловоде",
+    "wikidata":"Q12748821",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-09-10",
     "heritage:RS:name":"Локалитет Беловоде код Петровца на Млави"},
    "geometry":{"type":"Point", "coordinates":[21.401431, 44.311585]}},
   {"type":"Feature",
@@ -29914,11 +30286,14 @@
    {"ref:RS:nkd":"AN168",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108973",
-    "heritage:RS:inscription_date":"2013-01-25",
-    "protect_class":"98",
-    "heritage":"1",
+    "wikipedia":
+    "sr:Локалитет Мраморје на потесима Гајеви и Урошевине",
+    "wikidata":"Q31183217",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"98",
+    "heritage":"1",
+    "heritage:RS:inscription_date":"2013-01-25",
     "heritage:RS:name":
     "Локалитет Мраморје на потесима Гајеви и Урошевине у Растишту"},
    "geometry":{"type":"Point", "coordinates":[19.348376, 43.945133]}},
@@ -29927,11 +30302,13 @@
    {"ref:RS:nkd":"AN169",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108974",
-    "heritage:RS:inscription_date":"2013-02-11",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Солнок",
+    "wikidata":"Q61135260",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Сремска Митровица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2013-02-11",
     "heritage:RS:name":"Локалитет Солнок – Град у Добринцима"},
    "geometry":{"type":"Point", "coordinates":[19.932398, 44.975664]}},
   {"type":"Feature",
@@ -30078,11 +30455,13 @@
    {"ref:RS:nkd":"AN171",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108989",
-    "heritage:RS:inscription_date":"2013-02-28",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Соко Град (дрински)",
+    "wikidata":"Q7555131",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2013-02-28",
     "heritage:RS:name":"Град Соко у селу Лазама код Крупња"},
    "geometry":{"type":"Point", "coordinates":[19.429453, 44.270291]}},
   {"type":"Feature",
@@ -30102,14 +30481,12 @@
    {"ref:RS:nkd":"AN42",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108993",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Хумска чука",
-    "wikidata":"Q12760974",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-12-20",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Ниш",
     "heritage:RS:name":"Велика Хумска Чука"},
    "geometry":{"type":"Point", "coordinates":[21.898139, 43.378591]}},
   {"type":"Feature",
@@ -30665,11 +31042,13 @@
    {"ref:RS:nkd":"AN87",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109048",
-    "heritage:RS:inscription_date":"1990-10-29",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Римске терме у Бељини",
+    "wikidata":"Q85998404",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Краљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1990-10-29",
     "heritage:RS:name":"Римске терме"},
    "geometry":{"type":"Point", "coordinates":[20.318361, 43.888432]}},
   {"type":"Feature",
@@ -30908,6 +31287,20 @@
     "heritage:RS:name":
     "Зграда Службе друштвеног књиговодства Југославије"},
    "geometry":{"type":"Point", "coordinates":[20.453415, 44.815482]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK2081",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109071",
+    "wikipedia":"sr:Кућа на Тргу Синагоге бр. 3 у Суботици",
+    "wikidata":"Q85995593",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2011-02-03",
+    "heritage:RS:name":"Кућа на Тргу Синагоге бр.3 у Суботици"},
+   "geometry":{"type":"Point", "coordinates":[19.661319, 46.102223]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1",
@@ -31318,11 +31711,13 @@
    {"ref:RS:nkd":"AN174",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109137",
-    "heritage:RS:inscription_date":"2014-06-16",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошки локалитет Орнице",
+    "wikidata":"Q61135263",
     "heritage:RS:jurisdiction":
     "Регионални завод за заштиту споменика културе Смедерево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2014-06-16",
     "heritage:RS:name":"Локалитет Орнице"},
    "geometry":{"type":"Point", "coordinates":[20.994889, 44.607809]}},
   {"type":"Feature",
@@ -31422,14 +31817,12 @@
    {"ref:RS:nkd":"AN40",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109150",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Гамзиград",
-    "wikidata":"Q904128",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"98",
     "heritage":"1",
-    "heritage:RS:inscription_date":"1983-12-20",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Гамзиград (Ромулијана)"},
    "geometry":{"type":"Point", "coordinates":[22.186313, 43.899209]}},
   {"type":"Feature",
@@ -31883,14 +32276,12 @@
    {"ref:RS:nkd":"AN106",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109205",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Сирмијум",
-    "wikidata":"Q833060",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Сирмијум"},
    "geometry":{"type":"Point", "coordinates":[19.61015, 44.966622]}},
   {"type":"Feature",
@@ -32463,14 +32854,12 @@
    {"ref:RS:nkd":"AN45",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109273",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Лепенски Вир",
-    "wikidata":"Q906669",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1983-12-20",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Лепенски Вир"},
    "geometry":{"type":"Point", "coordinates":[22.02645, 44.556867]}},
   {"type":"Feature",
@@ -32606,11 +32995,13 @@
    {"ref:RS:nkd":"AN172",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109285",
-    "heritage:RS:inscription_date":"2014-02-20",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Локалитет Анине",
+    "wikidata":"Q31185460",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2014-02-20",
     "heritage:RS:name":"Локалитет Анине"},
    "geometry":{"type":"Point", "coordinates":[20.183485, 44.348207]}},
   {"type":"Feature",
@@ -32618,11 +33009,13 @@
    {"ref:RS:nkd":"AN170",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109286",
-    "heritage:RS:inscription_date":"2013-02-28",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Јеринин град (Ваљево)",
+    "wikidata":"Q12749270",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ваљево",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2013-02-28",
     "heritage:RS:name":"Локалитет Јеринин град у Бранговићу"},
    "geometry":{"type":"Point", "coordinates":[19.857288, 44.221478]}},
   {"type":"Feature",
@@ -32737,14 +33130,12 @@
    {"ref:RS:nkd":"AN106",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109296",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Сирмијум",
-    "wikidata":"Q833060",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Сирмијум"},
    "geometry":{"type":"Point", "coordinates":[19.61015, 44.966622]}},
   {"type":"Feature",
@@ -32764,14 +33155,12 @@
    {"ref:RS:nkd":"AN106",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109298",
+    "heritage:RS:inscription_date":"1993-12-22",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Сирмијум",
-    "wikidata":"Q833060",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-22",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Сирмијум"},
    "geometry":{"type":"Point", "coordinates":[19.61015, 44.966622]}},
   {"type":"Feature",
@@ -32909,11 +33298,13 @@
    {"ref:RS:nkd":"AN158",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109308",
-    "heritage:RS:inscription_date":"2012-08-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Ранохришћанска гробница у Нишкој Бањи",
+    "wikidata":"Q16087976",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2012-08-17",
     "heritage:RS:name":"Касноантичка гробница у Нишкој Бањи"},
    "geometry":{"type":"Point", "coordinates":[22.006756, 43.293712]}},
   {"type":"Feature",
@@ -33077,17 +33468,29 @@
    "geometry":{"type":"Point", "coordinates":[21.847848, 43.207872]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK1797",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109322",
+    "wikipedia":"sr:Дворац Ледерер",
+    "wikidata":"Q85993531",
+    "heritage:RS:jurisdiction":
+    "Међуопштински завод за заштиту споменика културе Суботица",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2004-11-18",
+    "heritage:RS:name":"Дворац Ледерер"},
+   "geometry":{"type":"Point", "coordinates":[20.139401, 45.941084]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"AN140",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109323",
+    "heritage:RS:inscription_date":"2004-10-12",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Виминацијум",
-    "wikidata":"Q1231824",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"2004-10-12",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Виминацијум"},
    "geometry":{"type":"Point", "coordinates":[21.230553, 44.732888]}},
   {"type":"Feature",
@@ -33179,11 +33582,13 @@
    {"ref:RS:nkd":"AN6",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109332",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Археолошко налазиште Усек Бањица",
+    "wikidata":"Q3485385",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1981-08-19",
     "heritage:RS:name":"Усек"},
    "geometry":{"type":"Point", "coordinates":[20.480852, 44.755385]}},
   {"type":"Feature",
@@ -33650,14 +34055,12 @@
    {"ref:RS:nkd":"AN103",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109381",
+    "heritage:RS:inscription_date":"1993-12-04",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Тврђава Диана",
-    "wikidata":"Q508458",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1993-12-04",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Караташ (Дијана)"},
    "geometry":{"type":"Point", "coordinates":[22.544301, 44.65359]}},
   {"type":"Feature",
@@ -33678,14 +34081,12 @@
    {"ref:RS:nkd":"AN22",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109383",
+    "heritage:RS:inscription_date":"1981-12-19",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Медијана (Ниш)",
-    "wikidata":"Q960839",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1981-12-19",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Бресје-Медијана. Брзи Брод"},
    "geometry":{"type":"Point", "coordinates":[21.948492, 43.309767]}},
   {"type":"Feature",
@@ -33708,11 +34109,13 @@
    {"ref:RS:nkd":"AN150",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109385",
-    "heritage:RS:inscription_date":"2009-12-17",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Царска палата Шаркамен",
+    "wikidata":"Q12760990",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2009-12-17",
     "heritage:RS:name":"Археолошко налазиште 'Врело – Шаркамен'"},
    "geometry":{"type":"Point", "coordinates":[22.296264, 44.261868]}},
   {"type":"Feature",
@@ -33720,12 +34123,14 @@
    {"ref:RS:nkd":"AN37",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109386",
-    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:criteria":"great",
-    "protect_class":"22",
-    "heritage":"2",
+    "wikipedia":"sr:Timacum Minus",
+    "wikidata":"Q7804557",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе Ниш",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"1983-12-20",
     "heritage:RS:name":"Равна-Тимакум Минус"},
    "geometry":{"type":"Point", "coordinates":[22.265783, 43.641628]}},
   {"type":"Feature",
@@ -33733,14 +34138,12 @@
    {"ref:RS:nkd":"AN24",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109387",
+    "heritage:RS:inscription_date":"1982-03-30",
     "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Царичин град",
-    "wikidata":"Q164205",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
     "protect_class":"22",
     "heritage":"2",
-    "heritage:RS:inscription_date":"1982-03-30",
+    "heritage:RS:jurisdiction":
+    "Републички завод за заштиту споменика културе – Београд",
     "heritage:RS:name":"Царичин Град"},
    "geometry":{"type":"Point", "coordinates":[21.668833, 42.953539]}},
   {"type":"Feature",
