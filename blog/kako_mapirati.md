@@ -7,6 +7,12 @@ out geom;
 
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
+
+# #prerast
+ne postoji specifican tag
+```
+natural=rock
+```
 # #survey #check #date
 survey:date - use to mark when last on site check was
 check_date - should be used to mark all tags are correct

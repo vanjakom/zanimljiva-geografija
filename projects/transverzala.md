@@ -138,6 +138,11 @@ KT-27 Манастир Старо Хопово - у манастиру Ново 
 [6] [„Bastionska transverzala“ primila prve posetioce u ovoj godini!](https://www.glas-zajecara.com/bastionska-transverzala-primila-prve-posetioce-u-ovoj-godini/)  
 [7] [Facebook Bastionska transverzala](https://www.facebook.com/bastionskatrasverzala/)  
 
+*Нишка трансверзала*
+
+[1] Планинарске трансверзале у Србији, Борисав Челиковић
+[2] 
+
 *Приморска Планинарска Трансверзала (ППТ)*
 
 Приватни водић кроз трансверзалу у PDF формату. [1]  
