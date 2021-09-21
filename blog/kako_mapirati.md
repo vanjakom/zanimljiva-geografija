@@ -8,6 +8,14 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #zgrada #delovi
+kompleksna zgrada
+
+relation type=building, building=* members ways sa building:part=yes ako su istog tipa ili za svaki building=* drugaciji tag 
+
+primer
+https://www.openstreetmap.org/relation/13236307
+
 # #prerast
 ne postoji specifican tag
 ```
