@@ -479,6 +479,7 @@ leaf_type=needleleaved
 # #reciklaza #staklo #kontejner
 ```
 amenity=recycling
+recycling:pet_drink_bottles=yes
 recycling:glass_bottles=yes
 recycling_type=container
 ```
