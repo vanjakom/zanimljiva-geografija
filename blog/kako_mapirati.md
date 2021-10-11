@@ -7,6 +7,10 @@ out geom;
 
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
+# #arheoloskonalaziste #arheolosko #nalaziste
+```
+historic=archaeological_site
+```
 
 # #zgrada #delovi
 kompleksna zgrada

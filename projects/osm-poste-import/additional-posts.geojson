@@ -7,6 +7,10 @@
   {"type":"Feature",
    "properties":{"amenity":"post_office"},
    "geometry":
+   {"type":"Point", "coordinates":[20.2491517, 44.1672866]}},
+  {"type":"Feature",
+   "properties":{"amenity":"post_office"},
+   "geometry":
    {"type":"Point", "coordinates":[20.9130472, 44.0098033]}},
   {"type":"Feature",
    "properties":
