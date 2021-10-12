@@ -16630,21 +16630,6 @@
    "geometry":{"type":"Point", "coordinates":[19.703262, 44.202906]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK264",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106528",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Манастир Јовања",
-    "wikidata":"Q12754809",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1982-09-04",
-    "heritage:RS:name":"Црква Рођења Св. Јована, Јовања"},
-   "geometry":{"type":"Point", "coordinates":[19.828708, 44.256804]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK879",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106530",
@@ -16947,21 +16932,6 @@
    "geometry":{"type":"Point", "coordinates":[19.69244, 44.757683]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK362",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106621",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Манастир Ћелије",
-    "wikidata":"Q2670223",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-01-12",
-    "heritage:RS:name":"Манастир Ћелије"},
-   "geometry":{"type":"Point", "coordinates":[19.867713, 44.235654]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK2026",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106634",
@@ -17058,49 +17028,6 @@
     "heritage:RS:inscription_date":"1990-02-11",
     "heritage:RS:name":"Иловачића воденица на јазу реке Градац"},
    "geometry":{"type":"Point", "coordinates":[19.893076, 44.26093]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1598",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106674",
-    "wikipedia":"sr:Манастир Рибница у Паштрићу",
-    "wikidata":"Q16087543",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2000-04-21",
-    "heritage:RS:name":"Рибничка црква и стара школа у Паштрићу"},
-   "geometry":{"type":"Point", "coordinates":[20.091948, 44.213026]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK347",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106676",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Спомен-кућа у Робајама",
-    "wikidata":"Q16086757",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-01-12",
-    "heritage:RS:name":"Спомен кућа"},
-   "geometry":{"type":"Point", "coordinates":[19.96471, 44.2189]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK351",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106677",
-    "wikipedia":"sr:Црква Вазнесења Христовог у Мионици",
-    "wikidata":"Q16087004",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-01-12",
-    "heritage:RS:name":"Црква Вазнесења Христовог"},
-   "geometry":{"type":"Point", "coordinates":[20.085111, 44.252676]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK531",
@@ -17450,22 +17377,6 @@
     "heritage:RS:inscription_date":"1999-02-26",
     "heritage:RS:name":"Црква Покрова Пресвете Богородице"},
    "geometry":{"type":"Point", "coordinates":[20.398398, 44.251966]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1474",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106773",
-    "wikipedia":
-    "sr:Црква Преноса моштију Светог Николаја у Причевићу",
-    "wikidata":"Q28040052",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1998-09-21",
-    "heritage:RS:name":
-    "Црква Преноса моштију св. Николе у Причевићу"},
-   "geometry":{"type":"Point", "coordinates":[19.764129, 44.278644]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK2028",
@@ -20575,19 +20486,6 @@
    "geometry":{"type":"Point", "coordinates":[20.972833, 44.755312]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"PKIC81",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107742",
-    "heritage:RS:inscription_date":"2019-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "heritage:RS:name":
-    "Насеље Церак – Виногради (Церак 1 и Церак 2) у Београду"},
-   "geometry":{"type":"Point", "coordinates":[20.418971, 44.752127]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK176",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107750",
@@ -22416,34 +22314,6 @@
    "geometry":{"type":"Point", "coordinates":[20.373607, 44.048097]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"ZM23",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108369",
-    "wikipedia":"sr:Јеврејско гробље на Лединама",
-    "wikidata":"Q61131133",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1993-03-26",
-    "heritage:RS:name":"Јеврејско гробље на Лединама"},
-   "geometry":{"type":"Point", "coordinates":[20.351765, 44.799962]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"ZM24",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108370",
-    "wikipedia":"sr:Спомен-гробље на Бежанијској коси",
-    "wikidata":"Q85999099",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1993-03-26",
-    "heritage:RS:name":"Спомен гробље на Бежанијској Коси"},
-   "geometry":{"type":"Point", "coordinates":[20.370604, 44.81117]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"ZM25",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108371",
@@ -23242,20 +23112,6 @@
     "heritage:RS:name":
     "Црква - спомен костурница Успења Пресвете Богородице у Пецкој"},
    "geometry":{"type":"Point", "coordinates":[19.538798, 44.29102]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2047",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108498",
-    "wikipedia":"sr:Дворски комплекс на Дедињу",
-    "wikidata":"Q2990524",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2010-07-09",
-    "heritage:RS:name":"Дворски комплекс на Дедињу у Београду"},
-   "geometry":{"type":"Point", "coordinates":[20.453321, 44.7653]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1168",
@@ -25246,20 +25102,6 @@
    "geometry":{"type":"Point", "coordinates":[20.740024, 44.655611]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"AN13",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108849",
-    "wikipedia":"sr:Таурунум",
-    "wikidata":"Q12759924",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "heritage:RS:name":"Антички Таурунум"},
-   "geometry":{"type":"Point", "coordinates":[20.41323, 44.845956]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"AN14",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108850",
@@ -25583,18 +25425,6 @@
     "heritage:RS:name":"Локалитет Црквина"},
    "geometry":
    {"type":"Point", "coordinates":[19.6388761, 43.4349758]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"AN72",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108895",
-    "heritage:RS:inscription_date":"1986-12-16",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "heritage:RS:name":"Хумка-тумулус код села Жабара"},
-   "geometry":{"type":"Point", "coordinates":[19.958084, 44.221418]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"AN75",
@@ -26324,20 +26154,6 @@
     "Покрајински завод за заштиту споменика културе Петроварадин",
     "heritage:RS:name":"Археолошко налазиште \"Чик\""},
    "geometry":{"type":"Point", "coordinates":[20.052243, 45.708339]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"AN152",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108966",
-    "wikipedia":"sr:Шалитрена пећина",
-    "wikidata":"Q16086052",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2010-07-06",
-    "heritage:RS:name":"Шалитрена пећина"},
-   "geometry":{"type":"Point", "coordinates":[20.078406, 44.190853]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"AN154",
@@ -27100,20 +26916,6 @@
     "heritage:RS:inscription_date":"2013-06-14",
     "heritage:RS:name":"Фабрика хартије Милана Вапе у Београду"},
    "geometry":{"type":"Point", "coordinates":[20.444248, 44.797602]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK651",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109057",
-    "wikipedia":"sr:Фабрика шећера (споменик)",
-    "wikidata":"Q3502849",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1985-09-30",
-    "heritage:RS:name":"Фабрика шећера"},
-   "geometry":{"type":"Point", "coordinates":[20.422814, 44.789599]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1966",
@@ -28128,51 +27930,6 @@
    "geometry":{"type":"Point", "coordinates":[20.459194, 44.815769]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"PKIC16",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109212",
-    "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Топчидер",
-    "wikidata":"Q2065016",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Топчидер"},
-   "geometry":{"type":"Point", "coordinates":[20.44496, 44.778295]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC16",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109212",
-    "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Топчидер",
-    "wikidata":"Q2065016",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Топчидер"},
-   "geometry":{"type":"Point", "coordinates":[20.44496, 44.778295]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC16",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109212",
-    "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Топчидер",
-    "wikidata":"Q2065016",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Топчидер"},
-   "geometry":{"type":"Point", "coordinates":[20.44496, 44.778295]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK1035",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109217",
@@ -28763,20 +28520,6 @@
     "heritage:RS:inscription_date":"1982-09-10",
     "heritage:RS:name":"Стара чаршија Тешњар"},
    "geometry":{"type":"Point", "coordinates":[19.883864, 44.267718]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"AN170",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109286",
-    "wikipedia":"sr:Јеринин град (Ваљево)",
-    "wikidata":"Q12749270",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2013-02-28",
-    "heritage:RS:name":"Локалитет Јеринин град у Бранговићу"},
-   "geometry":{"type":"Point", "coordinates":[19.857288, 44.221478]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"PKIC48",
@@ -30026,19 +29769,6 @@
     "heritage:RS:inscription_date":"1995-02-24",
     "heritage:RS:name":"Дворац Зако"},
    "geometry":{"type":"Point", "coordinates":[19.583827, 45.776219]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC3",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109422",
-    "heritage:RS:inscription_date":"1981-08-19",
-    "heritage:RS:criteria":"great",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "heritage:RS:name":"Старо језгро Земуна"},
-   "geometry":{"type":"Point", "coordinates":[20.412941, 44.845179]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"ZM79",
