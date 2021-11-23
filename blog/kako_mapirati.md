@@ -12,6 +12,14 @@ node[natural=tree][amenity=community_centre][community_centre=cultural_centre](a
 historic=archaeological_site
 ```
 
+# #ulica #street #relacija
+kada se ulica sastoji iz vise puteva
+```
+type=street
+```
+each way with role street
+https://wiki.openstreetmap.org/wiki/Relation:street
+
 # #zgrada #delovi
 kompleksna zgrada
 
