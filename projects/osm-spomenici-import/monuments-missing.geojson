@@ -5642,20 +5642,6 @@
    "geometry":{"type":"Point", "coordinates":[20.463509, 44.799898]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK1969",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103486",
-    "wikipedia":"sr:Зграда Аеро клуба",
-    "wikidata":"Q2929271",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-05-11",
-    "heritage:RS:name":"Зграда Аеро клуба"},
-   "geometry":{"type":"Point", "coordinates":[20.4558, 44.820111]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK1970",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103487",
@@ -5860,22 +5846,6 @@
    "geometry":{"type":"Point", "coordinates":[20.741769, 44.655718]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK83",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103682",
-    "wikipedia":
-    "sr:Грађанске куће у ул. Кнез Михаиловој бр. 46, 48 и 50 у Београду",
-    "wikidata":"Q3280377",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-18",
-    "heritage:RS:name":
-    "Грађанске куће у Ул. Кнез Михаиловој бр. 46, 48, 50"},
-   "geometry":{"type":"Point", "coordinates":[20.454765, 44.819305]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK90",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103687",
@@ -5944,20 +5914,6 @@
     "heritage:RS:inscription_date":"1983-03-28",
     "heritage:RS:name":"Београдска надбискупија"},
    "geometry":{"type":"Point", "coordinates":[20.468134, 44.807307]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK419",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103784",
-    "wikipedia":"sr:Зграда „Српска круна“",
-    "wikidata":"Q3145676",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-03-28",
-    "heritage:RS:name":"Зграда \"Спрска круна\""},
-   "geometry":{"type":"Point", "coordinates":[20.453593, 44.820022]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK846",
@@ -10663,20 +10619,6 @@
    "geometry":{"type":"Point", "coordinates":[20.462538, 44.81087]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK88",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105570",
-    "wikipedia":"sr:Зграда трговца Стаменковића",
-    "wikidata":"Q3279002",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-18",
-    "heritage:RS:name":"Зграда трговца Стаменковића"},
-   "geometry":{"type":"Point", "coordinates":[20.455243, 44.820149]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK420",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105572",
@@ -10805,20 +10747,6 @@
     "heritage:RS:inscription_date":"1993-03-26",
     "heritage:RS:name":"Зграда Трговачке академије"},
    "geometry":{"type":"Point", "coordinates":[20.470027, 44.812713]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK432",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105598",
-    "wikipedia":"sr:Зграда Београдске општине",
-    "wikidata":"Q2929274",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-03-28",
-    "heritage:RS:name":"Зграда Београдске општине"},
-   "geometry":{"type":"Point", "coordinates":[20.455905, 44.819663]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"PKIC38",
@@ -14013,34 +13941,6 @@
    "geometry":{"type":"Point", "coordinates":[20.451031, 44.818669]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK640",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106417",
-    "wikipedia":"sr:Кућа Јована Скерлића",
-    "wikidata":"Q3279411",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1985-09-30",
-    "heritage:RS:name":"Кућа Јована Скерлића"},
-   "geometry":{"type":"Point", "coordinates":[20.461825, 44.820291]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1634",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106419",
-    "wikipedia":"sr:Кућа Андре Ђорђевића",
-    "wikidata":"Q3279158",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Кућа Андре Ђорђевића"},
-   "geometry":{"type":"Point", "coordinates":[20.462445, 44.820654]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK1019",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106427",
@@ -14125,20 +14025,6 @@
     "heritage:RS:name":
     "Зграда са сликарским атељеима и галеријом Салона Музеја савремене уметности у Београду"},
    "geometry":{"type":"Point", "coordinates":[20.452941, 44.819449]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK28",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106518",
-    "wikipedia":"sr:Кућа сликара Ђорђа Крстића у Београду",
-    "wikidata":"Q3279826",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-17",
-    "heritage:RS:name":"Кућа сликара Ђорђа Крстића"},
-   "geometry":{"type":"Point", "coordinates":[20.462592, 44.820754]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK348",
@@ -16277,20 +16163,6 @@
     "heritage:RS:inscription_date":"1992-03-03",
     "heritage:RS:name":"Карађорђев дом"},
    "geometry":{"type":"Point", "coordinates":[20.976828, 44.227873]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2118",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107242",
-    "wikipedia":"sr:Кућа књижара Марка Марковића",
-    "wikidata":"Q85995585",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2013-05-31",
-    "heritage:RS:name":"Кућа књижара Марка Марковића у Београду"},
-   "geometry":{"type":"Point", "coordinates":[20.461081, 44.820973]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1336",
@@ -19532,20 +19404,6 @@
     "heritage:RS:inscription_date":"2002-07-18",
     "heritage:RS:name":"Кућа породице Христић-Мијушковић"},
    "geometry":{"type":"Point", "coordinates":[20.459924, 44.817583]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK798",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108460",
-    "wikipedia":"sr:Кућа вајара Драгомира Арамбашића",
-    "wikidata":"Q3279347",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Кућа вајара Драгомира Арамбашића"},
-   "geometry":{"type":"Point", "coordinates":[20.458265, 44.820917]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK635",
@@ -23289,20 +23147,6 @@
    "geometry":{"type":"Point", "coordinates":[20.571428, 44.51657]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK639",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109068",
-    "wikipedia":"sr:Кућа Бете и Ристе Вукановић",
-    "wikidata":"Q3279269",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1985-09-30",
-    "heritage:RS:name":"Кућа Бете и Ристе Вукановића"},
-   "geometry":{"type":"Point", "coordinates":[20.460751, 44.821191]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK2234",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109069",
@@ -23883,21 +23727,6 @@
     "Завод за заштиту споменика културе Ниш",
     "heritage:RS:name":"Гробљанска капела Др Стевана Димитријевића"},
    "geometry":{"type":"Point", "coordinates":[21.715477, 43.54725]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC18",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109187",
-    "heritage:RS:criteria":"exceptional",
-    "wikipedia":"sr:Подручје око Доситејевог лицеја",
-    "wikidata":"Q20962888",
-    "heritage:RS:jurisdiction":
-    "Републички завод за заштиту споменика културе – Београд",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Подручје око Доситејевог лицеја"},
-   "geometry":{"type":"Point", "coordinates":[20.460945, 44.821764]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"ZM26",
