@@ -7,6 +7,8 @@ out geom;
 
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
+# #paket #dostava #paketomat #nis #dexpress
+https://wiki.openstreetmap.org/wiki/Proposed_features/amenity%3Dparcel_locker
 # #zabranjeno #pusenje #nosmoking
 ```
 smoking=no
