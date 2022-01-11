@@ -15,7 +15,32 @@ or
 ```
 smoking=outside
 ```
+# #arheoloskonalaziste #arheolosko #nalaziste
+```
+historic=archaeological_site
+```
 
+# #ulica #street #relacija
+kada se ulica sastoji iz vise puteva
+```
+type=street
+```
+each way with role street
+https://wiki.openstreetmap.org/wiki/Relation:street
+
+# #zgrada #delovi
+kompleksna zgrada
+
+relation type=building, building=* members ways sa building:part=yes ako su istog tipa ili za svaki building=* drugaciji tag 
+
+primer
+https://www.openstreetmap.org/relation/13236307
+
+# #prerast
+ne postoji specifican tag
+```
+natural=rock
+```
 # #survey #check #date
 survey:date - use to mark when last on site check was
 check_date - should be used to mark all tags are correct
@@ -474,6 +499,7 @@ leaf_type=needleleaved
 # #reciklaza #staklo #kontejner
 ```
 amenity=recycling
+recycling:pet_drink_bottles=yes
 recycling:glass_bottles=yes
 recycling_type=container
 ```
