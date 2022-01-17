@@ -2,19 +2,6 @@
  "features":
  [{"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK2181",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=88085",
-    "heritage:RS:inscription_date":"2016-08-15",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Зграда Омладинског и Пионирског дома, Основне партизанске школе и седиште Окружног комитета СКОЈ-а од 1943-1944. године у Раковом Долу"},
-   "geometry":{"type":"Point", "coordinates":[22.418998, 42.92912]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK2072",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=92324",
@@ -26,58 +13,6 @@
     "heritage:RS:name":
     "Четири стара надгробна споменика из 18. века у Србобрану"},
    "geometry":{"type":"Point", "coordinates":[19.77827, 45.545853]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2207",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=93120",
-    "wikipedia":"sr:Вила сликара Јожефа Варкоњија",
-    "wikidata":"Q85992824",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2019-01-25",
-    "heritage:RS:name":"Вила сликара Јозефа Варкоња у Зрењанину"},
-   "geometry":{"type":"Point", "coordinates":[20.382712, 45.380809]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK621",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=94021",
-    "heritage:RS:inscription_date":"1985-07-17",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "heritage:RS:name":"Кућа брвнара у Голобоку"},
-   "geometry":{"type":"Point", "coordinates":[21.01471, 44.450912]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2069",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=95963",
-    "heritage:RS:inscription_date":"2011-01-14",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Кућа у Зајечару у ул. Љубе Нешића бр. 9"},
-   "geometry":{"type":"Point", "coordinates":[22.275896, 43.897326]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1656",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=95985",
-    "wikipedia":"sr:Кућа Милорада Павловића",
-    "wikidata":"Q3279486",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Кућа Милорада Павловића"},
-   "geometry":{"type":"Point", "coordinates":[20.453481, 44.818785]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK2008",
@@ -92,478 +27,6 @@
     "heritage:RS:inscription_date":"2007-11-08",
     "heritage:RS:name":"Кућа трговца Душана Лазића у Београду"},
    "geometry":{"type":"Point", "coordinates":[20.456257, 44.774062]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2012",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=96247",
-    "wikipedia":"sr:Зграда Министарства саобраћаја у Београду",
-    "wikidata":"Q16083814",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-11-08",
-    "heritage:RS:name":"Зграда Министарства саобраћаја у Београду"},
-   "geometry":{"type":"Point", "coordinates":[20.458392, 44.806142]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1555",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97045",
-    "wikipedia":"sr:Седиште бригаде",
-    "wikidata":"Q47519734",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1999-12-27",
-    "heritage:RS:name":
-    "Седиште бригаде (Окружни суд- данас Музеј Срема)"},
-   "geometry":{"type":"Point", "coordinates":[19.609064, 44.967583]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1979",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97162",
-    "wikipedia":"sr:Капела на гробљу у Меленцима",
-    "wikidata":"Q28952365",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-09-03",
-    "heritage:RS:name":"Капела на гробљу у Меленцима"},
-   "geometry":{"type":"Point", "coordinates":[20.302574, 45.515009]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1999",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97167",
-    "wikipedia":"sr:Кућа у Ботошу – Партизанска база",
-    "wikidata":"Q85995621",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-09-03",
-    "heritage:RS:name":"Кућа у Ботошу – Партизанска база"},
-   "geometry":{"type":"Point", "coordinates":[20.635169, 45.315704]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1998",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97171",
-    "wikipedia":"sr:Родна кућа народног хероја Бошка Вребалова",
-    "wikidata":"Q28497945",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-09-03",
-    "heritage:RS:name":"Родна кућа народног хероја Бошка Вребалова"},
-   "geometry":{"type":"Point", "coordinates":[20.31967, 45.51164]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1982",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97779",
-    "wikipedia":
-    "sr:Капела породице Пулаи на католичком гробљу у Новом Бечеју",
-    "wikidata":"Q30751385",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-09-03",
-    "heritage:RS:name":
-    "Капела породице Пулаи на католичком гробљу у Новом Бечеју"},
-   "geometry":{"type":"Point", "coordinates":[20.145579, 45.602423]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1657",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97839",
-    "wikipedia":"sr:Зграда Јакова Челебоновића",
-    "wikidata":"Q3279399",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Зграда Јакова Челебоновића"},
-   "geometry":{"type":"Point", "coordinates":[20.454526, 44.817051]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1983",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97942",
-    "wikipedia":
-    "sr:Српска православна црква Светог Георгија у Тарашу",
-    "wikidata":"Q20437343",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Зрењанин",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2007-09-03",
-    "heritage:RS:name":
-    "Српска православна црква Св. Георгија у Тарашу"},
-   "geometry":{"type":"Point", "coordinates":[20.195324, 45.467434]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK300",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97995",
-    "wikipedia":"sr:Црква Вазнесења Господњег у Јабуковцу",
-    "wikidata":"Q56304916",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1982-12-23",
-    "heritage:RS:name":"Црква Вазнесења Господњег"},
-   "geometry":{"type":"Point", "coordinates":[22.38265, 44.349689]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK301",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=97998",
-    "wikipedia":"sr:Манастир Бабичко",
-    "wikidata":"Q31184333",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1982-12-23",
-    "heritage:RS:name":"Манастир Бабичко"},
-   "geometry":{"type":"Point", "coordinates":[21.985147, 43.134801]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK446",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98365",
-    "wikipedia":"sr:Вајат Љубе Ненадовића у Бранковини",
-    "wikidata":"Q3553339",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-03-29",
-    "heritage:RS:name":"Вајат Љубе Ненадовића"},
-   "geometry":{"type":"Point", "coordinates":[19.893594, 44.352565]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK286",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98415",
-    "heritage:RS:inscription_date":"1982-12-23",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Црква Св. Тројице"},
-   "geometry":{"type":"Point", "coordinates":[22.45306, 44.479665]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK459",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98523",
-    "heritage:RS:inscription_date":"1983-04-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Кућа првоборца Момчила Ранковића"},
-   "geometry":{"type":"Point", "coordinates":[22.560688, 44.095597]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK460",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98528",
-    "heritage:RS:inscription_date":"1983-04-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Стара грађанска кућа"},
-   "geometry":{"type":"Point", "coordinates":[22.533607, 44.224726]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2189",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98564",
-    "heritage:RS:inscription_date":"2016-08-15",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Кућа у којој је живео и радио народни херој др. Миленко Хаџић у Сврљигу"},
-   "geometry":{"type":"Point", "coordinates":[22.121433, 43.414278]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2190",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98567",
-    "heritage:RS:inscription_date":"2016-08-15",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Гроб са спомеником народног хероја др. Миленка Хаџића на гробљу у Сврљигу"},
-   "geometry":{"type":"Point", "coordinates":[22.128411, 43.418843]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1287",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98730",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Амбар са котобањом у Буђановцима",
-    "wikidata":"Q56301073",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1997-12-29",
-    "heritage:RS:name":"Амбар са котобањом у Буђановцима"},
-   "geometry":{"type":"Point", "coordinates":[19.866584, 44.8938]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2079",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98798",
-    "wikipedia":"sr:Амбар од плетера у Кикинди",
-    "wikidata":"Q97201814",
-    "heritage:RS:jurisdiction":
-    "Међуопштински завод за заштиту споменика културе Суботица",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2011-02-03",
-    "heritage:RS:name":"Амбар од плетера у Кикинди"},
-   "geometry":{"type":"Point", "coordinates":[20.448305, 45.821354]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK412",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=98865",
-    "heritage:RS:inscription_date":"1983-03-07",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Краљево",
-    "heritage:RS:name":"Црква Св. Тројице"},
-   "geometry":{"type":"Point", "coordinates":[19.806466, 43.459312]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK849",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99041",
-    "heritage:RS:inscription_date":"1990-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Зграда Мушке основне школе- Центар за образовање при Радничком универзитету"},
-   "geometry":{"type":"Point", "coordinates":[21.71053, 43.542189]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK851",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99115",
-    "heritage:RS:inscription_date":"1990-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Грађанска кућа"},
-   "geometry":{"type":"Point", "coordinates":[21.71114, 43.540722]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK595",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99116",
-    "heritage:RS:inscription_date":"1984-06-19",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Кућа у Ул. Проте Матеје 9"},
-   "geometry":{"type":"Point", "coordinates":[22.280484, 43.90443]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK852",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99117",
-    "heritage:RS:inscription_date":"1990-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Грађанска кућа у Ул. Момчила Поповића 13"},
-   "geometry":{"type":"Point", "coordinates":[21.710591, 43.540651]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK853",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99118",
-    "heritage:RS:inscription_date":"1990-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Грађанска кућа у Ул. Др Тихомира Ђорђевића 16"},
-   "geometry":{"type":"Point", "coordinates":[21.7062, 43.542282]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK854",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99119",
-    "heritage:RS:inscription_date":"1990-02-11",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":
-    "Грађанска кућа-Градска вила у ул. др. Тихомира Ђорђевића, бр. 24"},
-   "geometry":{"type":"Point", "coordinates":[21.705681, 43.542252]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK620",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99196",
-    "heritage:RS:inscription_date":"1985-07-17",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "heritage:RS:name":"Стара зграда у Пожаревцу"},
-   "geometry":{"type":"Point", "coordinates":[21.177169, 44.623724]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"AN51",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99622",
-    "heritage:RS:inscription_date":"1986-03-20",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Трап"},
-   "geometry":{"type":"Point", "coordinates":[22.097638, 42.98212]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK582",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99640",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Црква Светих Арханђела у Бранковини",
-    "wikidata":"Q16761512",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ваљево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1983-12-20",
-    "heritage:RS:name":"Црква у Бранковини"},
-   "geometry":{"type":"Point", "coordinates":[19.895173, 44.352787]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1558",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99725",
-    "heritage:RS:inscription_date":"1999-12-27",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
-    "heritage:RS:name":"Амбар у Ул. Змај Јовиној 62"},
-   "geometry":{"type":"Point", "coordinates":[19.231696, 45.131316]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK945",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99786",
-    "wikipedia":"sr:Црква Успења Пресвете Богородице у Слатини",
-    "wikidata":"Q17204893",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1991-04-23",
-    "heritage:RS:name":"Црква Успења Богородице"},
-   "geometry":{"type":"Point", "coordinates":[22.16238, 44.040409]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK822",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99821",
-    "wikipedia":"sr:Воденица Војислава Стефановића у Кусићу",
-    "wikidata":"Q20434475",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1989-11-16",
-    "heritage:RS:name":"Воденица Војислава Стефановића"},
-   "geometry":{"type":"Point", "coordinates":[21.530003, 44.733836]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK827",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99822",
-    "wikipedia":"sr:Воденица Добрила Ивковића у Малом Лаолу",
-    "wikidata":"Q20434478",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1989-11-16",
-    "heritage:RS:name":"Воденица Добрила Ивковића"},
-   "geometry":{"type":"Point", "coordinates":[21.461263, 44.320622]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK709",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99824",
-    "wikipedia":"sr:Воденица Мишића у Кучеву",
-    "wikidata":"Q20434488",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1986-12-25",
-    "heritage:RS:name":"Воденица Мишића"},
-   "geometry":{"type":"Point", "coordinates":[21.670371, 44.474107]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK828",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99825",
-    "wikipedia":"sr:Воденица Ђорђа Трифуновића у Мелници",
-    "wikidata":"Q20434465",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1989-11-16",
-    "heritage:RS:name":"Воденица Ђорђа Трифуновића"},
-   "geometry":{"type":"Point", "coordinates":[21.53757, 44.393744]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1774",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99828",
-    "wikipedia":"sr:Водица Воздвиженија часног крста у Уздину",
-    "wikidata":"Q97190059",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Панчево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2004-11-08",
-    "heritage:RS:name":"Водица Воздвиженија часног крста"},
-   "geometry":{"type":"Point", "coordinates":[20.61811, 45.191601]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1777",
@@ -1321,46 +784,6 @@
     "heritage:RS:inscription_date":"2007-09-03",
     "heritage:RS:name":"Католичка црква Св. Јована Крститеља у Ечки"},
    "geometry":{"type":"Point", "coordinates":[20.433861, 45.320797]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1817",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100250",
-    "wikipedia":"sr:Каштел Пала Краиа",
-    "wikidata":"Q20436114",
-    "heritage:RS:jurisdiction":
-    "Међуопштински завод за заштиту споменика културе Суботица",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2004-11-18",
-    "heritage:RS:name":"Каштел Пала Краиа"},
-   "geometry":{"type":"Point", "coordinates":[19.629724, 45.815146]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1759",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100251",
-    "wikipedia":"sr:Каћурина штампарија у Панчеву",
-    "wikidata":"Q97573207",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Панчево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2004-11-05",
-    "heritage:RS:name":"Каћурина штампарија у Панчеву"},
-   "geometry":{"type":"Point", "coordinates":[20.637636, 44.869601]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC13",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100267",
-    "heritage:RS:inscription_date":"1984-06-30",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Ниш",
-    "heritage:RS:name":"Комплекс Мокрањчеве куће"},
-   "geometry":{"type":"Point", "coordinates":[22.530565, 44.225425]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK717",
@@ -3188,34 +2611,6 @@
     "heritage:RS:name":
     "Гроб и споменик Васе Пелагића и Димитрија Марковића"},
    "geometry":{"type":"Point", "coordinates":[21.17729, 44.630753]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1633",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102058",
-    "wikipedia":"sr:Кућа Димитрија Живадиновића",
-    "wikidata":"Q3279342",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Кућа Димитрија Живадиновића"},
-   "geometry":{"type":"Point", "coordinates":[20.454643, 44.817565]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1618",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=102061",
-    "wikipedia":"sr:Кућа Милана А. Павловића",
-    "wikidata":"Q3279477",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Кућа Милана А. Павловића"},
-   "geometry":{"type":"Point", "coordinates":[20.45486, 44.817171]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1639",
@@ -5846,20 +5241,6 @@
    "geometry":{"type":"Point", "coordinates":[20.741769, 44.655718]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK90",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103687",
-    "wikipedia":"sr:Робни магазин",
-    "wikidata":"Q3114711",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-18",
-    "heritage:RS:name":"Робни магазин"},
-   "geometry":{"type":"Point", "coordinates":[20.454248, 44.818929]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK100",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103699",
@@ -6173,21 +5554,6 @@
    "geometry":{"type":"Point", "coordinates":[20.625609, 42.631957]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK47",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103865",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Зграда Министарства правде у Београду",
-    "wikidata":"Q16083748",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-17",
-    "heritage:RS:name":"Зграда Министарства правде"},
-   "geometry":{"type":"Point", "coordinates":[20.462121, 44.81152]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK89",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103868",
@@ -6316,21 +5682,6 @@
    "geometry":{"type":"Point", "coordinates":[20.459862, 44.816736]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK46",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103928",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Стара кућа на Варош капији",
-    "wikidata":"Q3279073",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-17",
-    "heritage:RS:name":"Стара кућа на Варош капији"},
-   "geometry":{"type":"Point", "coordinates":[20.454075, 44.817846]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK1148",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103932",
@@ -6455,22 +5806,6 @@
     "heritage:RS:inscription_date":"1997-12-30",
     "heritage:RS:name":"Остаци манастира Богородице Хвостанске"},
    "geometry":{"type":"Point", "coordinates":[20.487656, 42.781466]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1283",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=103954",
-    "heritage:RS:criteria":"great",
-    "wikipedia":
-    "sr:Српска православна црква Светог Арханђела Гаврила у Буђановцима",
-    "wikidata":"Q20437328",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Сремска Митровица",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1997-12-29",
-    "heritage:RS:name":"СПЦ  Св. арханђела Гаврила у Буђановцима"},
-   "geometry":{"type":"Point", "coordinates":[19.864184, 44.893926]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK1394",
@@ -10563,20 +9898,6 @@
    "geometry":{"type":"Point", "coordinates":[20.373434, 42.63865]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK986",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105554",
-    "wikipedia":"sr:Кућа Миладина Пећинара",
-    "wikidata":"Q3279476",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1993-03-26",
-    "heritage:RS:name":"Кућа инжењера Миладина Пећинара"},
-   "geometry":{"type":"Point", "coordinates":[20.453787, 44.815702]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK134",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105565",
@@ -10589,20 +9910,6 @@
     "heritage:RS:inscription_date":"1981-08-14",
     "heritage:RS:name":"Кућа Бранислава Којића"},
    "geometry":{"type":"Point", "coordinates":[20.452218, 44.816697]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK137",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105568",
-    "wikipedia":"sr:Игуманова палата",
-    "wikidata":"Q3149057",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-08-14",
-    "heritage:RS:name":"Игуманова палата"},
-   "geometry":{"type":"Point", "coordinates":[20.462004, 44.812289]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK433",
@@ -10946,20 +10253,6 @@
    "geometry":{"type":"Point", "coordinates":[20.459764, 44.800243]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK135",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105719",
-    "wikipedia":"sr:Абаџијске куће у Београду",
-    "wikidata":"Q3280359",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-08-14",
-    "heritage:RS:name":"Абаџијске куће"},
-   "geometry":{"type":"Point", "coordinates":[20.458394, 44.812752]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK992",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105722",
@@ -11015,20 +10308,6 @@
     "heritage:RS:inscription_date":"1981-08-14",
     "heritage:RS:name":"Стара Основна школа"},
    "geometry":{"type":"Point", "coordinates":[20.24755, 44.554825]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK130",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105732",
-    "wikipedia":"sr:Црква у Обреновцу",
-    "wikidata":"Q16087921",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-08-14",
-    "heritage:RS:name":"Црква Св. Духа"},
-   "geometry":{"type":"Point", "coordinates":[20.207362, 44.656242]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK61",
@@ -12029,21 +11308,6 @@
     "heritage:RS:inscription_date":"1997-12-30",
     "heritage:RS:name":"Етно парк у Купинову"},
    "geometry":{"type":"Point", "coordinates":[20.036809, 44.698809]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK53",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=105899",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Зграда Народне банке Србије у Улици краља Петра",
-    "wikidata":"Q16087649",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1981-06-17",
-    "heritage:RS:name":"Народна банка"},
-   "geometry":{"type":"Point", "coordinates":[20.453646, 44.818592]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK546",
@@ -14009,22 +13273,6 @@
     "heritage:RS:inscription_date":"2002-07-18",
     "heritage:RS:name":"Кућа Михаила Ђурића"},
    "geometry":{"type":"Point", "coordinates":[20.459335, 44.820787]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2201",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=106508",
-    "wikipedia":
-    "sr:Зграда са сликарским атељеима и галеријом Салона Музеја савремене уметности у Београду",
-    "wikidata":"Q85994556",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2018-08-10",
-    "heritage:RS:name":
-    "Зграда са сликарским атељеима и галеријом Салона Музеја савремене уметности у Београду"},
-   "geometry":{"type":"Point", "coordinates":[20.452941, 44.819449]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK348",
@@ -16393,20 +15641,6 @@
    "geometry":{"type":"Point", "coordinates":[20.426862, 44.082639]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK601",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107328",
-    "wikipedia":"sr:Црква Светог Арханђела Гаврила у Аранђеловцу",
-    "wikidata":"Q20435458",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе Крагујевац",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1984-12-27",
-    "heritage:RS:name":"Црква Св. Арханђела Гаврила"},
-   "geometry":{"type":"Point", "coordinates":[20.571481, 44.299607]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK344",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107330",
@@ -17252,21 +16486,6 @@
     "heritage:RS:inscription_date":"1985-07-17",
     "heritage:RS:name":"Црква брвнара Св. Петра и Павла"},
    "geometry":{"type":"Point", "coordinates":[21.085821, 44.474594]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK612",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=107686",
-    "heritage:RS:criteria":"great",
-    "wikipedia":"sr:Црква брвнара Свете Тројице у Селевцу",
-    "wikidata":"Q12761094",
-    "heritage:RS:jurisdiction":
-    "Регионални завод за заштиту споменика културе Смедерево",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1985-07-17",
-    "heritage:RS:name":"Црква брвнара Св. Тројице"},
-   "geometry":{"type":"Point", "coordinates":[20.868651, 44.496396]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"AN78",
@@ -22561,20 +21780,6 @@
    "geometry":{"type":"Point", "coordinates":[20.461775, 44.811251]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK1644",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108984",
-    "wikipedia":"sr:Кућа Здравка Ђурића",
-    "wikidata":"Q3279624",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Кућа Здравка Ђурића"},
-   "geometry":{"type":"Point", "coordinates":[20.458894, 44.813709]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"SK1619",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=108985",
@@ -22855,34 +22060,6 @@
    "geometry":{"type":"Point", "coordinates":[20.459797, 44.810806]}},
   {"type":"Feature",
    "properties":
-   {"ref:RS:nkd":"SK789",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109026",
-    "wikipedia":"sr:Крст са Малог пијаца",
-    "wikidata":"Q3003353",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"1988-05-05",
-    "heritage:RS:name":"Крст са Мале пијаце"},
-   "geometry":{"type":"Point", "coordinates":[20.451589, 44.81366]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK1650",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109028",
-    "wikipedia":"sr:Зграда Јосифа Шојата",
-    "wikidata":"Q3279410",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:inscription_date":"2002-07-18",
-    "heritage:RS:name":"Зграда Јосифа Шојата"},
-   "geometry":{"type":"Point", "coordinates":[20.45555, 44.814724]}},
-  {"type":"Feature",
-   "properties":
    {"ref:RS:nkd":"AN194",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109031",
@@ -23107,7 +22284,7 @@
    {"ref:RS:nkd":"SK788",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109061",
-    "wikipedia":"sr:Парни млин",
+    "wikipedia":"sr:Парни млин у Београду",
     "wikidata":"Q3325646",
     "heritage:RS:jurisdiction":
     "Завод за заштиту споменика културе града Београда",
@@ -23145,19 +22322,6 @@
     "heritage:RS:inscription_date":"1981-06-16",
     "heritage:RS:name":"Сопотски хан"},
    "geometry":{"type":"Point", "coordinates":[20.571428, 44.51657]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"SK2234",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109069",
-    "heritage:RS:inscription_date":"2020-02-12",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "heritage:RS:name":
-    "Зграда Службе друштвеног књиговодства Југославије"},
-   "geometry":{"type":"Point", "coordinates":[20.453415, 44.815482]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK2081",
@@ -23798,18 +22962,6 @@
     "heritage:RS:inscription_date":"1997-12-30",
     "heritage:RS:name":"СПЦ Св. Јована Крститеља"},
    "geometry":{"type":"Point", "coordinates":[20.680016, 42.388603]}},
-  {"type":"Feature",
-   "properties":
-   {"ref:RS:nkd":"PKIC87",
-    "heritage:website":
-    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=109203",
-    "heritage:RS:inscription_date":"2020-02-12",
-    "protect_class":"22",
-    "heritage":"2",
-    "heritage:RS:jurisdiction":
-    "Завод за заштиту споменика културе града Београда",
-    "heritage:RS:name":"Теразије"},
-   "geometry":{"type":"Point", "coordinates":[20.461317, 44.812494]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK191",
