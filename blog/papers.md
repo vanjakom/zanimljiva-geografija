@@ -1,6 +1,9 @@
 
 ## Радови на тему
 
+#### Why OpenStreetMap is in Serious Trouble
+https://blog.emacsen.net/blog/2018/02/16/osm-is-in-trouble/
+
 #### The Guardian: OpenStreetMap looks to relocate to EU due to Brexit limitations
 https://www.theguardian.com/politics/2021/jun/30/openstreetmap-looks-to-relocate-to-eu-due-to-brexit-limitations
 
