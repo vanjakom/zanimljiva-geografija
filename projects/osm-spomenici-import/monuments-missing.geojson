@@ -15,6 +15,20 @@
    "geometry":{"type":"Point", "coordinates":[19.77827, 45.545853]}},
   {"type":"Feature",
    "properties":
+   {"ref:RS:nkd":"SK2008",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=96243",
+    "wikipedia":"sr:Кућа трговца Душана Лазића",
+    "wikidata":"Q3279355",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе града Београда",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2007-11-08",
+    "heritage:RS:name":"Кућа трговца Душана Лазића у Београду"},
+   "geometry":{"type":"Point", "coordinates":[20.456257, 44.774062]}},
+  {"type":"Feature",
+   "properties":
    {"ref:RS:nkd":"SK1777",
     "heritage:website":
     "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=99830",
@@ -734,6 +748,20 @@
     "heritage:RS:inscription_date":"2005-02-16",
     "heritage:RS:name":"Капела породице Николић"},
    "geometry":{"type":"Point", "coordinates":[19.928061, 45.200147]}},
+  {"type":"Feature",
+   "properties":
+   {"ref:RS:nkd":"SK1980",
+    "heritage:website":
+    "https:\/\/nasledje.gov.rs\/index.cfm\/spomenici\/pregled_spomenika?spomenik_id=100246",
+    "wikipedia":"sr:Katolička crkva Svetog Jovana Krstitelja u Ečki",
+    "wikidata":"Q1736366",
+    "heritage:RS:jurisdiction":
+    "Завод за заштиту споменика културе Зрењанин",
+    "protect_class":"22",
+    "heritage":"2",
+    "heritage:RS:inscription_date":"2007-09-03",
+    "heritage:RS:name":"Католичка црква Св. Јована Крститеља у Ечки"},
+   "geometry":{"type":"Point", "coordinates":[20.433861, 45.320797]}},
   {"type":"Feature",
    "properties":
    {"ref:RS:nkd":"SK717",
