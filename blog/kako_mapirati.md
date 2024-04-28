@@ -7,6 +7,90 @@ out geom;
 
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
+
+# #kamp #kamper #prikolica
+постоје две ознаке, камп у традиционалном смислу:
+```
+tourism = camp_site
+```
+и преноћиште за кампере / приколице
+```
+tourism=caravan_site
+```
+користити
+```
+tents = yes/no
+caravans = yes/no
+motorhome = yes/no
+```
+
+# Poljoprivredna apoteka
+```
+shop=agrarian
+agrarian=seed
+```
+https://wiki.openstreetmap.org/wiki/Tag:shop%3Dagrarian
+
+# kladenac
+```
+natural=spring
+```
+pitao 20231221 u grupi, nema preciznijeg oznacavanja
+
+# lovacki dom
+```
+tourism = hunting_lodge
+```
+
+# #planinarska #staza #deo
+```
+trailblazed=symbols
+trailblazed:visibility=intermediate
+osmc:symbol=red:red_round:white_dot
+```
+https://wiki.openstreetmap.org/wiki/Key:trailblazed#Values
+
+# #walter #cevapi
+```
+amenity = restaurant
+name = Walter
+```
+
+# #intesa #atm
+```
+amenity = atm
+name = Banca Intesa
+operator = Banca Intesa
+```
+
+# #reciklomat
+```
+amenity=recycling
+recycling_type=container
+recycling:pet_drink_bottles=yes
+recycling:glass_bottles=yes
+recycling:cans=yes
+recycling:tetrapak=yes
+operator=Reciklomat
+website = http://reciklomat.rs/
+```
+
+# #diskont #pica
+```
+shop = alcohol
+```
+
+# #institut
+```
+office=research
+```
+ili ako je veci institut sa vise objekata
+```
+amenity=research institute
+```
+https://wiki.openstreetmap.org/wiki/Proposed_features/amenity%3Dresearch_institute
+https://wiki.openstreetmap.org/wiki/Tag:office%3Dresearch
+
 # #paket #dostava #paketomat #nis #dexpress
 https://wiki.openstreetmap.org/wiki/Proposed_features/amenity%3Dparcel_locker
 # #zabranjeno #pusenje #nosmoking
@@ -274,12 +358,11 @@ destination =
 ```
   type = route
   route = hiking
-  network = lwn
+  network = rwn
   operator = 
   note = staza nije mapirana u potpunosti
+  complete = no
   name = 
-  name:sr = 
-  name:sr-Latn = 
 ```
 
 # #prodavnica #mala
@@ -501,9 +584,13 @@ leaf_type=needleleaved
 # #reciklaza #staklo #kontejner
 ```
 amenity=recycling
-recycling:pet_drink_bottles=yes
-recycling:glass_bottles=yes
 recycling_type=container
+recycling:pet_drink_bottles=yes
+recycling:PET=yes
+recycling:glass_bottles=yes
+recycling:cans=yes
+recycling:paper=yes
+recycling:carton=yes
 ```
 
 # #groblje
@@ -561,6 +648,20 @@ moguce je mapirati i samu cesmu kao objekat
 ```
 man_made=water_tap
 ```
+
+# #voda #izvor
+```
+natural=spring
+```
+ako je voda za pice
+```
+drinking_water=yes
+```
+ili ako je poznato da nije
+```
+drinking_water=no
+```
+
 # #staza #planinarskastaza
 ```
   type = route
@@ -633,6 +734,7 @@ ukoliko se dodaju i konture crkve izdvojiti building = church
   religion = christian
   building = church
 ```
+https://openstreetmap.rs/kartografisanje-crkava-manastira-i-grobalja-srpske-pravoslavne-crkve/
 
 ### Манастир
 #manastir

@@ -1,6 +1,9 @@
 
 ## Радови на тему
 
+#### Evolution of the OSM Data Model
+https://media.jochentopf.com/media/2022-08-15-study-evolution-of-the-osm-data-model.pdf
+
 #### Why OpenStreetMap is in Serious Trouble
 https://blog.emacsen.net/blog/2018/02/16/osm-is-in-trouble/
 
