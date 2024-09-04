@@ -8,7 +8,16 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
-# #kamp #kamper #prikolica
+# #poi
+name онако како је на табли / логу / сајту. ако има смисла додати name:sr и / или name:sr-Latn
+
+# #prelaz #reka
+прелаз преко реке када се река гази
+```
+ford = yes
+```
+
+# #kamp #kamper #parcela #prikolica
 постоје две ознаке, камп у традиционалном смислу:
 ```
 tourism = camp_site
@@ -22,6 +31,12 @@ tourism=caravan_site
 tents = yes/no
 caravans = yes/no
 motorhome = yes/no
+```
+
+појединачна парцела се обележава са
+```
+tourism = camp_pitch
+ref = broj parcele 
 ```
 
 # Poljoprivredna apoteka
