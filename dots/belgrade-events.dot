@@ -43,27 +43,6 @@
 ;	#burger - burger festival
 ;	#20XXXXXX - dates on which event will happen
 
-20.4709337, 44.8246554
-   https://www.openstreetmap.org/way/1206491897
-   Gastrošor
-   https://gastrosor.rs/
-   ---
-   #shopping
-   #drink
-   #eat
-   #20241220
-   #20241221
-   #20241222
-   Zimoшоr
-   https://www.instagram.com/p/DDxcl8_Rz6f
-
-20.4674172, 44.8188533
-   https://www.openstreetmap.org/way/144480011
-   Пијаца Скадарлија
-   https://www.bgpijace.rs/market.php?id=181
-   ---
-   https://www.instagram.com/p/DDwWpB4txWH
-   #shopping
-   #drink
-   #eat
-   #20241226
+;
+; once event passed move it to belgrade-events-history.dot
+;

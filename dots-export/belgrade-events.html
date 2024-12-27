@@ -147,7 +147,7 @@
 				function(e) { clearInterval(mousedownInterval) })
 
 
-			var layer5 = L.tileLayer(
+			var layer3 = L.tileLayer(
 				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -155,11 +155,16 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layer5.addTo(map)
-			layers.addBaseLayer(layer5, 'osm tile')
+			layer3.addTo(map)
+			layers.addBaseLayer(layer3, 'osm tile')
 
+<<<<<<< HEAD
 			var layer6 = L.geoJSON(
 				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/eat.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/1206491897' target='blank'>https:\/\/www.openstreetmap.org\/way\/1206491897<\/a><\/br>Gastrošor<\/br><a href='https:\/\/gastrosor.rs\/' target='blank'>https:\/\/gastrosor.rs\/<\/a><\/br>#shopping<\/br>#drink<\/br>#eat<\/br>#20241220<\/br>#20241221<\/br>#20241222<\/br>Zimoшоr<\/br><a href='https:\/\/www.instagram.com\/p\/DDxcl8_Rz6f' target='blank'>https:\/\/www.instagram.com\/p\/DDxcl8_Rz6f<\/a>"},"geometry":{"type":"Point","coordinates":[20.4709337,44.8246554]}}],
+=======
+			var layer4 = L.geoJSON(
+				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/drink.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/276981940' target='blank'>https:\/\/www.openstreetmap.org\/way\/276981940<\/a><\/br>Пијаца Блок 44<\/br>#shopping<\/br>#drink<\/br>#eat<\/br>#20241025<\/br>Београдски ноћни маркет<\/br><a href='https:\/\/www.instagram.com\/belgradenightmarket\/' target='blank'>https:\/\/www.instagram.com\/belgradenightmarket\/<\/a>"},"geometry":{"type":"Point","coordinates":[20.3834265,44.8016246]}}],
+>>>>>>> 8614a078c77308b3d019306c4742120b6a666cd5
 				{
 					useSimpleStyle: false,
 					pointToLayer: function(geojson, latlng) {
@@ -183,8 +188,8 @@
 					}
 				})
 .addTo(map)
-			layers.addOverlay(layer6, 'belgrade events')
-			defaultBounds = layer6.getBounds()
+			layers.addOverlay(layer4, 'belgrade events')
+			defaultBounds = layer4.getBounds()
 
 
 			var params = new URLSearchParams(window.location.search)
