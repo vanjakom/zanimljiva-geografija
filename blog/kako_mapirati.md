@@ -8,6 +8,15 @@ out geom;
 node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
 ```
 
+# #igraonica
+igraonica na zatvorenom koja se placa, kafic / igraonica / rodjendaonica
+```
+leisure = playground
+indoor = yes
+access = customers
+fee = yes
+```
+
 # #poi
 name онако како је на табли / логу / сајту. ако има смисла додати name:sr и / или name:sr-Latn
 

@@ -1,0 +1,31 @@
+[humandot]
+[extract:osm]
+[tag:#vienna2024]
+
+16.4624462, 48.252562
+   https://www.openstreetmap.org/way/136587437
+   Family Fun
+   https://familyfun.at/
+   дечије игралиште
+   #playground
+
+16.4986365, 48.2516123
+   https://www.openstreetmap.org/node/9861778357
+   motel22
+   https://www.motel22.at/
+   #sleep
+
+16.3595804, 48.2020802
+   https://www.openstreetmap.org/node/3517177085
+   Zoom Kindermuseum
+   https://www.kindermuseum.at/
+   https://www.wikidata.org/wiki/Q136333
+   #museum
+
+16.3529953, 48.1976263
+   https://www.openstreetmap.org/node/11509599873
+   Haus des Meeres
+   https://www.haus-des-meeres.at/
+   https://de.wikipedia.org/wiki/Haus_des_Meeres
+   https://www.wikidata.org/wiki/Q460607
+   #attraction

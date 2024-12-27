@@ -1,0 +1,76 @@
+[humandot]
+[extract:osm]
+
+; defined in clj-geo.dotstore.humandot
+
+; template file for specification of dot of type humandot
+; use as starting point for documentation and template for creation of new files
+;
+; file should start with [humandot]
+; after first line additional customization could be set in "[statement]" form
+; where content of statement is arbitrary
+;
+; comments are starting with ;
+;
+; location should be longitude, latitude pair
+; if location should be extracted use @ at start
+;
+; tags should be in lines after location indented with space(s) or tab
+; tags should start with #
+; reference to osm as osm website link ( use https when possible )
+; https://www.openstreetmap.org/relation/11097832
+;
+; location ends when either of following happends
+;    empty line
+;    line which is not comment is not indented
+;
+; location extraction ( useful for references originally coming from osm ) should
+; happen only once ( replacing @ with longitude, latitude pair ) using either
+; specific extractor or generic one which will use location from first line
+; that can be extracted
+;
+; it's nice practice to add comment about tags used
+; tags used
+;    #tag1 - generic tag
+
+20.4120832, 44.8197753
+   https://www.openstreetmap.org/node/12349158087
+   Папазјанија
+   https://papazjanija.rs
+   https://www.instagram.com/igraonicapapazjanija
+   играоница
+   дечије игралиште
+   #playground
+
+20.4263388, 44.8116446
+   https://www.openstreetmap.org/node/12349514475
+   Sweet & Salty
+   https://www.instagram.com/sweet_and_salty_nbg
+   играоница
+   дечије игралиште
+   #playground
+
+20.356415, 44.8517483
+   https://www.openstreetmap.org/node/12356617643
+   Casa del sole
+   https://www.instagram.com/casadelsole_playcafe
+   играоница
+   дечије игралиште
+   #playground
+
+20.4115266, 44.8431074
+   https://www.openstreetmap.org/node/12349521587
+   Гнездо
+   https://www.instagram.com/igraonica_gnezdo/
+   играоница
+   дечије игралиште
+   #playground
+
+20.3744081, 44.8185184
+   https://www.openstreetmap.org/node/3800728398
+   Маштоград
+   играоница
+   дечије игралиште
+   #playground
+
+; dodati galeriju

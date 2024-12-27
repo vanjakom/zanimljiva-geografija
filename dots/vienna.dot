@@ -1,0 +1,34 @@
+[humandot]
+[extract:osm]
+[tag:#vienna]
+
+; our places in vienna, we are visiting often, we want to visit, we liked
+
+16.4986365, 48.2516123
+   https://www.openstreetmap.org/node/9861778357
+   motel22
+   https://www.motel22.at/
+   #sleep
+
+16.4624462, 48.252562
+   https://www.openstreetmap.org/way/136587437
+   Family Fun
+   https://familyfun.at/
+   дечије игралиште
+   #playground
+
+16.4653313, 48.3433639
+   https://www.openstreetmap.org/way/31852334
+   G3 Shopping Resort Gerasdorf
+   https://de.wikipedia.org/wiki/G3_Shopping_Resort_Gerasdorf
+   https://www.wikidata.org/wiki/Q1484396
+   https://www.g3-shopping.at
+   ---
+   #shopping
+
+16.3595804, 48.2020802
+   https://www.openstreetmap.org/node/3517177085
+   Zoom Kindermuseum
+   https://www.kindermuseum.at/
+   https://www.wikidata.org/wiki/Q136333
+   #museum
