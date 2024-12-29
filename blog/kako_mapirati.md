@@ -1,32 +1,5 @@
-# Како мапирати
-Overpass за проверу мапирања
-```
-[out:json];
-node[natural=tree][religion=christian][denomination=serbian_orthodox](area:3601741311);
-out geom;
-
-node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
-```
-
-# #igraonica
-igraonica na zatvorenom koja se placa, kafic / igraonica / rodjendaonica
-```
-leisure = playground
-indoor = yes
-access = customers
-fee = yes
-```
-
-# #poi
-name онако како је на табли / логу / сајту. ако има смисла додати name:sr и / или name:sr-Latn
-
-# #prelaz #reka
-прелаз преко реке када се река гази
-```
-ford = yes
-```
-
-# #kamp #kamper #parcela #prikolica
+# #osm #map #tag #export #kamp #kamper #parcela #prikolica
+trek-mate tag #camp za camp_site i caravan_site
 постоје две ознаке, камп у традиционалном смислу:
 ```
 tourism = camp_site
@@ -41,53 +14,39 @@ tents = yes/no
 caravans = yes/no
 motorhome = yes/no
 ```
-
 појединачна парцела се обележава са
 ```
 tourism = camp_pitch
 ref = broj parcele 
 ```
-
-# Poljoprivredna apoteka
+# #osm #map #tag #export #igraonica
+trek-mate tag #igraoica
+igraonica na zatvorenom koja se placa, kafic / igraonica / rodjendaonica
+```
+leisure = playground
+indoor = yes
+access = customers
+fee = yes
+```
+# #osm #map #tag #export #kladenac
+```
+natural=spring
+```
+pitao 20231221 u grupi, nema preciznijeg oznacavanja
+# #osm #map #tag #export #poljoprivreda #poljoprivrednaapoteka
+Poljoprivredna apoteka
 ```
 shop=agrarian
 agrarian=seed
 ```
 https://wiki.openstreetmap.org/wiki/Tag:shop%3Dagrarian
-
-# kladenac
-```
-natural=spring
-```
-pitao 20231221 u grupi, nema preciznijeg oznacavanja
-
-# lovacki dom
+# #osm #map #tag #export #lovackidom
+Ловачки дом
 ```
 tourism = hunting_lodge
 ```
-
-# #planinarska #staza #deo
-```
-trailblazed=symbols
-trailblazed:visibility=intermediate
-osmc:symbol=red:red_round:white_dot
-```
-https://wiki.openstreetmap.org/wiki/Key:trailblazed#Values
-
-# #walter #cevapi
-```
-amenity = restaurant
-name = Walter
-```
-
-# #intesa #atm
-```
-amenity = atm
-name = Banca Intesa
-operator = Banca Intesa
-```
-
-# #reciklomat
+# #osm #map #tag #export #reciklomat
+делује да је пројекат угашен
 ```
 amenity=recycling
 recycling_type=container
@@ -99,12 +58,40 @@ operator=Reciklomat
 website = http://reciklomat.rs/
 ```
 
-# #diskont #pica
+Overpass за проверу мапирања
+```
+[out:json];
+node[natural=tree][religion=christian][denomination=serbian_orthodox](area:3601741311);
+out geom;
+
+node[natural=tree][amenity=community_centre][community_centre=cultural_centre](area:3601741311);
+```
+# #osm #map #tag #export #poi
+name онако како је на табли / логу / сајту. ако има смисла додати name:sr и / или name:sr-Latn
+# #osm #map #tag #export #prelaz #reka
+прелаз преко реке када се река гази
+```
+ford = yes
+```
+# #osm #map #tag #export #planinarska #staza #deo
+```
+trailblazed=symbols
+trailblazed:visibility=intermediate
+osmc:symbol=red:red_round:white_dot
+```
+https://wiki.openstreetmap.org/wiki/Key:trailblazed#Values
+
+# #osm #map #tag #export #walter #cevapi
+trek-mate tag #walter
+```
+amenity = restaurant
+name = Walter
+```
+# #osm #map #tag #export #diskont #pica
 ```
 shop = alcohol
 ```
-
-# #institut
+# #osm #map #tag #export #institut
 ```
 office=research
 ```
@@ -114,10 +101,9 @@ amenity=research institute
 ```
 https://wiki.openstreetmap.org/wiki/Proposed_features/amenity%3Dresearch_institute
 https://wiki.openstreetmap.org/wiki/Tag:office%3Dresearch
-
-# #paket #dostava #paketomat #nis #dexpress
+# #osm #map #tag #export #paket #dostava #paketomat #nis #dexpress
 https://wiki.openstreetmap.org/wiki/Proposed_features/amenity%3Dparcel_locker
-# #zabranjeno #pusenje #nosmoking
+# #osm #map #tag #export #zabranjeno #pusenje #nosmoking
 ```
 smoking=no
 ```
@@ -125,51 +111,47 @@ or
 ```
 smoking=outside
 ```
-# #arheoloskonalaziste #arheolosko #nalaziste
+# #osm #map #tag #export #arheoloskonalaziste #arheolosko #nalaziste
 ```
 historic=archaeological_site
 ```
 
-# #ulica #street #relacija
+# #osm #map #tag #export #ulica #street #relacija
 kada se ulica sastoji iz vise puteva
 ```
 type=street
 ```
 each way with role street
 https://wiki.openstreetmap.org/wiki/Relation:street
-
-# #zgrada #delovi
+# #osm #map #tag #export #zgrada #delovi
 kompleksna zgrada
 
 relation type=building, building=* members ways sa building:part=yes ako su istog tipa ili za svaki building=* drugaciji tag 
 
 primer
 https://www.openstreetmap.org/relation/13236307
-
-# #prerast
+# #osm #map #tag #export #prerast
 ne postoji specifican tag
 ```
 natural=rock
 ```
-# #survey #check #date
+# #osm #map #tag #export #survey #check #date
 survey:date - use to mark when last on site check was
 check_date - should be used to mark all tags are correct
 
-# #cvecara
+# #osm #map #tag #export #cvecara
 ```
 shop=florist
 ```
-
-# #prihvatiliste
+# #osm #map #tag #export #prihvatiliste
 https://wiki.openstreetmap.org/wiki/Key:social_facility
 
-# #ev #punjac #elektro
+# #osm #map #tag #export #ev #punjac #elektro
 ```
 amenity=charging_station
 capacity=
 ```
-
-# #policija
+# #osm #map #tag #export #policija
 ```
 amenity=police
 ```
@@ -177,37 +159,30 @@ amenity=police
 ```
 police=offices
 ```
-
-# kameni zid
+# #osm #map #tag #export #kamen #zid
 ```
 barrier=wall
 wall=stone_wall
 ```
-
-# #mesara
-
-
-# #mobilni #operater #prodancica
+# #osm #map #tag #export #mobilni #operater #prodavnica
 ```
 shop = mobile_phone
 ```
-
-# #bazen
+# #osm #map #tag #export #bazen
 ```
 leisure=swimming_pool
 ```
-# #sportskicentar #bazen
+# #osm #map #tag #export #sportskicentar #bazen
 ```
 leisure=sports_centre
 sport=swimming
 ```
-# #paintball #teren
+# #osm #map #tag #export #paintball #teren
 ```
 leisure=pitch 
 sport=paintball
 ```
-
-# #javni #toalet #wc
+# #osm #map #tag #export #javni #toalet #wc
 ```
 amenity=toilets
 ```
@@ -215,11 +190,11 @@ ukoliko je gradjevina predvidjena za wc
 ```
 building=toilets
 ```
-# #pijaca
+# #osm #map #tag #export #pijaca
 ```
 amenity=marketplace
 ```
-# #antena #repetitor #toranj #komunikacija
+# #osm #map #tag #export #antena #repetitor #toranj #komunikacija
 https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dtower  
 ako je samo odasiljac, bez platformi, manji  
 ```
@@ -236,59 +211,54 @@ https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dcommunications_tower
 ```
 man_made=communications_tower
 ```
-
-# #zaselak
+# #osm #map #tag #export #zaselak
 ```
 place=hamlet
 name=
 ```
-
-# #put #relacija
+# #osm #map #tag #export #put #relacija
 ```
 type = route
 route = road
 ```
-
-# #hotel #napusten
+# #osm #map #tag #export #hotel #napusten
 ```
 disused:tourism=hotel
 building=hotel
 ```
-
-# #drvo #stablo #lipa
+# #osm #map #tag #export #drvo #stablo #lipa
 ```
 natural=tree
 genus=Tilia
 leaf_type=broadleaved
 ```
-
-# #mapa turisticka
+# #osm #map #tag #export #mapa turisticka
 ```
 tourism=information
 information=map
 
 ```
-
-# #bolnica
+# #osm #map #tag #export #bolnica
+trek-mate tag #doktor
 ```
 amenity = hospital
 ```
 
-# #domzdravlja
+# #osm #map #tag #export #domzdravlja
+trek-mate tag #doktor
 ```
 amenity = doctors
 healthcare = doctor
 healthcare:speciality = general
 ```
-
-# #ambulanta
+# #osm #map #tag #export #ambulanta
+trek-mate tag #doktor
 ```
 amenity = doctors
 healthcare = doctor
 healthcare:speciality = general
 ```
-
-# #oftamolog #opticar #naocare
+# #osm #map #tag #export #oftamolog #opticar #naocare
 prodaja
 ```
 shop=optician
@@ -302,30 +272,27 @@ operacija
 amenity = doctors
 healthcare:speciality = ophthalmology 
 ```
-
-# #staracki dom
+# #osm #map #tag #export #staracki dom
 ```
 amenity = social_facility 
 social_facility = nursing_home
 ```
-
-# #apoteka
+# #osm #map #tag #export #apoteka
+trek-mate tag #apoteka
 ```
 amenity = pharmacy
 ```
-
-# #veterinar
+# #osm #map #tag #export #veterinar
 ```
 amenity = veterinary
 ```
-
-# #zubar
+# #osm #map #tag #export #zubar
+trek-mate tag #zubar
 ```
 amenity = dentist
 healthcare = dentist
 ```
-
-# #mesnazajednica
+# #osm #map #tag #export #mesnazajednica
 name in format "Месна заједница X"
 ```
 amenity=townhall
@@ -342,9 +309,7 @@ https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcommunity_centre
 );
 out center;
 ```
-
-
-# #stanica #autobus
+# #osm #map #tag #export #stanica #autobus
 ```
 highway=bus_stop
 ```
@@ -353,8 +318,7 @@ ukoliko je i zastita od kise
 amenity=shelter
 shelter_type=public_transport
 ```
-
-# #reka #potok
+# #osm #map #tag #export #reka #potok
 delovi reka, potok
 ```
 waterway=river|stream
@@ -365,20 +329,18 @@ type = waterway
 waterway = river|stream
 destination = 
 ```
-
-# #restoran
+# #osm #map #tag #export #restoran
+trek-mate tag #eat, #restoran
 ```
   amenity=restaurant
 ```
-
-# #planinarski #znak
+# #osm #map #tag #export #planinarski #znak
 ```
   information = guidepost
   tourism = information
   hiking = yes
 ```
-
-# #planinarska #staza
+# #osm #map #tag #export #planinarska #staza
 ```
   type = route
   route = hiking
@@ -388,14 +350,12 @@ destination =
   complete = no
   name = 
 ```
-
-# #prodavnica #mala
+# #osm #map #tag #export #prodavnica #mala
 prodancica osnovih namernica, hrana, pice
 ```
 shop = convenience
 ```
-
-# #spomenik #statua #glava #bista
+# #osm #map #tag #export #spomenik #statua #glava #bista
 spomenik osobi, glava i grudi
 ```
 historic = memorial
@@ -409,8 +369,7 @@ name =
 name:sr = 
 name:sr-Latn = 
 ```
-
-# #spomenik #statua #telo
+# #osm #map #tag #export #spomenik #statua #telo
 spomenik osobi, celo telo
 ```
 historic = memorial
@@ -423,37 +382,26 @@ name =
 name:sr = 
 name:sr-Latn = 
 ```
-
-# #spomenik #rat
+# #osm #map #tag #export #spomenik #rat
 kada nije moguce uci u spomenik  
 https://wiki.openstreetmap.org/wiki/Tag:historic%3Dmemorial  
 ```
 historic=memorial
 memorial=war_memorial
 ```
-
-# #spomenik #monumentalni
+# #osm #map #tag #export #spomenik #monumentalni
 kada je moguce uci u spomenik, monumentalan spomenik  
 https://wiki.openstreetmap.org/wiki/Tag:historic%3Dmonument  
 ```
 historic=monument
 ```
-
-# #znak #planinarski
-```
-  information = guidepost
-  tourism = information
-  hiking = yes
-```
-
-# #planinarski #klub
+# #osm #map #tag #export #planinarski #klub
 ```
 office=association
 association=sport
 ```
 https://www.openstreetmap.org/node/8527932758
-
-# #trafostanica
+# #osm #map #tag #export #trafostanica
 ```
 nodeman_made=street_cabinet
 street_cabinet=power
@@ -462,53 +410,42 @@ substation=minor_distribution
 ```
 https://wiki.openstreetmap.org/wiki/Tag:power%3Dtransformer
 https://wiki.openstreetmap.org/wiki/Tag:power%3Dsubstation
-
-# #cesma #vanupotrebe
+# #osm #map #tag #export #cesma #vanupotrebe
 za mapiranje cesmi koji se koriste kao toponim
 ```
 abandoned:amenity=drinking_water
 historic=ruins
 ```
-
-# #igraliste
-```
-leisure=playground
-```
-
-# #kanalizacija #cevovod
+# #osm #map #tag #export #kanalizacija #cevovod
 ```
 layer=-1
 location=underground
 man_made=pipeline
 usage=sewage
 ```
-
-# #virtuelni #footway #link
+# #osm #map #tag #export #virtuelni #footway #link
 kada je potrebno povezati footway sa centrom puta
 ```
 footway=link
 highway=footway
 ```
-
-# #pozoriste #otvoreno
+# #osm #map #tag #export #pozoriste #otvoreno
 ```
 amenity=theatre
 theatre:type=open_air
 ```
-
-# #domkulture
+# #osm #map #tag #export #domkulture
 ```
 amenity=community_centre
 community_centre=cultural_centre
 ```
-
-# #potok #kanal #prepust
+# #osm #map #tag #export #potok #kanal #prepust
 koristiti na delu potoka koji ide preko puta
 ```
 tunnel=culvert
 waterway=stream
 ```
-# #skola
+# #osm #map #tag #export #skola
 ```
 amenity=school
 name=ОШ ”<ime>”
@@ -518,14 +455,12 @@ za building
 building=school
 ```
 moze i da se koristi landuse=school za oblast skole
-
-# #sportskiteren #teren #sport
+# #osm #map #tag #export #sportskiteren #teren #sport
 ```
 leisure=pitch
 surface=asphalt
 ```
-
-# #skloniste #vreme #picnic #kisa
+# #osm #map #tag #export #skloniste #vreme #picnic #kisa
 picnic
 ```
 amenity=shelter
@@ -535,45 +470,38 @@ autobuska stanica
 ```
 shelter_type=public_transport
 amenity=shelter
-
 ```
-
-# #posta
+# #osm #map #tag #export #posta
+trek-mate tag #posta
 name in following format
 11080 Београд-Земун
 spisak
 https://www.posta.rs/DocumentViewer.aspx?IdDokument=1550&Dokument=spisak-posta-cir.pdf
 https://www.posta.rs/DocumentViewer.aspx?IdDokument=1001550&Dokument=spisak-posta-lat.pdf
-
 ```
 amenity = post_office
 operator = Пошта Србије
 ref=
-
 ```
-
-# #apartman #iznajmljivanje #smestaj
+# #osm #map #tag #export #apartman #iznajmljivanje #smestaj
 ```
 tourism=apartment
 ```
-
-# #pekara
+# #osm #map #tag #export #pekara
+trek-mate tag #eat, #pekara
 ```
 shop = bakery
-
 ```
-
-# #knjizara
+# #osm #map #tag #export #knjizara
 ```
 shop = books
 ```
-
-# #kljucar
+# #osm #map #tag #export #kljucar
 ```
 craft = locksmith
 ```
-
-# #pumpa #nis
+# #osm #map #tag #export #pumpa #nis
+trek-mate tag #nis
 http://localhost:7077/howto/NIS
 ```
 amenity = fuel
@@ -585,27 +513,25 @@ brand:wikipedia = sr:Нафтна_индустрија_Србије
 brand:wikidata = Q1279721
 website = https://www.nispetrol.rs/
 ```
-
-# #pumpa
+# #osm #map #tag #export #pumpa
+trek-mate tag #pumpa
 ```
 amenity = fuel
 ```
-
-# #drvo #javor
+# #osm #map #tag #export #drvo #javor
 ```
 natural=tree
 genus=Fraxinus
 leaf_type=broadleaved
 ```
-
-# #drvo #bor
+# #osm #map #tag #export #drvo #bor
 ```
 natural=tree
 genus=Pinus
 leaf_type=needleleaved
 ```
-
-# #reciklaza #staklo #kontejner
+# #osm #map #tag #export #reciklaza #staklo #kontejner
+trek-mate tag #reciklaza
 ```
 amenity=recycling
 recycling_type=container
@@ -616,8 +542,7 @@ recycling:cans=yes
 recycling:paper=yes
 recycling:carton=yes
 ```
-
-# #groblje
+# #osm #map #tag #export #groblje
 kada je blizu crkve
 ```
 amenity = grave_yard
@@ -626,8 +551,7 @@ groblje bez crkve
 ```
 landuse = cemetery
 ```
-
-# #struja #bandera #dalekovod
+# #osm #map #tag #export #struja #bandera #dalekovod
 za manje vodove, većinom na banderama
 ```
 power=minor_line
@@ -636,31 +560,26 @@ za veće vodove, dalekovode
 ```
 power=line
 ```
-
-# #note #put #nepotpun
+# #osm #map #tag #export #note #put #nepotpun
 ```
 mapirati ostatak puta
 ```
-
-# #beton #stepenice
+# #osm #map #tag #export #beton #stepenice
 ```
 highway=steps
 surface=concrete
 ```
-
-# #drveni #most
+# #osm #map #tag #export #drveni #most
 ```
 bridge=yes
 highway=footway
 surface=wood
 ```
-
-# #kontejner
+# #osm #map #tag #export #kontejner
 ```
 amenity=waste_disposal
 ```
-
-# #voda #cesma
+# #osm #map #tag #export #voda #cesma
 ```
 amenity=drinking_water
 ```
@@ -672,8 +591,7 @@ moguce je mapirati i samu cesmu kao objekat
 ```
 man_made=water_tap
 ```
-
-# #voda #izvor
+# #osm #map #tag #export #voda #izvor
 ```
 natural=spring
 ```
@@ -685,8 +603,7 @@ ili ako je poznato da nije
 ```
 drinking_water=no
 ```
-
-# #staza #planinarskastaza
+# #osm #map #tag #export #staza #planinarskastaza
 ```
   type = route
   route = hiking
@@ -697,44 +614,32 @@ drinking_water=no
   roundtrip = yes | no
   operator=
 ```
-
-# #gazebo #shelter #zastitaodkise
+# #osm #map #tag #export #gazebo #shelter #zastitaodkise
 postoje i drugi prikladni tipovi
 ```
 amenity=shelter
 shelter_type=gazebo
 ```
-
-# #klupa
+# #osm #map #tag #export #klupa
 ```
 amenity=bench
 material=wood|metal
 backrest=yes|no
 ```
-
-# #zubar
-node
-	amenity=dentist
-	name=
-	website=
-	phone=
-
-# #kancelarija #firma
+# #osm #map #tag #export #kancelarija #firma
 ```
 office=company
 name=
 website=
 phone=
 ```
-
-### Воћњак
+# #osm #map #tag #export Воћњак
 #vocnjak
 ```
 landuse=orchard
 ```
-
-### Запис
-#zapis  
+# #osm #map #tag #export #zapis  Запис
+trek-mate tag #zapis
 https://sr.wikipedia.org/wiki/Запис  
 https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_zapisa  
 ```
@@ -749,8 +654,7 @@ ukoliko se zapis nalazi na privatnom posedu i pristup nije dozvoljen
 ```
 access=private
 ```
-
-# #srpska #pravoslavna #crkva 
+# #osm #map #tag #export #srpska #pravoslavna #crkva 
 ukoliko se dodaju i konture crkve izdvojiti building = church
 ```
   amenity = place_of_worship
@@ -759,9 +663,8 @@ ukoliko se dodaju i konture crkve izdvojiti building = church
   building = church
 ```
 https://openstreetmap.rs/kartografisanje-crkava-manastira-i-grobalja-srpske-pravoslavne-crkve/
-
-### Манастир
-#manastir
+### #osm #map #tag #export #manastir
+Манастир
 ```
 amenity=place_of_worship
 denomination=serbian_orthodox
@@ -770,9 +673,8 @@ name
 wikipedia
 wikidata
 ```
-
-### Осматрачница
-#osmatracnica  
+### #osm #map #tag #export #osmatracnica
+Осматрачница
 ```
 man_made=tower
 tower:type=observation
@@ -786,12 +688,11 @@ material=wood|metal
 ```
 https://www.openstreetmap.org/way/785053578  
 
-### Прелазак потока у природи ( камен или дебло )
+### #osm #map #tag #export Прелазак потока у природи ( камен или дебло )
 ```
 ford=yes
 ```
-
-### Планинарски дом
+### #osm #map #tag #export Планинарски дом
 ```
 tourism=alpine_hut
 building=yes
@@ -799,4 +700,21 @@ ele
 name
 website
 ```
+# #osm #map #tag #export #rasadnik
+```
+  shop = garden_centre
+```
 
+# #osm #map #tag #export #bancaintesa #atm
+```
+  amenity = atm
+  brand = Banca Intesa
+  brand:wikidata = Q647092
+  brand:wikipedia = en:Banca Intesa
+  cash_in = no
+  name = Banca Intesa
+  name:sr-Latn = Banca Intesa
+  operator = Banca Intesa
+  operator:wikidata = Q647092
+  website = https://www.bancaintesa.rs/
+```
