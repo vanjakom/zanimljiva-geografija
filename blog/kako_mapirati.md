@@ -1,3 +1,86 @@
+# #osm #map #tag #export #banka #postanskastedionica
+```
+  craft=winery
+```
+ukoliko prodaju vino dodati
+```
+  shop=alcohol
+  drink:wine=retail
+```
+# #osm #map #tag #export #banka #postanskastedionica
+```
+  amenity = bank
+  brand = Поштанска штедионица
+  brand:wikidata = Q2882644
+  name = Поштанска штедионица
+  name:sr = Поштанска штедионица
+  name:sr-Latn = Poštanska štedionica
+  operator = Поштанска штедионица
+```
+# #osm #map #tag #export #atm #postanskastedionica
+```
+  amenity = atm
+  brand = Поштанска штедионица
+  brand:wikidata = Q2882644
+  name = Поштанска штедионица
+  name:sr = Поштанска штедионица
+  name:sr-Latn = Poštanska štedionica
+  operator = Поштанска штедионица
+```
+# #osm #map #tag #export #postanskastedionica
+```
+  amenity = bank
+  brand = Поштанска штедионица
+  brand:wikidata = Q2882644
+  name = Поштанска штедионица
+  name:sr = Поштанска штедионица
+  name:sr-Latn = Poštanska štedionica
+  operator = Поштанска штедионица
+```
+# #osm #map #tag #export #dm
+trek-mate tag #dm
+```
+  brand = dm
+  brand:wikidata = Q266572
+  brand:wikipedia = en:Dm-drogerie markt
+  name = dm
+  shop = chemist
+```
+# #osm #map #tag #export #bike #parking #bikeep
+trek-mate tag #bikeep
+```
+amenity = bicycle_parking
+authentication:app = yes
+authentication:nfc = yes
+bicycle = yes
+bicycle_parking = stands
+covered = no
+fee = no
+name = Bikeep
+scooter = yes
+website = https://bikeep.com/sr/
+capacity=5
+ref=X
+```
+# #osm #map #tag #export #paketomat #dexpress
+trek-mate tag #paketomat
+```
+amenity = parcel_locker
+name = Поштин пакетомат
+operator = Пошта Србије
+website = https://www.posta.rs/cir/alati/paketomati.aspx
+ref=
+```
+# #osm #map #tag #export #paketomat #dexpress
+trek-mate tag #paketomat
+```
+amenity = parcel_locker
+contact:email = office@dexpress.rs
+contact:phone = +381113313333
+name = DExpress
+operator = DExpress
+website = https://www.dexpress.rs/
+```
 # #osm #map #tag #export #kamp #kamper #parcela #prikolica
 trek-mate tag #camp za camp_site i caravan_site
 постоје две ознаке, камп у традиционалном смислу:
