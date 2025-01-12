@@ -1,4 +1,5 @@
-# #osm #map #tag #export #banka #postanskastedionica
+# #osm #map #tag #export #vinarija #winery
+trek-mate tag #winery
 ```
   craft=winery
 ```
