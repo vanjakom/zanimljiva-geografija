@@ -1,3 +1,9 @@
+# #osm #map #tag #export #mlekomat
+trek-mate tag #mlekomat
+```
+amenity=vending_machine
+vending=milk
+```
 # #osm #map #tag #export #vinarija #winery
 trek-mate tag #winery
 ```
@@ -112,6 +118,11 @@ indoor = yes
 access = customers
 fee = yes
 ```
+deluje da postoji i
+```
+leisure=indoor_play
+```
+https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dindoor_play
 # #osm #map #tag #export #kladenac
 ```
 natural=spring
@@ -615,16 +626,20 @@ genus=Pinus
 leaf_type=needleleaved
 ```
 # #osm #map #tag #export #reciklaza #staklo #kontejner
-trek-mate tag #reciklaza
+trek-mate tag #reciklazastaklo
 ```
 amenity=recycling
 recycling_type=container
-recycling:pet_drink_bottles=yes
-recycling:PET=yes
 recycling:glass_bottles=yes
+```
+# #osm #map #tag #export #reciklaza #mesano #kontejner
+trek-mate tag #reciklazastaklo
+```
+amenity=recycling
+recycling_type=container
 recycling:cans=yes
 recycling:paper=yes
-recycling:carton=yes
+recycling:plastic=yes
 ```
 # #osm #map #tag #export #groblje
 kada je blizu crkve

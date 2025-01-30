@@ -50,7 +50,7 @@
     (context/trace context "latest Serbia OSM dump linked as latest")
 
     ;; todo add trigger
-    (context/store-set state-done-node timestamp)
+    (context/store-set context state-done-node timestamp)
     (context/trace context (str "state set at " state-done-node))))
 
 ;; testing just download
