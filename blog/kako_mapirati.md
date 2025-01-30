@@ -57,23 +57,24 @@ trek-mate tag #dm
 trek-mate tag #bikeep
 ```
 amenity = bicycle_parking
+brand=Bikeep
+name = Bikeep
 authentication:app = yes
 authentication:nfc = yes
 bicycle = yes
 bicycle_parking = stands
 covered = no
 fee = no
-name = Bikeep
 scooter = yes
 website = https://bikeep.com/sr/
 capacity=5
-ref=X
+ref=
 ```
-# #osm #map #tag #export #paketomat #dexpress
+# #osm #map #tag #export #paketomat #posta
 trek-mate tag #paketomat
 ```
 amenity = parcel_locker
-name = Поштин пакетомат
+name:sr = Поштин пакетомат
 operator = Пошта Србије
 website = https://www.posta.rs/cir/alati/paketomati.aspx
 ref=
@@ -633,7 +634,7 @@ recycling_type=container
 recycling:glass_bottles=yes
 ```
 # #osm #map #tag #export #reciklaza #mesano #kontejner
-trek-mate tag #reciklazastaklo
+trek-mate tag #reciklazapapir #reciklazalimenka #reciklazaplastika
 ```
 amenity=recycling
 recycling_type=container
