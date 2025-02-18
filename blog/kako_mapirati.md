@@ -1,3 +1,11 @@
+# #osm #map #tag #export #eurovelo #znak #bicikl
+```
+  bicycle = yes
+  guidepost = bicycle
+  information = guidepost
+  tourism = information
+  ref = Xли
+```
 # #osm #map #tag #export #mlekomat
 trek-mate tag #mlekomat
 ```
@@ -52,6 +60,13 @@ trek-mate tag #dm
   brand:wikipedia = en:Dm-drogerie markt
   name = dm
   shop = chemist
+  website = https://www.dm.rs
+  
+  changing_table = yes
+  changing_table:location = sales_area
+  baby_feeding = yes
+  kids_area = yes
+  kids_area:indoor = yes
 ```
 # #osm #map #tag #export #bike #parking #bikeep
 trek-mate tag #bikeep
@@ -75,6 +90,8 @@ trek-mate tag #paketomat
 ```
 amenity = parcel_locker
 name:sr = Поштин пакетомат
+name = Поштин пакетомат
+name = Poštin paketomat
 operator = Пошта Србије
 website = https://www.posta.rs/cir/alati/paketomati.aspx
 ref=
@@ -139,7 +156,14 @@ https://wiki.openstreetmap.org/wiki/Tag:shop%3Dagrarian
 # #osm #map #tag #export #lovackidom
 Ловачки дом
 ```
-tourism = hunting_lodge
+club=hunting
+```
+ranije mapirao kao tourism = hunting_lodge, 20250218 dogovorio se sa Borovcem
+da koristimo club=hunting, lovci introvertni, naziv u Srbiji je dosta sirok
+https://wiki.openstreetmap.org/wiki/Tag:club%3Dhunting
+https://wiki.openstreetmap.org/wiki/Tag:tourism%3Dhunting_lodge
+```
+club = hunting
 ```
 # #osm #map #tag #export #reciklomat
 делује да је пројекат угашен
