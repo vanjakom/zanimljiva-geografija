@@ -62,7 +62,7 @@
            (let [name (get-in feature [:properties :Name])
                  longitude (get-in feature [:geometry :coordinates 0])
                  latitude (get-in feature [:geometry :coordinates 1])
-                 key (Math/abs (.hashCode (str longitude "|" latitude "|" name)))
+                 key (str "" (Math/abs (.hashCode (str longitude "|" latitude "|" name))))
                  [osm-id note] (get report (str key "|" name))]
              {
               :key key
@@ -113,9 +113,10 @@
         (:longitude property)
         (:latitude property)
         {
-         :name (:name property)
-         :key (:key property)}
-        ))
+         :name (str
+                (subs (:key property) (max 0 (- (count (:key property)) 3)))
+                (:name property))
+         :key (:key property)}))
      (filter #(nil? (:osm-id %)) dataset))
     )
    os))
