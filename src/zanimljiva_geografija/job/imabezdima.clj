@@ -23,6 +23,7 @@
 
 ;; process
 ;; use imabezdima.todo.geojson to find property on OSM, map if not present
+
 ;; research property ( add instagram, website ), check tags
 ;; enter node/way id ( n<id> w<id> ) in notes copy of imabezdima.csv
 ;; return csv from time to time
@@ -60,7 +61,7 @@
          (fn [feature]
            (let [name (get-in feature [:properties :Name])
                  longitude (get-in feature [:geometry :coordinates 0])
-                 latitude (get-in feature [:geometry :coordinates 0])
+                 latitude (get-in feature [:geometry :coordinates 1])
                  key (Math/abs (.hashCode (str longitude "|" latitude "|" name)))
                  [osm-id note] (get report (str key "|" name))]
              {
