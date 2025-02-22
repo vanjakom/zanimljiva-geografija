@@ -101,7 +101,7 @@
     
     (with-open [os (fs/output-stream (path/child dataset-path
                                                  "imabezdima.todo.geojson"))]
-      (json/write-to-stream
+      (json/write-pretty-print
        (geojson/geojson
         (map
          (fn [property]
@@ -115,7 +115,7 @@
                     (:name property))
              :key (:key property)}))
          to-map))
-       os))
+       (io/output-stream->buffered-writer os)))
     (context/trace context "done")))
 
 ;; todo
