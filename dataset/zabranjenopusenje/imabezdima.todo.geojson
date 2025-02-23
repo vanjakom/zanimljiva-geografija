@@ -286,11 +286,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4560706, 44.8246333]}},
   {"type":"Feature",
-   "properties":
-   {"name":"326 Ferdinand Dumplings", "key":"2146933326"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4319306, 44.8146652]}},
-  {"type":"Feature",
    "properties":{"name":"114 Ferdinand knedle", "key":"1906312114"},
    "geometry":
    {"type":"Point", "coordinates":[20.4553833, 44.8170045]}},
@@ -628,10 +623,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4692391, 44.8036143]}},
   {"type":"Feature",
-   "properties":{"name":"489 Pizzagram Ušće", "key":"1619793489"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4373518, 44.8154773]}},
-  {"type":"Feature",
    "properties":{"name":"979 Plava zona", "key":"1094195979"},
    "geometry":
    {"type":"Point", "coordinates":[20.4524519, 44.8285705]}},
@@ -715,10 +706,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4671585, 44.8013135]}},
   {"type":"Feature",
-   "properties":{"name":"649 Salatara", "key":"554534649"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4195104, 44.8161961]}},
-  {"type":"Feature",
    "properties":
    {"name":"308 Salon de thé by Small Tree", "key":"1978875308"},
    "geometry":
@@ -727,11 +714,6 @@
    "properties":{"name":"402 Samo Dobra Kafa", "key":"419105402"},
    "geometry":
    {"type":"Point", "coordinates":[19.6921476, 44.7582055]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"730 Sendvič store Novi Beograd", "key":"1256332730"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.3909278, 44.8126819]}},
   {"type":"Feature",
    "properties":{"name":"492 SmartLife restoran", "key":"1152900492"},
    "geometry":
