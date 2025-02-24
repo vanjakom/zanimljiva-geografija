@@ -91,7 +91,7 @@ trek-mate tag #paketomat
 amenity = parcel_locker
 name:sr = Поштин пакетомат
 name = Поштин пакетомат
-name = Poštin paketomat
+name:sr-Latn = Poštin paketomat
 operator = Пошта Србије
 website = https://www.posta.rs/cir/alati/paketomati.aspx
 ref=
