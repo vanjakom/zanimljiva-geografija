@@ -66,9 +66,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4592695, 44.8146433]}},
   {"type":"Feature",
-   "properties":{"name":"397 Birds", "key":"1684840397"},
-   "geometry":{"type":"Point", "coordinates":[20.45607, 44.8247044]}},
-  {"type":"Feature",
    "properties":{"name":"964 Blanca", "key":"1283016964"},
    "geometry":
    {"type":"Point", "coordinates":[20.4758074, 44.791858]}},
@@ -137,11 +134,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4680553, 44.820145]}},
   {"type":"Feature",
-   "properties":
-   {"name":"312 Caffe Penzija Dorcol", "key":"1799572312"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4574365, 44.823604]}},
-  {"type":"Feature",
    "properties":{"name":"635 Caffe SANTANA", "key":"1720963635"},
    "geometry":
    {"type":"Point", "coordinates":[20.3572178, 43.8792079]}},
@@ -207,10 +199,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4564121, 44.8175533]}},
   {"type":"Feature",
-   "properties":{"name":"420 Delicent", "key":"1296517420"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4622363, 44.823535]}},
-  {"type":"Feature",
    "properties":{"name":"203 Delta Planet Niš", "key":"673807203"},
    "geometry":
    {"type":"Point", "coordinates":[21.9110159, 43.3244918]}},
@@ -227,11 +215,6 @@
    "properties":{"name":"964 Dice Arena", "key":"1842878964"},
    "geometry":
    {"type":"Point", "coordinates":[20.4644465, 44.8060638]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"377 Dobri momci pizzeria", "key":"754299377"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4568562, 44.8243311]}},
   {"type":"Feature",
    "properties":{"name":"951 Dorcol Store", "key":"58314951"},
    "geometry":
@@ -264,10 +247,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4622299, 44.8193513]}},
   {"type":"Feature",
-   "properties":{"name":"151 Embers", "key":"1557050151"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4555744, 44.8232929]}},
-  {"type":"Feature",
    "properties":
    {"name":"061 FENIKS Gelato Saloon", "key":"419628061"},
    "geometry":
@@ -281,10 +260,6 @@
    {"name":"635 Fameli coffee bar and play", "key":"1851200635"},
    "geometry":
    {"type":"Point", "coordinates":[20.4757532, 44.7977646]}},
-  {"type":"Feature",
-   "properties":{"name":"201 Fat Boys Food co.", "key":"569972201"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4560706, 44.8246333]}},
   {"type":"Feature",
    "properties":{"name":"114 Ferdinand knedle", "key":"1906312114"},
    "geometry":
@@ -305,11 +280,6 @@
    "properties":{"name":"882 Fit Bar", "key":"223299882"},
    "geometry":
    {"type":"Point", "coordinates":[20.4615573, 44.8137855]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"299 Fluo Vegan Ice Cream", "key":"2058452299"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4592795, 44.8228554]}},
   {"type":"Feature",
    "properties":{"name":"501 Forum", "key":"1976685501"},
    "geometry":
@@ -451,10 +421,6 @@
    "properties":{"name":"412 La la kafe", "key":"1802609412"},
    "geometry":
    {"type":"Point", "coordinates":[20.4832724, 44.7982191]}},
-  {"type":"Feature",
-   "properties":{"name":"220 Lama Coffee Spot", "key":"135397220"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4626084, 44.8260209]}},
   {"type":"Feature",
    "properties":{"name":"994 Lava Nova", "key":"364914994"},
    "geometry":
@@ -623,10 +589,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4692391, 44.8036143]}},
   {"type":"Feature",
-   "properties":{"name":"979 Plava zona", "key":"1094195979"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4524519, 44.8285705]}},
-  {"type":"Feature",
    "properties":
    {"name":"654 Poslastičarnica Šuma (The Forest)",
     "key":"1141349654"},
@@ -641,10 +603,6 @@
    "geometry":
    {"type":"Point", "coordinates":[19.8424522, 45.2444471]}},
   {"type":"Feature",
-   "properties":{"name":"945 Pržionica", "key":"297114945"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4676404, 44.8232664]}},
-  {"type":"Feature",
    "properties":
    {"name":"066 Pržionica kafe Kafograf", "key":"738256066"},
    "geometry":
@@ -653,10 +611,6 @@
    "properties":{"name":"095 Puter", "key":"1313891095"},
    "geometry":
    {"type":"Point", "coordinates":[20.4747387, 44.7999207]}},
-  {"type":"Feature",
-   "properties":{"name":"071 Rai Urban Vege", "key":"939261071"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4565475, 44.8265836]}},
   {"type":"Feature",
    "properties":{"name":"371 Rea Kids igraonica", "key":"432666371"},
    "geometry":
@@ -730,10 +684,6 @@
    "properties":{"name":"049 Starbucks Rajićeva", "key":"1193025049"},
    "geometry":
    {"type":"Point", "coordinates":[20.4539868, 44.8199455]}},
-  {"type":"Feature",
-   "properties":{"name":"981 Stories", "key":"1674170981"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4555566, 44.8232058]}},
   {"type":"Feature",
    "properties":{"name":"151 Sunshine bagel", "key":"701673151"},
    "geometry":
@@ -837,10 +787,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4997669, 44.7920751]}},
   {"type":"Feature",
-   "properties":{"name":"373 Wekker Coffee", "key":"601472373"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4565306, 44.8254851]}},
-  {"type":"Feature",
    "properties":{"name":"238 Wiggle", "key":"717839238"},
    "geometry":
    {"type":"Point", "coordinates":[20.4530112, 44.8169674]}},
@@ -857,17 +803,9 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4593846, 44.8208741]}},
   {"type":"Feature",
-   "properties":{"name":"260 Ćao Šećeru", "key":"1368130260"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4573513, 44.824206]}},
-  {"type":"Feature",
    "properties":{"name":"739 Ćilim bar", "key":"1879443739"},
    "geometry":
    {"type":"Point", "coordinates":[20.4597576, 44.8202554]}},
-  {"type":"Feature",
-   "properties":{"name":"272 Šarlo Gastrošor", "key":"1588102272"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4708891, 44.8252439]}},
   {"type":"Feature",
    "properties":
    {"name":"776 Šećernema - Vegan Desserts & Coffee",
@@ -914,10 +852,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4714698, 44.8206536]}},
   {"type":"Feature",
-   "properties":{"name":"273 Кофилин", "key":"1455432273"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4605254, 44.823363]}},
-  {"type":"Feature",
    "properties":{"name":"972 Кућа чаја", "key":"514233972"},
    "geometry":
    {"type":"Point", "coordinates":[20.4758248, 44.8026465]}},
@@ -934,10 +868,6 @@
    {"name":"052 Посластичарница Блаха Лујза", "key":"886651052"},
    "geometry":
    {"type":"Point", "coordinates":[19.6668032, 46.0986792]}},
-  {"type":"Feature",
-   "properties":{"name":"203 Силоси", "key":"8311203"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4715533, 44.8283401]}},
   {"type":"Feature",
    "properties":{"name":"826 Ужитак Кафе", "key":"1300590826"},
    "geometry":
