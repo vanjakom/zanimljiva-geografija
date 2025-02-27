@@ -650,6 +650,13 @@ natural=tree
 genus=Pinus
 leaf_type=needleleaved
 ```
+# #osm #map #tag #export #reciklaza #baterija
+trek-mate tag #reciklazabaterija
+```
+amenity=recycling
+recycling_type=bin
+recycling:batteries=yes
+```
 # #osm #map #tag #export #reciklaza #staklo #kontejner
 trek-mate tag #reciklazastaklo
 ```
@@ -665,6 +672,21 @@ recycling_type=container
 recycling:cans=yes
 recycling:paper=yes
 recycling:plastic=yes
+```
+# #osm #map #tag #export #reciklaza #cep
+trek-mate tag #reciklazacep
+```
+amenity=recycling
+recycling_type=bin
+recycling:plastic_bottle_caps=yes
+```
+# #osm #map #tag #export #reciklaza #cep #cepzahendikep
+trek-mate tag #reciklazacep
+```
+amenity=recycling
+recycling_type=bin
+recycling:plastic_bottle_caps=yes
+operator="Чеп за хендикеп"
 ```
 # #osm #map #tag #export #groblje
 kada je blizu crkve
