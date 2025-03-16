@@ -124,3 +124,5 @@
 ;; other datasets
 ;; https://www.facebook.com/nepusackilokaliubeogradu/
 ;; https://www.google.com/maps/d/u/0/viewer?mid=1qkPRUNRiCqA-uFugbcuVy9INXgw
+;; los separator ", " pane e vino problem
+;; X obelezim kada ne moze da se conflatuje

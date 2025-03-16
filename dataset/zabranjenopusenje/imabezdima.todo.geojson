@@ -28,10 +28,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4665926, 44.8060785]}},
   {"type":"Feature",
-   "properties":{"name":"763 BGD Deli", "key":"282994763"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4829343, 44.797958]}},
-  {"type":"Feature",
    "properties":{"name":"570 BOEM-Bar Brasserie", "key":"944125570"},
    "geometry":
    {"type":"Point", "coordinates":[20.4653585, 44.8182835]}},
@@ -40,21 +36,9 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4603384, 44.8219116]}},
   {"type":"Feature",
-   "properties":{"name":"786 Bad Ramen", "key":"704600786"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4597867, 44.8184168]}},
-  {"type":"Feature",
    "properties":{"name":"050 Bad Sushi", "key":"639420050"},
    "geometry":
    {"type":"Point", "coordinates":[20.466228, 44.8159897]}},
-  {"type":"Feature",
-   "properties":{"name":"282 Baget & Co.", "key":"1026368282"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4512994, 44.8090318]}},
-  {"type":"Feature",
-   "properties":{"name":"189 Baget & Co. Dvojka", "key":"59292189"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4481999, 44.8025978]}},
   {"type":"Feature",
    "properties":
    {"name":"191 Belgrade Art Hotel, a member of Radisson Individuals",
@@ -62,39 +46,13 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4578216, 44.8165994]}},
   {"type":"Feature",
-   "properties":{"name":"550 Bife bar", "key":"235258550"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4592695, 44.8146433]}},
-  {"type":"Feature",
-   "properties":{"name":"964 Blanca", "key":"1283016964"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4758074, 44.791858]}},
-  {"type":"Feature",
    "properties":{"name":"269 Block 32", "key":"1432647269"},
    "geometry":
    {"type":"Point", "coordinates":[19.8302549, 45.2603789]}},
   {"type":"Feature",
-   "properties":{"name":"115 Bloom", "key":"1804420115"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4593446, 44.8209084]}},
-  {"type":"Feature",
    "properties":{"name":"629 Bon Vivant", "key":"719746629"},
    "geometry":
    {"type":"Point", "coordinates":[20.4645394, 44.8191514]}},
-  {"type":"Feature",
-   "properties":{"name":"500 Bookastore", "key":"1831926500"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4544522, 44.8180198]}},
-  {"type":"Feature",
-   "properties":{"name":"264 Branč", "key":"2096697264"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4563429, 44.8216604]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"887 Brekky | All Day Breakfast & Brunch",
-    "key":"304662887"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4506001, 44.8052477]}},
   {"type":"Feature",
    "properties":{"name":"242 Bruder BGD", "key":"1301421242"},
    "geometry":
@@ -108,18 +66,9 @@
    "geometry":
    {"type":"Point", "coordinates":[19.8453733, 45.2531798]}},
   {"type":"Feature",
-   "properties":
-   {"name":"090 Burger House Bros. Centar", "key":"961334090"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4530152, 44.818092]}},
-  {"type":"Feature",
    "properties":{"name":"989 Burrito Madre", "key":"270779989"},
    "geometry":
    {"type":"Point", "coordinates":[20.461389, 44.8131067]}},
-  {"type":"Feature",
-   "properties":{"name":"779 CREDO at Marriott", "key":"1938195779"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4498944, 44.8099391]}},
   {"type":"Feature",
    "properties":
    {"name":"386 Cafe \"Zona Industriale\"", "key":"1050219386"},
@@ -137,11 +86,6 @@
    "properties":{"name":"635 Caffe SANTANA", "key":"1720963635"},
    "geometry":
    {"type":"Point", "coordinates":[20.3572178, 43.8792079]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"676 Caffè Chiara TC \"Galerija\"", "key":"664490676"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4453161, 44.8033093]}},
   {"type":"Feature",
    "properties":{"name":"274 Casa Verde", "key":"404582274"},
    "geometry":
@@ -174,39 +118,16 @@
    "geometry":
    {"type":"Point", "coordinates":[19.8393788, 45.258439]}},
   {"type":"Feature",
-   "properties":{"name":"488 Crna Ovca", "key":"227436488"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4572955, 44.8214195]}},
-  {"type":"Feature",
    "properties":{"name":"215 Crni Ovan", "key":"264860215"},
    "geometry":
    {"type":"Point", "coordinates":[19.8482954, 45.2560476]}},
   {"type":"Feature",
-   "properties":{"name":"815 Curry Souls", "key":"173332815"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4568724, 44.8162377]}},
-  {"type":"Feature",
    "properties":{"name":"689 D'oliva bar", "key":"597937689"},
    "geometry":{"type":"Point", "coordinates":[20.46581, 44.8212249]}},
-  {"type":"Feature",
-   "properties":{"name":"583 D59B | Belgrade", "key":"429316583"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4583173, 44.8207928]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"061 Data Status - Knjižara Akademija", "key":
-                                                   "1062849061"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4564121, 44.8175533]}},
   {"type":"Feature",
    "properties":{"name":"203 Delta Planet Niš", "key":"673807203"},
    "geometry":
    {"type":"Point", "coordinates":[21.9110159, 43.3244918]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"587 Denada Bistro & Cafe", "key":"351993587"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4528429, 44.816427]}},
   {"type":"Feature",
    "properties":{"name":"988 DiVino vinoteka", "key":"1575759988"},
    "geometry":
@@ -238,32 +159,9 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4797176, 44.8004176]}},
   {"type":"Feature",
-   "properties":{"name":"376 ENDORFIN", "key":"143038376"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4601451, 44.8186623]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"041 Eatalian Food Bar Dorćol", "key":"19712041"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4622299, 44.8193513]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"061 FENIKS Gelato Saloon", "key":"419628061"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4587198, 44.8154382]}},
-  {"type":"Feature",
    "properties":{"name":"828 FREESHKA COFFEE Co.", "key":"31884828"},
    "geometry":
    {"type":"Point", "coordinates":[19.839275, 45.2469744]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"635 Fameli coffee bar and play", "key":"1851200635"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4757532, 44.7977646]}},
-  {"type":"Feature",
-   "properties":{"name":"114 Ferdinand knedle", "key":"1906312114"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4553833, 44.8170045]}},
   {"type":"Feature",
    "properties":{"name":"231 Fine Sushi", "key":"215599231"},
    "geometry":
@@ -272,10 +170,6 @@
    "properties":{"name":"980 Fini", "key":"2063172980"},
    "geometry":
    {"type":"Point", "coordinates":[19.8444736, 45.2574472]}},
-  {"type":"Feature",
-   "properties":{"name":"034 Fini", "key":"1072687034"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4472505, 44.8022922]}},
   {"type":"Feature",
    "properties":{"name":"882 Fit Bar", "key":"223299882"},
    "geometry":
@@ -297,10 +191,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.3483172, 43.8911856]}},
   {"type":"Feature",
-   "properties":{"name":"275 Giulia", "key":"1345922275"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4453592, 44.8038009]}},
-  {"type":"Feature",
    "properties":{"name":"546 Gostoprimnica", "key":"428313546"},
    "geometry":
    {"type":"Point", "coordinates":[22.2744054, 43.9026007]}},
@@ -318,11 +208,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4931559, 44.7964361]}},
   {"type":"Feature",
-   "properties":
-   {"name":"022 Iva New Balkan Cuisine", "key":"797196022"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4610943, 44.8197728]}},
-  {"type":"Feature",
    "properties":{"name":"393 Izlet", "key":"1263788393"},
    "geometry":
    {"type":"Point", "coordinates":[19.8516777, 45.2560558]}},
@@ -334,15 +219,6 @@
    "properties":{"name":"640 Juice bar HeyDay", "key":"1018636640"},
    "geometry":
    {"type":"Point", "coordinates":[19.8381815, 45.2492711]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"215 Jump Inn Hotel Belgrade", "key":"1386235215"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4539356, 44.8123397]}},
-  {"type":"Feature",
-   "properties":{"name":"637 KROK", "key":"188347637"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4695264, 44.8012634]}},
   {"type":"Feature",
    "properties":{"name":"864 Kafetea", "key":"1388718864"},
    "geometry":
@@ -364,12 +240,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4640596, 44.8060806]}},
   {"type":"Feature",
-   "properties":
-   {"name":"098 Kafeterija „Bukmarker“ | Lagunin klub čitalaca",
-    "key":"1020040098"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4550273, 44.8190466]}},
-  {"type":"Feature",
    "properties":{"name":"709 Kafić BeWell energy", "key":"716087709"},
    "geometry":
    {"type":"Point", "coordinates":[20.492269, 44.7974816]}},
@@ -388,11 +258,6 @@
    "geometry":
    {"type":"Point", "coordinates":[19.6684556, 46.1011811]}},
   {"type":"Feature",
-   "properties":
-   {"name":"911 Koppa specialty coffee", "key":"645007911"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4699495, 44.7995499]}},
-  {"type":"Feature",
    "properties":{"name":"329 Kuca coffee", "key":"2135394329"},
    "geometry":
    {"type":"Point", "coordinates":[20.4907075, 44.7874597]}},
@@ -400,10 +265,6 @@
    "properties":{"name":"206 Kuku", "key":"1386094206"},
    "geometry":
    {"type":"Point", "coordinates":[20.4615063, 44.8137437]}},
-  {"type":"Feature",
-   "properties":{"name":"623 Kuća Umetnica", "key":"2047780623"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4594723, 44.8208265]}},
   {"type":"Feature",
    "properties":{"name":"976 LA RUMBA", "key":"1713080976"},
    "geometry":
@@ -418,14 +279,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4700236, 44.8028279]}},
   {"type":"Feature",
-   "properties":{"name":"412 La la kafe", "key":"1802609412"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4832724, 44.7982191]}},
-  {"type":"Feature",
-   "properties":{"name":"994 Lava Nova", "key":"364914994"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4561152, 44.8016751]}},
-  {"type":"Feature",
    "properties":{"name":"678 Le Bol", "key":"1671244678"},
    "geometry":
    {"type":"Point", "coordinates":[19.8496149, 45.2558507]}},
@@ -434,10 +287,6 @@
    {"name":"255 Ljiljan cocktail bar", "key":"836321255"},
    "geometry":
    {"type":"Point", "coordinates":[19.6716677, 46.0880927]}},
-  {"type":"Feature",
-   "properties":{"name":"173 L’ADRESSE", "key":"818927173"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4671744, 44.8012731]}},
   {"type":"Feature",
    "properties":{"name":"285 Mali prag", "key":"1582946285"},
    "geometry":
@@ -480,14 +329,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.5775359, 44.9173288]}},
   {"type":"Feature",
-   "properties":{"name":"667 Mono Coffee", "key":"1355675667"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4560684, 44.8121562]}},
-  {"type":"Feature",
-   "properties":{"name":"722 Moritz Eis Belgrade", "key":"174111722"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4555693, 44.8173514]}},
-  {"type":"Feature",
    "properties":{"name":"801 Moxy Belgrade", "key":"1309690801"},
    "geometry":
    {"type":"Point", "coordinates":[20.4654736, 44.8056323]}},
@@ -513,10 +354,6 @@
    "geometry":
    {"type":"Point", "coordinates":[19.8499646, 45.2562371]}},
   {"type":"Feature",
-   "properties":{"name":"781 OAT BAR BEOGRAD", "key":"1587217781"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4689986, 44.7936476]}},
-  {"type":"Feature",
    "properties":{"name":"856 OVO bistro", "key":"1951735856"},
    "geometry":
    {"type":"Point", "coordinates":[20.4677872, 44.8142784]}},
@@ -539,15 +376,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4668075, 44.8152719]}},
   {"type":"Feature",
-   "properties":{"name":"053 PRANA Brunch & More", "key":"77443053"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4696566, 44.800859]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"488 PRANA Brunch & More Zmaj", "key":"1074788488"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4578643, 44.8173579]}},
-  {"type":"Feature",
    "properties":
    {"name":"711 Pane E Vino, WEST 65", "key":"1908931711"},
    "geometry":
@@ -561,10 +389,6 @@
    {"name":"555 Panuša Palačinkarnica", "key":"594121555"},
    "geometry":
    {"type":"Point", "coordinates":[19.831763, 45.2546316]}},
-  {"type":"Feature",
-   "properties":{"name":"230 Paradise food", "key":"2129860230"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4819872, 44.792413]}},
   {"type":"Feature",
    "properties":{"name":"141 Patisserie Mali Trg", "key":"726336141"},
    "geometry":
@@ -595,10 +419,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4630088, 44.8172676]}},
   {"type":"Feature",
-   "properties":{"name":"897 Pričica Coffee Bar", "key":"469259897"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4508497, 44.8147091]}},
-  {"type":"Feature",
    "properties":{"name":"803 Promenada", "key":"36696803"},
    "geometry":
    {"type":"Point", "coordinates":[19.8424522, 45.2444471]}},
@@ -615,11 +435,6 @@
    "properties":{"name":"371 Rea Kids igraonica", "key":"432666371"},
    "geometry":
    {"type":"Point", "coordinates":[21.2945565, 45.1208088]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"773 Rice Kings Sutlijaš bar", "key":"283836773"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4563426, 44.8162582]}},
   {"type":"Feature",
    "properties":
    {"name":"975 Rocket Coffee, specialty coffee shop",
@@ -640,30 +455,13 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4851449, 44.7985037]}},
   {"type":"Feature",
-   "properties":
-   {"name":"328 SLOJ bistro & bakery", "key":"1814863328"},
-   "geometry":{"type":"Point", "coordinates":[20.45677, 44.8222875]}},
-  {"type":"Feature",
    "properties":{"name":"012 SMASH BURGERS", "key":"89156012"},
    "geometry":
    {"type":"Point", "coordinates":[20.475142, 44.8149278]}},
   {"type":"Feature",
-   "properties":{"name":"555 SOL express & bar", "key":"627208555"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4697083, 44.7993908]}},
-  {"type":"Feature",
    "properties":{"name":"062 SPOT", "key":"1019687062"},
    "geometry":
    {"type":"Point", "coordinates":[19.8401058, 45.2498347]}},
-  {"type":"Feature",
-   "properties":{"name":"081 Saint Ten Hotel", "key":"1787571081"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4671585, 44.8013135]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"308 Salon de thé by Small Tree", "key":"1978875308"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4671757, 44.8012702]}},
   {"type":"Feature",
    "properties":{"name":"402 Samo Dobra Kafa", "key":"419105402"},
    "geometry":
@@ -681,10 +479,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4654594, 44.8156204]}},
   {"type":"Feature",
-   "properties":{"name":"049 Starbucks Rajićeva", "key":"1193025049"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4539868, 44.8199455]}},
-  {"type":"Feature",
    "properties":{"name":"151 Sunshine bagel", "key":"701673151"},
    "geometry":
    {"type":"Point", "coordinates":[20.4660222, 44.805594]}},
@@ -701,10 +495,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4670377, 44.8072842]}},
   {"type":"Feature",
-   "properties":{"name":"553 Teel cafe", "key":"1453881553"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4846179, 44.7982498]}},
-  {"type":"Feature",
    "properties":{"name":"719 Telma", "key":"1080394719"},
    "geometry":
    {"type":"Point", "coordinates":[20.4662443, 44.8066539]}},
@@ -720,11 +510,6 @@
   {"type":"Feature",
    "properties":{"name":"923 Tokio Sushi", "key":"17632923"},
    "geometry":{"type":"Point", "coordinates":[19.84742, 45.2574959]}},
-  {"type":"Feature",
-   "properties":
-   {"name":"072 Trattoria Sette Nani", "key":"696541072"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4548317, 44.8194498]}},
   {"type":"Feature",
    "properties":
    {"name":"955 Two Dogs Cafe \/ Dve kere", "key":"780896955"},
@@ -747,19 +532,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4544822, 44.8184327]}},
   {"type":"Feature",
-   "properties":
-   {"name":"748 Valentina i Karanfil", "key":"1796672748"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4564396, 44.8222945]}},
-  {"type":"Feature",
-   "properties":{"name":"615 Vapiano Rajićeva", "key":"948240615"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4543425, 44.8197718]}},
-  {"type":"Feature",
-   "properties":{"name":"293 VegANGELov", "key":"1629892293"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4622201, 44.8200707]}},
-  {"type":"Feature",
    "properties":{"name":"640 Vege Art", "key":"1034777640"},
    "geometry":
    {"type":"Point", "coordinates":[20.4010886, 45.3750186]}},
@@ -773,10 +545,6 @@
    "geometry":
    {"type":"Point", "coordinates":[22.4884559, 44.2120817]}},
   {"type":"Feature",
-   "properties":{"name":"678 Waffle Heart", "key":"1276188678"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.471008, 44.8006896]}},
-  {"type":"Feature",
    "properties":
    {"name":"866 Wagokoro-Japanese mochi dessert and drinks-",
     "key":"1047767866"},
@@ -787,25 +555,9 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4997669, 44.7920751]}},
   {"type":"Feature",
-   "properties":{"name":"238 Wiggle", "key":"717839238"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4530112, 44.8169674]}},
-  {"type":"Feature",
    "properties":{"name":"943 Wine community bar", "key":"1515548943"},
    "geometry":
    {"type":"Point", "coordinates":[19.6680281, 46.1005223]}},
-  {"type":"Feature",
-   "properties":{"name":"112 eklektika 40", "key":"805146112"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4604834, 44.8189231]}},
-  {"type":"Feature",
-   "properties":{"name":"720 june cafe", "key":"633956720"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4593846, 44.8208741]}},
-  {"type":"Feature",
-   "properties":{"name":"739 Ćilim bar", "key":"1879443739"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4597576, 44.8202554]}},
   {"type":"Feature",
    "properties":
    {"name":"776 Šećernema - Vegan Desserts & Coffee",
@@ -823,10 +575,6 @@
    "geometry":
    {"type":"Point", "coordinates":[20.4632374, 44.8134813]}},
   {"type":"Feature",
-   "properties":{"name":"564 Џовани Пицерија", "key":"1841286564"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4544052, 44.8177953]}},
-  {"type":"Feature",
    "properties":{"name":"052 Арт вајн", "key":"667614052"},
    "geometry":
    {"type":"Point", "coordinates":[20.8872904, 43.9626942]}},
@@ -834,10 +582,6 @@
    "properties":{"name":"095 Бициклана", "key":"1627172095"},
    "geometry":
    {"type":"Point", "coordinates":[19.8474436, 45.2399804]}},
-  {"type":"Feature",
-   "properties":{"name":"078 Енвој Хотел", "key":"1891306078"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4585369, 44.8171631]}},
   {"type":"Feature",
    "properties":{"name":"870 Жалфија - Žalfija", "key":"360395870"},
    "geometry":
@@ -879,8 +623,4 @@
   {"type":"Feature",
    "properties":{"name":"702 Фиго", "key":"1820450702"},
    "geometry":
-   {"type":"Point", "coordinates":[20.4721695, 44.8113835]}},
-  {"type":"Feature",
-   "properties":{"name":"025 „Фењер“", "key":"575693025"},
-   "geometry":
-   {"type":"Point", "coordinates":[20.4576248, 44.801743]}}]}
+   {"type":"Point", "coordinates":[20.4721695, 44.8113835]}}]}
