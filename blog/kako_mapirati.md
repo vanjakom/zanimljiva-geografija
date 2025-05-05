@@ -127,6 +127,22 @@ motorhome = yes/no
 tourism = camp_pitch
 ref = broj parcele 
 ```
+остали делови унутар кампа налазе се на
+https://wiki.openstreetmap.org/wiki/Tag:tourism%3Dcamp_site
+# #osm #map #tag #export #kamp
+пражњење сивог танка:
+```
+amenity=sanitary_dump_station
+```
+веш машине:
+```
+amenity=washing_machine
+```
+# #osm #map #tag #export #kamper #prikolica #oprema #prodavnica
+```
+shop = outdoor
+```
+https://www.openstreetmap.org/node/5258000352
 # #osm #map #tag #export #igraonica
 trek-mate tag #igraoica
 igraonica na zatvorenom koja se placa, kafic / igraonica / rodjendaonica
