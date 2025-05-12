@@ -147,7 +147,7 @@
 				function(e) { clearInterval(mousedownInterval) })
 
 
-			var layer37 = L.tileLayer(
+			var layer45 = L.tileLayer(
 				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -155,10 +155,10 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layer37.addTo(map)
-			layers.addBaseLayer(layer37, 'osm tile')
+			layer45.addTo(map)
+			layers.addBaseLayer(layer45, 'osm tile')
 
-			var layer38 = L.geoJSON(
+			var layer46 = L.geoJSON(
 				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/11755710982' target='blank'>https:\/\/www.openstreetmap.org\/node\/11755710982<\/a><\/br>Пепељуга<\/br><a href='https:\/\/igraonicapepeljuga.com\/' target='blank'>https:\/\/igraonicapepeljuga.com\/<\/a><\/br><a href='https:\/\/www.instagram.com\/igraonicapepeljuga_zemun\/' target='blank'>https:\/\/www.instagram.com\/igraonicapepeljuga_zemun\/<\/a><\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.4193005,44.8343229]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12512944690' target='blank'>https:\/\/www.openstreetmap.org\/node\/12512944690<\/a><\/br>Minipolis<\/br><a href='https:\/\/www.instagram.com\/minipolisbeograd\/' target='blank'>https:\/\/www.instagram.com\/minipolisbeograd\/<\/a><\/br>#igraonica<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.4851026,44.8077382]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12512971292' target='blank'>https:\/\/www.openstreetmap.org\/node\/12512971292<\/a><\/br>Sand Land<\/br><a href='http:\/\/www.sandland.rs\/' target='blank'>http:\/\/www.sandland.rs\/<\/a><\/br><a href='https:\/\/www.instagram.com\/sand.land.serbia\/' target='blank'>https:\/\/www.instagram.com\/sand.land.serbia\/<\/a><\/br>#igraonica<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.5029584,44.7869023]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12349158087' target='blank'>https:\/\/www.openstreetmap.org\/node\/12349158087<\/a><\/br>Папазјанија<\/br><a href='https:\/\/papazjanija.rs' target='blank'>https:\/\/papazjanija.rs<\/a><\/br><a href='https:\/\/www.instagram.com\/igraonicapapazjanija' target='blank'>https:\/\/www.instagram.com\/igraonicapapazjanija<\/a><\/br>играоница<\/br>дечије игралиште<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.4120832,44.8197753]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12349514475' target='blank'>https:\/\/www.openstreetmap.org\/node\/12349514475<\/a><\/br>Sweet & Salty<\/br><a href='https:\/\/www.instagram.com\/sweet_and_salty_nbg' target='blank'>https:\/\/www.instagram.com\/sweet_and_salty_nbg<\/a><\/br>играоница<\/br>дечије игралиште<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.4263388,44.8116446]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12356617643' target='blank'>https:\/\/www.openstreetmap.org\/node\/12356617643<\/a><\/br>Casa del sole<\/br><a href='https:\/\/www.instagram.com\/casadelsole_playcafe' target='blank'>https:\/\/www.instagram.com\/casadelsole_playcafe<\/a><\/br>играоница<\/br>дечије игралиште<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.356415,44.8517483]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12349521587' target='blank'>https:\/\/www.openstreetmap.org\/node\/12349521587<\/a><\/br>Гнездо<\/br><a href='https:\/\/www.instagram.com\/igraonica_gnezdo\/' target='blank'>https:\/\/www.instagram.com\/igraonica_gnezdo\/<\/a><\/br>играоница<\/br>дечије игралиште<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.4115266,44.8431074]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/3800728398' target='blank'>https:\/\/www.openstreetmap.org\/node\/3800728398<\/a><\/br>Маштоград<\/br><a href='http:\/\/decijaigraonicamastograd.rs\/' target='blank'>http:\/\/decijaigraonicamastograd.rs\/<\/a><\/br><a href='https:\/\/www.instagram.com\/igraonica_mastograd\/' target='blank'>https:\/\/www.instagram.com\/igraonica_mastograd\/<\/a><\/br>#igraonica<\/br>#playground"},"geometry":{"type":"Point","coordinates":[20.3744081,44.8185184]}}],
 				{
 					useSimpleStyle: false,
@@ -183,8 +183,8 @@
 					}
 				})
 .addTo(map)
-			layers.addOverlay(layer38, 'igraonica')
-			defaultBounds = layer38.getBounds()
+			layers.addOverlay(layer46, 'igraonica')
+			defaultBounds = layer46.getBounds()
 
 
 			var params = new URLSearchParams(window.location.search)

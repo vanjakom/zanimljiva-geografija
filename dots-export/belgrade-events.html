@@ -147,7 +147,7 @@
 				function(e) { clearInterval(mousedownInterval) })
 
 
-			var layer31 = L.tileLayer(
+			var layer39 = L.tileLayer(
 				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -155,11 +155,11 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layer31.addTo(map)
-			layers.addBaseLayer(layer31, 'osm tile')
+			layer39.addTo(map)
+			layers.addBaseLayer(layer39, 'osm tile')
 
-			var layer32 = L.geoJSON(
-				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/eat.green.png","marker-body":"Belgrade Burger Festival<\/br>Калемегдан<\/br>#eat<\/br>#burger<\/br>#20250515<\/br>#20250516<\/br>#20250517<\/br>#20250518<\/br>#20250519<\/br>#20250520<\/br>#20250521<\/br>#20250522<\/br>#20250523<\/br>#20250524<\/br>#20250525<\/br><a href='https:\/\/www.instagram.com\/burgerfestivalrs\/' target='blank'>https:\/\/www.instagram.com\/burgerfestivalrs\/<\/a>"},"geometry":{"type":"Point","coordinates":[20.4510961,44.820718]}}],
+			var layer40 = L.geoJSON(
+				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/eat.green.png","marker-body":"Belgrade Burger Festival<\/br>Калемегдан<\/br>#eat<\/br>#burger<\/br>#deozadecu<\/br>#20250515<\/br>#20250516<\/br>#20250517<\/br>#20250518<\/br>#20250519<\/br>#20250520<\/br>#20250521<\/br>#20250522<\/br>#20250523<\/br>#20250524<\/br>#20250525<\/br><a href='https:\/\/www.instagram.com\/burgerfestivalrs\/' target='blank'>https:\/\/www.instagram.com\/burgerfestivalrs\/<\/a>"},"geometry":{"type":"Point","coordinates":[20.4510961,44.820718]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/eat.green.png","marker-body":"GREENVILLE<\/br>Пикник простор Ада циганлија<\/br>#eat<\/br>#deozadecu<\/br>#20250524<\/br>#20250525<\/br><a href='https:\/\/www.instagram.com\/greenville.festival\/' target='blank'>https:\/\/www.instagram.com\/greenville.festival\/<\/a>"},"geometry":{"type":"Point","coordinates":[20.4053463,44.7898924]}}],
 				{
 					useSimpleStyle: false,
 					pointToLayer: function(geojson, latlng) {
@@ -183,8 +183,8 @@
 					}
 				})
 .addTo(map)
-			layers.addOverlay(layer32, 'belgrade events')
-			defaultBounds = layer32.getBounds()
+			layers.addOverlay(layer40, 'belgrade events')
+			defaultBounds = layer40.getBounds()
 
 
 			var params = new URLSearchParams(window.location.search)
