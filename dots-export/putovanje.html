@@ -147,7 +147,7 @@
 				function(e) { clearInterval(mousedownInterval) })
 
 
-			var layer62 = L.tileLayer(
+			var layer33 = L.tileLayer(
 				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
 				{
 					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -155,10 +155,10 @@
 					bounds: [[-90,-180],[90,180]],
 					noWrap: true
 				})
-			layer62.addTo(map)
-			layers.addBaseLayer(layer62, 'osm tile')
+			layer33.addTo(map)
+			layers.addBaseLayer(layer33, 'osm tile')
 
-			var layer63 = L.geoJSON(
+			var layer34 = L.geoJSON(
 				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/gas.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/193801883' target='blank'>https:\/\/www.openstreetmap.org\/way\/193801883<\/a><\/br>Petrol - Starine Ac - sever<\/br>#deozadecu<\/br>#gas<\/br>#pumpa<\/br><a href='http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/935' target='blank'>http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/935<\/a>"},"geometry":{"type":"Point","coordinates":[15.216579,45.8420918]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/gas.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/193801882' target='blank'>https:\/\/www.openstreetmap.org\/way\/193801882<\/a><\/br>Petrol - Starine Ac - jug<\/br>#deozadecu<\/br>#gas<\/br>#pumpa<\/br>#shop<\/br><a href='http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/934' target='blank'>http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/934<\/a>"},"geometry":{"type":"Point","coordinates":[15.2173474,45.8411485]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/gas.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/192909763' target='blank'>https:\/\/www.openstreetmap.org\/way\/192909763<\/a><\/br>Petrol - Lom Ac - Zahod<\/br>#deozadecu<\/br>#gas<\/br>#pumpa<\/br>#shop<\/br><a href='http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/2388' target='blank'>http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/2388<\/a>"},"geometry":{"type":"Point","coordinates":[14.255059,45.8985105]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/gas.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/192909762' target='blank'>https:\/\/www.openstreetmap.org\/way\/192909762<\/a><\/br>Petrol - Lom Ac - Vzhod<\/br>#deozadecu<\/br>#gas<\/br>#pumpa<\/br>#shop<\/br><a href='http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/2389' target='blank'>http:\/\/www.petrol.si\/bencinski-servisi\/podrobno\/2389<\/a>"},"geometry":{"type":"Point","coordinates":[14.2564176,45.8982562]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/shopping.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/70601088' target='blank'>https:\/\/www.openstreetmap.org\/way\/70601088<\/a><\/br>Palmanova Village<\/br><a href='https:\/\/www.palmanovavillage.it\/' target='blank'>https:\/\/www.palmanovavillage.it\/<\/a><\/br>#shop<\/br>#shoppingmall"},"geometry":{"type":"Point","coordinates":[13.3430485,45.8852271]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/way\/1302357459' target='blank'>https:\/\/www.openstreetmap.org\/way\/1302357459<\/a><\/br>#playground<\/br>#igraliste"},"geometry":{"type":"Point","coordinates":[10.8266999,45.4177728]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/11947612951' target='blank'>https:\/\/www.openstreetmap.org\/node\/11947612951<\/a><\/br>#playground<\/br>#igraliste"},"geometry":{"type":"Point","coordinates":[9.3167353,45.0825929]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"<a href='https:\/\/www.openstreetmap.org\/node\/12409352561' target='blank'>https:\/\/www.openstreetmap.org\/node\/12409352561<\/a><\/br>#playground<\/br>#igraliste"},"geometry":{"type":"Point","coordinates":[8.6662401,44.5920995]}}],
 				{
 					useSimpleStyle: false,
@@ -183,8 +183,8 @@
 					}
 				})
 .addTo(map)
-			layers.addOverlay(layer63, 'camps')
-			defaultBounds = layer63.getBounds()
+			layers.addOverlay(layer34, 'camps')
+			defaultBounds = layer34.getBounds()
 
 
 			var params = new URLSearchParams(window.location.search)

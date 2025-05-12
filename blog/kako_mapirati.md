@@ -128,7 +128,21 @@ tourism = camp_pitch
 ref = broj parcele 
 ```
 остали делови унутар кампа налазе се на
+```
+amenity	= toilets
+amenity	= shower
+amenity = reception_desk
+amenity	= sanitary_dump_station
+amenity	= waste_disposal
+amenity	= recycling
+amenity	= washing_machine
+dish_washing = yes
+amenity	= power_supply
+amenity	water_point
+```
+више на:
 https://wiki.openstreetmap.org/wiki/Tag:tourism%3Dcamp_site
+https://wiki.openstreetmap.org/wiki/Key:dish_washing
 # #osm #map #tag #export #kamp
 пражњење сивог танка:
 ```
