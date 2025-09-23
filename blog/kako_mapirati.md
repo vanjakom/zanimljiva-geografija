@@ -85,7 +85,7 @@ website = https://bikeep.com/sr/
 capacity=5
 ref=
 ```
-# #osm #map #tag #export #paketomat #posta
+# #osm #map #tag #export #paketomat #posta #postexpress
 trek-mate tag #paketomat
 ```
 amenity = parcel_locker
@@ -96,6 +96,10 @@ operator = Пошта Србије
 website = https://www.posta.rs/cir/alati/paketomati.aspx
 ref=
 ```
+ref uzeti sa https://www.posta.rs/cir/alati/lokacije.aspx
+Post Express paketomati imaju drugaciji ref, za sada oznacavati isto posle
+moze lako da se podeli prema podacima od Poste
+
 # #osm #map #tag #export #paketomat #dexpress
 trek-mate tag #paketomat
 ```
