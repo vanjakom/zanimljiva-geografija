@@ -41,8 +41,57 @@
 ;	#eat - food will be available to buy
 ;	#drink - drinks will be available
 ;	#burger - burger festival
+;       #deozadecu - festival has space dedicated to children animation 
 ;	#20XXXXXX - dates on which event will happen
 
 ;
 ; once event passed move it to belgrade-events-history.dot
 ;
+20.46075, 44.81352
+   Ролеријада Плус
+   https://rolerijada.rs
+   #20251011
+
+20.4754846, 44.8270225
+   Хангар
+   https://openstreetmap.org/node/5260118422
+   ---
+   Beer Yard
+   https://www.instagram.com/beer.yard/
+   #20251016
+   #20251017
+   #20251018
+
+20.4355295, 44.796822199999994
+   Београдски сајам
+   https://openstreetmap.org/way/180172873
+   https://sajam.rs/sr/
+   https://sr.wikipedia.org/wiki/Београдски_сајам
+   https://www.wikidata.org/wiki/Q3074840
+   #wikidata
+   #wikipedia
+   ---
+   61. МЕЂУНАРОДНИ САЈАМ НАМЕШТАЈА, ОПРЕМЕ И УНУТРАШЊЕ ДЕКОРАЦИЈЕ
+   #20251008
+   #20251009
+   #20251010
+   #20251011
+   #20251012
+   45. ГРАФИМА – МЕЂУНАРОДНИ САЈАМ ГРАФИЧКЕ, ПАПИРНЕ И КРЕАТИВНЕ ИНДУСТРИЈЕ
+   #20251008
+   #20251009
+   #20251010
+   #20251011
+   68. МЕЂУНАРОДНИ БЕОГРАДСКИ САЈАМ КЊИГА
+   #20251025
+   #20251026
+   #20251027
+   #20251028
+   #20251029
+   #20251030
+   #20251031
+   #20251101
+   #20251102
+   
+   
+   

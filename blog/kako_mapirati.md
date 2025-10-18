@@ -1,3 +1,44 @@
+# #osm #map #tag #export #jaslice #dete
+trek-mate tag #jaslice
+```
+amenity = kindergarten
+nursery = yes
+```
+https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_objekata_i_sadrzaja_namenjenih_deci
+# #osm #map #tag #export #vrtic #dete
+trek-mate tag #vrtic
+```
+amenity = kindergarten
+```
+videti i jaslice
+https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_objekata_i_sadrzaja_namenjenih_deci
+# #osm #map #tag #export #cuvaonica #dete
+trek-mate tag #cuvaonica
+```
+amenity = childcare
+```
+ako je za ispod tri godine dodati i 
+```
+nursery = yes
+```
+https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_objekata_i_sadrzaja_namenjenih_deci
+# #osm #map #tag #export #autoperionica
+trek-mate tag #autoperionica
+```
+amenity = car_wash
+```
+# #osm #map #tag #export #autocetke
+trek-mate tag #autocetke
+```
+amenity = car_wash
+automated = yes
+```
+# #osm #map #tag #export #autofolije
+trek-mate tag #autofolije
+```
+shop = car_repair
+service:vehicle:body_repair = foil
+```
 # #osm #map #tag #export #eurovelo #znak #bicikl
 ```
   bicycle = yes
