@@ -12,7 +12,7 @@ amenity = kindergarten
 ```
 videti i jaslice
 https://wiki.openstreetmap.org/wiki/Serbia/Projekti/Mapiranje_objekata_i_sadrzaja_namenjenih_deci
-# #osm #map #tag #export #cuvaonica #dete
+# #osm #map #tag #export #cuvaonica #dnevni #boravak #dete
 trek-mate tag #cuvaonica
 ```
 amenity = childcare
@@ -751,17 +751,23 @@ recycling:plastic=yes
 # #osm #map #tag #export #reciklaza #cep
 trek-mate tag #reciklazacep
 ```
-amenity=recycling
-recycling_type=bin
+recycling_type=container
 recycling:plastic_bottle_caps=yes
+```
+ako nije unutar drugog poi dodati:
+```
+amenity=recycling
 ```
 # #osm #map #tag #export #reciklaza #cep #cepzahendikep
-trek-mate tag #reciklazacep
+trek-mate tag #reciklazacep #cepzahendikep
 ```
-amenity=recycling
-recycling_type=bin
+recycling_type=container
 recycling:plastic_bottle_caps=yes
 operator="Чеп за хендикеп"
+```
+ako nije unutar drugog poi dodati: 
+```
+amenity=recycling
 ```
 # #osm #map #tag #export #groblje
 kada je blizu crkve
