@@ -47,21 +47,25 @@
 ;
 ; once event passed move it to belgrade-events-history.dot
 ;
-20.46075, 44.81352
-   Ролеријада Плус
-   https://rolerijada.rs
-   #20251011
 
-20.4754846, 44.8270225
-   Хангар
-   https://openstreetmap.org/node/5260118422
-   ---
-   Beer Yard
-   https://www.instagram.com/beer.yard/
-   #20251016
-   #20251017
-   #20251018
+; order by date until better rendering is supported
 
+20.47220645, 44.8283185
+   Силоси
+   https://openstreetmap.org/way/678842500
+   Prolećni Prirodnjački bazar
+   #20260418
+   #20260419
+   https://www.instagram.com/p/DWB3Cq1jZnZ
+
+20.4602953, 44.8162216
+   39. Powerade Beogradski maraton
+   https://www.instagram.com/bgd_maraton/
+   Трг републике
+   https://openstreetmap.org/node/6760759093
+   #20260418
+   #20260419
+   
 20.4355295, 44.796822199999994
    Београдски сајам
    https://openstreetmap.org/way/180172873
@@ -70,28 +74,138 @@
    https://www.wikidata.org/wiki/Q3074840
    #wikidata
    #wikipedia
-   ---
-   61. МЕЂУНАРОДНИ САЈАМ НАМЕШТАЈА, ОПРЕМЕ И УНУТРАШЊЕ ДЕКОРАЦИЈЕ
-   #20251008
-   #20251009
-   #20251010
-   #20251011
-   #20251012
-   45. ГРАФИМА – МЕЂУНАРОДНИ САЈАМ ГРАФИЧКЕ, ПАПИРНЕ И КРЕАТИВНЕ ИНДУСТРИЈЕ
-   #20251008
-   #20251009
-   #20251010
-   #20251011
-   68. МЕЂУНАРОДНИ БЕОГРАДСКИ САЈАМ КЊИГА
-   #20251025
-   #20251026
-   #20251027
-   #20251028
-   #20251029
-   #20251030
-   #20251031
-   #20251101
-   #20251102
+   50. МЕЂУНАРОДНИ САЈАМ ГРАЂЕВИНАРСТВА (UFI) – SEEBBE
+   https://sajam.rs/sr/календар-2026/seebbe/
+   #20260421
+   #20260422
+   #20260423
+   #20260424
+   31. МЕЂУНАРОДНИ САЈАМ ХОРТИКУЛТУРЕ – „BEOPLANT FAIR“,
+   https://sajam.rs/sr/календар-2026/beoplant-fair/
+   #20260421
+   #20260422
+   #20260423
+   #20260424
+   69. МЕЂУНАРОДНИ БЕОГРАДСКИ САЈАМ КЊИГА
+   #20261023
+   #20261024
+   #20261025
+   #20261026
+   #20261027
+   #20261028
+   #20261029
+   #20261030
+   #20261031
+   64. НОВОГОДИШЊИ ВАШАР
+   https://sajam.rs/sr/календар-2026/новогодишњи-вашар/
+   #20261211
+   #20261212
+   #20261213
+   #20261214
+   #20261215
+   #20261216
+   #20261217
+   #20261218
+   #20261219
+   #20261220
+   #20261221
+   #20261222
+   #20261223
+   #20261224
+   #20261225
+   #20261226
+   #20261227
+   #20261228
+   #20261229
+   #20261230
+   #20261231
+
+20.47507, 44.82693
+   Beo Hiking Fest 2026
+   https://beohikingfest.com
+   https://www.instagram.com/beohikingfest/
+   #20260425
+   #20260425
+
+20.482945299999997, 44.7657861
+   Изложба олдтајмера, аутића и електричних аутомобила
+   https://www.instagram.com/p/DXMQ_OQjCUt/?igsh=bmJ1c21kY3I5Nmto
+   Саобраћајни факултет
+   https://openstreetmap.org/way/976085586
+   #20260426
+
+20.47057005, 44.8092136
+   Street food festival BG
+   Ташмајдан
+   https://www.instagram.com/streetfoodfestivalbg/
+   https://openstreetmap.org/way/23078690
+   #20260508
+   #20260509
+   #20260510
+
+20.408735450000002, 44.84078285
+   Greenville festival
+   https://www.instagram.com/greenville.festival/
+   Градски парк
+   https://openstreetmap.org/way/302548473
    
+
+20.449191, 44.825224250000005   
+   Доњи град, Калемегдан
+   https://openstreetmap.org/way/600459694
+   Piknik
+   https://www.instagram.com/piknikbg/
+   #20260510
+   Street food festival BG
+   https://www.instagram.com/streetfoodfestivalbg/
+   #20260821
+   #20260822
+   #20260823
+
+20.4510961, 44.820718
+   Belgrade Burger Festival
+   Калемегдан
+   #eat
+   #burger
+   #deozadecu
+   #20260514
+   #20260515
+   #20260516
+   #20260517
+   #20260518
+   #20260519
+   #20260520
+   #20260521
+   #20260522
+   #20260523
+   #20260524
+   https://www.instagram.com/burgerfestivalrs/
+
+20.38426715, 44.7944977
+   Street food festival BG
+   Плато Театар на Сави
+   https://www.instagram.com/streetfoodfestivalbg/
+   https://openstreetmap.org/way/1395561705
+   #20260605
+   #20260606
+   #20260607
    
+20.4156469, 44.8455624
+   Street food festival BG
+   Земунски кеј
+   https://www.instagram.com/streetfoodfestivalbg/
+   https://openstreetmap.org/node/13717109897
+   #20260918
+   #20260919
+   #20260920
+
+20.4787947, 44.80472665
+   Street food festival BG
+   Вуков споменик
+   Парк Ћирила и Методија
+   https://www.instagram.com/streetfoodfestivalbg/
+   https://openstreetmap.org/way/23098196
+   #20261225
+   #20261226
+   #20261227
    

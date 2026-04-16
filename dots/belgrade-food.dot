@@ -1,0 +1,13 @@
+[humandot]
+[extract:osm]
+
+; defined in clj-geo.dotstore.humandot
+
+; belgrade food and drink places to recommend
+
+20.4562727, 44.8216246
+   Berliner
+   https://openstreetmap.org/node/12349011970
+   https://www.instagram.com/berliner_street
+   #brzahrana
+   #eat

@@ -1,0 +1,277 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>a map</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" crossorigin=""></link>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js" crossorigin=""></script>
+		<script src="https://rowanwins.github.io/leaflet-simplestyle/dist/leaflet-simplestyle.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.js" crossorigin=""></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.4.0/Control.Geocoder.min.css"></link>
+		<style>
+			::-webkit-scrollbar {display: none;}
+			.content {white-space: nowrap;overflow: hidden;}
+			.map {position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; cursor: default;}
+		</style>
+	</head>
+	<body>
+		<div id="content" class="content">
+			<map id="map" class="map"></map>
+		</div>
+		<script type="text/javascript">
+			// utils
+			var projectX = function(longitude) {
+				return Math.floor((longitude / 360 + 0.5) * Math.pow(2, 24))
+			}
+			var projectY = function(latitude) {
+				const sin = Math.sin(latitude * Math.PI / 180);
+				const y2 = 0.5 - 0.25 * Math.log((1 + sin) / (1 - sin)) / Math.PI;
+				const y3 = y2 < 0 ? 0 : y2 > 1 ? 1 : y2;
+				return Math.floor(y3 * Math.pow(2, 24))
+			}
+
+			var projectedLocationToWord = function(x, y) {
+				var key =''
+				for (var i = 24; i >= 2; i -= 2) {
+					var xUpper = (x & (1 << (i - 1))) != 0 ? 2 : 0
+					var xLower = (x & (1 << (i - 2))) != 0 ? 1 : 0
+					var yUpper = (y & (1 << (i - 1))) != 0 ? 2 : 0
+					var yLower = (y & (1 << (i - 2))) != 0 ? 1 : 0
+					var index = xUpper + xLower + (yUpper  + yLower) * 4
+					key = key + String.fromCharCode(97 + index).toUpperCase()
+				}
+				return key
+			}
+
+			var BingLayer = L.TileLayer.extend({
+				getTileUrl: function (tilePoint) {
+					return L.Util.template(
+						this._url,
+						{q: this._quadKey(tilePoint.x, tilePoint.y, this._getZoomForUrl())});
+					},
+					_quadKey: function (x, y, z) {
+						var quadKey = []
+						for (var i = z; i > 0; i--) {
+							var digit = '0'
+							var mask = 1 << (i - 1)
+							if ((x & mask) != 0) {
+								digit++
+							}
+							if ((y & mask) != 0) {
+								digit++
+								digit++
+							}
+							quadKey.push(digit)
+						}
+						return quadKey.join('')
+					}
+			})
+
+			var TileBoundsLayer = L.GridLayer.extend({
+				initialize: function(options) {
+					L.GridLayer.prototype.initialize.call(this, options)
+					this._color = options.color
+				},
+
+				createTile: function(coords) {
+					var key = coords.z + '/' + coords.x + '/' + coords.y
+
+					var tile = L.DomUtil.create('canvas', 'leaflet-tile')
+					var size = this.getTileSize()
+					tile.width = size.x
+					tile.height = size.y
+					var ctx = tile.getContext('2d')
+
+					ctx.strokeStyle = this._color
+					ctx.fillStyle = this._color
+					ctx.font = '15px Arial'
+					ctx.lineWidth = 1
+					ctx.beginPath()
+					ctx.rect(0, 0, 255, 255)
+					ctx.fillText(key, 5, 20)
+					ctx.stroke()
+
+					return tile
+				}
+			})
+
+			var map = L.map('map', {maxBoundsViscosity: 1.0})
+			map.setMaxBounds ([[-90,-180],[90,180]])
+			L.control.scale({imperial: false}).addTo(map)
+			var layers = L.control.layers()
+			layers.addTo(map)
+			new L.Control.Geocoder({
+				geocoder: L.Control.Geocoder.nominatim(),
+				defaultMarkGeocode: false}).on(
+					'markgeocode',
+					function(e) {
+						var bbox = e.geocode.bbox
+						var poly = L.polygon([
+							bbox.getSouthEast(),
+							bbox.getNorthEast(),
+							bbox.getNorthWest(),
+							bbox.getSouthWest()])
+						map.fitBounds(poly.getBounds())
+					}).addTo(map)
+
+			var defaultBounds = null
+
+			var mousedownInterval;
+			map.on(
+				'mousedown',
+				function (e) {
+					mousedownInterval = setInterval(
+						function() {
+							let longitude = Number (e.latlng.lng).toFixed (5)
+							let latitude = Number (e.latlng.lat).toFixed (5)
+							let zoom = map.getZoom()
+							L
+								.popup({closeOnClick: false})
+								.setLatLng(e.latlng)
+								.setContent(
+									longitude + ', ' + latitude + '<br/>' + 
+									projectedLocationToWord(projectX(longitude), projectY(latitude)) + '<br/>' + 
+									'<a href="http://openstreetmap.org/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">osm</a></br>' + 
+									'<a href="https://preview.ideditor.com/release/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD</a></br>' + 
+									'<a href="http://localhost:8080/#map=16/' + e.latlng.lat + '/' + e.latlng.lng + '" target="_blank">iD (localhost)</a></br>' + 
+									'<a href="https://www.mapillary.com/app/?focus=map&z=16&lat=' + e.latlng.lat + '&lng=' + e.latlng.lng + '" target="_blank">mapillary</a></br>' + 
+									'<a href="https://kartaview.org/map/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">kartaview</a></br>' + 
+									'<a href="https://www.google.com/maps/@' + e.latlng.lat + ',' + e.latlng.lng + ',16z" target="_blank">google maps</a></br>' 
+									)
+								.openOn(map)},
+						500)})
+			map.on(
+				'mousemove',
+				function(e) { clearInterval(mousedownInterval) })
+			map.on(
+				'mouseup',
+				function(e) { clearInterval(mousedownInterval) })
+
+
+			var layer5628 = L.tileLayer(
+				'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+					maxZoom: 22,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layer5628.addTo(map)
+			layers.addBaseLayer(layer5628, 'osm tile')
+
+
+			var layer5629 = L.tileLayer(
+				'http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',
+				{
+					attribution: '&copy; Google',
+					maxZoom: 22,
+					bounds: [[-90,-180],[90,180]],
+					noWrap: true
+				})
+			layers.addBaseLayer(layer5629, 'google satellite tile')
+
+			var layer5630 = L.geoJSON(
+				{"type":"Feature","properties":{"name":"10K Final","stroke":"#0000FF","stroke-width":2},"geometry":{"type":"LineString","coordinates":[[20.460422,44.816602],[20.460987,44.816129],[20.461057,44.815976],[20.461122,44.815894],[20.461243,44.815837],[20.461354,44.815809],[20.461455,44.815781],[20.464205,44.81551],[20.464701,44.815411],[20.465571,44.815184],[20.466045,44.814963],[20.468733,44.813611],[20.47062,44.812498],[20.470726,44.812497],[20.472087,44.813231],[20.472147,44.813237],[20.47221,44.813204],[20.472295,44.813112],[20.475605,44.809265],[20.478486,44.806009],[20.478842,44.805645],[20.479326,44.805103],[20.480336,44.803967],[20.480357,44.803912],[20.480349,44.803861],[20.480316,44.803803],[20.480148,44.803613],[20.480066,44.803555],[20.479932,44.803521],[20.479789,44.80356],[20.477926,44.804323],[20.476742,44.804849],[20.476516,44.804939],[20.471678,44.806935],[20.471603,44.806951],[20.471509,44.806929],[20.466657,44.803086],[20.466596,44.803045],[20.465937,44.802714],[20.465774,44.802659],[20.465607,44.802651],[20.465489,44.802684],[20.464898,44.803027],[20.457678,44.807448],[20.457101,44.807842],[20.457089,44.807902],[20.457125,44.808026],[20.457157,44.808168],[20.457208,44.808338],[20.457206,44.808463],[20.457195,44.808597],[20.457145,44.808741],[20.457016,44.808939],[20.456841,44.809092],[20.456427,44.809335],[20.456075,44.809655],[20.454458,44.811358],[20.452615,44.813162],[20.452447,44.813348],[20.452433,44.81341],[20.452388,44.813451],[20.452299,44.813474],[20.452198,44.813516],[20.451744,44.813774],[20.451596,44.813877],[20.45155,44.81394],[20.451105,44.814646],[20.451057,44.814686],[20.45096,44.814705],[20.450585,44.814738],[20.450462,44.81478],[20.450343,44.814858],[20.450298,44.814949],[20.450267,44.815065],[20.450223,44.815495],[20.450023,44.816473],[20.449837,44.817237],[20.449695,44.818019],[20.449647,44.818361],[20.449678,44.81891],[20.44976,44.819689],[20.449745,44.819819],[20.449707,44.819885],[20.44873,44.820832],[20.448312,44.821151],[20.447517,44.821695],[20.447246,44.821876],[20.447077,44.821999],[20.446896,44.822151],[20.446735,44.822335],[20.446594,44.822519],[20.446509,44.822675],[20.446479,44.822818],[20.446422,44.823187],[20.446352,44.823551],[20.446158,44.82415],[20.446119,44.824344],[20.446101,44.824502],[20.446096,44.824921],[20.446149,44.825422],[20.446207,44.82558],[20.446291,44.825713],[20.446413,44.825867],[20.446622,44.826087],[20.446789,44.826228],[20.447113,44.826472],[20.447442,44.826699],[20.447584,44.826772],[20.447728,44.826825],[20.447919,44.82688],[20.448572,44.827043],[20.450541,44.827502],[20.45114,44.827644],[20.451441,44.82771],[20.451585,44.827728],[20.4517,44.82773],[20.451806,44.82773],[20.451889,44.827716],[20.452028,44.827676],[20.452269,44.827569],[20.456353,44.825352],[20.458784,44.824029],[20.462959,44.821795],[20.465329,44.820473],[20.465636,44.820249],[20.465879,44.820049],[20.466,44.819987],[20.46606,44.819985],[20.466143,44.820001],[20.466418,44.820145],[20.466696,44.820299],[20.46681,44.82035],[20.466903,44.820389],[20.466992,44.820431],[20.467009,44.820428],[20.467009,44.820416],[20.466993,44.820394],[20.466926,44.820326],[20.466825,44.820242],[20.466335,44.819903],[20.46623,44.819823],[20.466187,44.819782],[20.466172,44.819759],[20.46617,44.819711],[20.466191,44.819622],[20.466729,44.818637],[20.466695,44.818553],[20.466553,44.818423],[20.466492,44.818253],[20.466088,44.816724],[20.46601,44.81667],[20.463379,44.816551],[20.462583,44.816602],[20.462523,44.816587],[20.462475,44.816574],[20.462444,44.816528],[20.462418,44.816455],[20.462267,44.815835],[20.462252,44.815806],[20.46223,44.815792],[20.462178,44.815776],[20.462125,44.815771],[20.461637,44.815818],[20.461541,44.815843],[20.461403,44.815948],[20.461294,44.816037],[20.461217,44.816078],[20.461092,44.81613],[20.460943,44.816227],[20.460444,44.816617]]}},
+				{
+					useSimpleStyle: false,
+					pointToLayer: function(geojson, latlng) {
+						var markerIcon = geojson.properties['marker-icon']
+						var markerDiv = geojson.properties['marker-div']
+						var marker
+						if (markerIcon != null) {
+							var icon = L.icon({
+								iconUrl: markerIcon,
+								iconSize: [25,25]})
+							marker = L.marker(latlng, {icon: icon})
+						} else if (markerDiv != null) {
+							var divIcon = L.divIcon({
+								html: markerDiv,
+								className: '',
+								iconSize: [12,12]})
+							marker = L.marker(latlng, {icon: divIcon})
+						} else {
+							marker = L.marker(latlng)
+						}
+						var markerBody = geojson.properties['marker-body']
+						if (markerBody == null) {
+							markerBody = ''
+							Object.entries(geojson.properties).forEach(function (element) {
+								markerBody += element[0] + ' = ' + element[1] + '</br>'
+							})
+						}
+						marker.bindPopup(markerBody, {maxWidth: 'auto'})
+						return marker
+					}
+				})
+.addTo(map)
+			layers.addOverlay(layer5630, '10k')
+			defaultBounds = layer5630.getBounds()
+
+
+			var layer5631 = L.geoJSON(
+				[{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"1km, 8min, 18:08<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.47107,44.812682]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"2km, 16min, 18:16<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.478131,44.80641]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"3km, 24min, 18:24<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.473222,44.806298]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"4km, 32min, 18:32<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.463906,44.803635]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"5km, 40min, 18:40<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.455702,44.810048]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"6km, 48min, 18:48<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.449786,44.817517]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"7km, 56min, 18:56<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.446238,44.825629]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"8km, 64min, 19:04<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.456711,44.825157]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"9km, 72min, 19:12<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.466712,44.820306]}},{"type":"Feature","properties":{"marker-icon":"https:\/\/vanjakom.github.io\/trek-mate-pins\/blue_and_grey\/location.grey.png","marker-body":"10km, 80min, 19:20<\/br>#maraton2026"},"geometry":{"type":"Point","coordinates":[20.460765,44.816366]}}],
+				{
+					useSimpleStyle: false,
+					pointToLayer: function(geojson, latlng) {
+						var markerIcon = geojson.properties['marker-icon']
+						var markerDiv = geojson.properties['marker-div']
+						var marker
+						if (markerIcon != null) {
+							var icon = L.icon({
+								iconUrl: markerIcon,
+								iconSize: [25,25]})
+							marker = L.marker(latlng, {icon: icon})
+						} else if (markerDiv != null) {
+							var divIcon = L.divIcon({
+								html: markerDiv,
+								className: '',
+								iconSize: [12,12]})
+							marker = L.marker(latlng, {icon: divIcon})
+						} else {
+							marker = L.marker(latlng)
+						}
+						var markerBody = geojson.properties['marker-body']
+						if (markerBody == null) {
+							markerBody = ''
+							Object.entries(geojson.properties).forEach(function (element) {
+								markerBody += element[0] + ' = ' + element[1] + '</br>'
+							})
+						}
+						marker.bindPopup(markerBody, {maxWidth: 'auto'})
+						return marker
+					}
+				})
+.addTo(map)
+			layers.addOverlay(layer5631, 'сегменти')
+
+
+			var params = new URLSearchParams(window.location.search)
+			if (params.get('marker')) {
+				var splits = params.get('marker').split(',')
+				map.setView([parseFloat(splits[1]), parseFloat(splits[0])], 18)
+				L.marker([parseFloat(splits[1]), parseFloat(splits[0])]).addTo(map)
+			}
+
+			if (window.location.hash) {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+			} else {
+				if (defaultBounds != null) { 
+					map.fitBounds(defaultBounds, null)
+				} else {
+					map.setView([44.82763029742812, 20.50529479980469], 10)
+				}
+			}
+
+			window.onhashchange = function() {
+				var splits = window.location.hash.substring(5).split('/')
+				map.setView([parseFloat(splits[2]), parseFloat(splits[1])], parseInt(splits[0]))
+			}
+			map.on(
+				'moveend',
+				function() {
+					window.location.hash = '#map=' + map.getZoom() + '/' + map.getCenter().lng + '/' + map.getCenter().lat
+				})
+
+		</script>
+	</body>
+</html>
