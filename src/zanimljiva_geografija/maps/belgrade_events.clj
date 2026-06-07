@@ -5,7 +5,7 @@
    [clj-common.json :as json]
    [clj-common.localfs :as fs]
    [clj-common.path :as path]
-   [clj-geo.dotstore.humandot :as humandot]
+   [clj-geo.dot.store.humandot :as humandot]
    [clj-geo.import.geojson :as geojson]
    [clj-geo.visualization.map :as map]
    [trek-mate.map :as trek-mate]
