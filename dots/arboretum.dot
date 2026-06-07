@@ -1,0 +1,74 @@
+[humandot]
+[extract:osm]
+
+; defined in clj-geo.dotstore.humandot
+
+; template file for specification of dot of type humandot
+; use as starting point for documentation and template for creation of new files
+;
+; file should start with [humandot]
+; after first line additional customization could be set in "[statement]" form
+; where content of statement is arbitrary
+;
+; comments are starting with ;
+;
+; location should be longitude, latitude pair
+;
+; tags should be in lines after location indented with space(s) or tab
+; tags should start with #
+; reference to osm as osm website link ( use https when possible )
+; https://www.openstreetmap.org/relation/11097832
+; use "---" to divide extracted from human added tags, useful for regeneration
+;
+; location ends when either of following happends
+;    empty line
+;    line which is not comment is not indented
+;
+; it's nice practice to add comment about tags used
+; tags used
+;    #tag1 - generic tag
+;
+;
+; global tags ( for whole file ) could be defined with
+; [tag:#arboretum]
+;
+; use trek-mate.integration.overpass/prepare-humandot to prepare from osm data
+
+17.54485895, 46.8108357
+   Folly Arborétum
+   https://openstreetmap.org/relation/11247301
+   https://www.folly.hu/
+   https://www.instagram.com/folly_arboretum_es_boraszat/
+   https://hu.wikipedia.org/wiki/Folly_Arborétum
+   https://www.wikidata.org/wiki/Q1002623
+   #wikidata
+   #wikipedia
+   ===
+   били када смо били на Балатону, први арборетум. Савршено. Шетали, уживали,
+   богме и јели. Купили четинара, бори се.
+
+20.4249089, 44.7824788
+   СП Арборетум Шумарског факултета у Београду
+   https://openstreetmap.org/way/1137667883
+   https://sr.wikipedia.org/wiki/Споменик_природе_Арборетум_Шумарског_факултета
+   https://www.wikidata.org/wiki/Q55021637
+   #wikidata
+   #wikipedia
+
+18.66281025, 42.657028049999994
+   Арборетум
+   https://openstreetmap.org/way/1063204019
+   ---
+   Ботаничка башта породице Ковачевић
+   https://www.visitniksic.me/copy-of-arboretum
+   https://www.vijesti.me/tv/emisije/473691/arboretum-na-grahovu-basta-sa-sadnicama-iz-cijelog-svijeta
+
+17.976288750000002, 42.71223535
+   Arboretum
+   https://openstreetmap.org/way/62226647
+   https://hr.wikipedia.org/wiki/Arboretum_Trsteno
+   https://www.wikidata.org/wiki/Q579893
+   #wikidata
+   #wikipedia
+   ---
+   Арборетум Трстено
