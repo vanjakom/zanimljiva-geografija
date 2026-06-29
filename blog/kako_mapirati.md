@@ -1,3 +1,8 @@
+# #osm #map #tag #export #kineska #radnja #prodavnica #svastara
+shop=variety_store
+
+sve po jedan euro
+https://wiki.openstreetmap.org/wiki/Tag:shop%3Dvariety_store
 # #osm #map #tag #export #jaslice #dete
 trek-mate tag #jaslice
 ```

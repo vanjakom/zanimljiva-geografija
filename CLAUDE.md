@@ -6,6 +6,6 @@ subdirectory, feel free to read them if needed. All other dependencies are
 open source, use internet to understand them if needed. For reading of all other
 files ask for permission.
 
-CLAUDE-1
+CLAUDE-1 - DONE
 clj-geo.dotstore.humandot is moved to clj-geo.dot.store.humandot fix require
 statements in repo
