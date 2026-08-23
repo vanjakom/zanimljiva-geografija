@@ -4,4 +4,8 @@
   :dependencies [
                  [org.clojure/clojure "1.11.1"]
                  [com.mungolab/clj-common "0.3.3"]
-                 [com.mungolab/clj-geo "0.2.0"]])
+                 [com.mungolab/clj-geo "0.2.0"]
+                 [com.mungolab/clj-scheduler "0.1.0"]
+                 ;; bz2 decompression of osm notes planet dump, java has no
+                 ;; built in support for it
+                 [org.apache.commons/commons-compress "1.26.2"]])
