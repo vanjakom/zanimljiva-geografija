@@ -1,3 +1,13 @@
+# #osm #map #tag #export #howtomap #prodaja #med
+продаја меда
+```
+shop=honey
+```
+производња меда
+```
+craft=beekeeper
+```
+
 # #osm #map #tag #export #kineska #radnja #prodavnica #svastara
 shop=variety_store
 sve po jedan euro

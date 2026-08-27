@@ -1,0 +1,98 @@
+[humandot]
+[extract:osm]
+
+; defined in clj-geo.dotstore.humandot
+
+; template file for specification of dot of type humandot
+; use as starting point for documentation and template for creation of new files
+;
+; file should start with [humandot]
+; after first line additional customization could be set in "[statement]" form
+; where content of statement is arbitrary
+;
+; comments are starting with ;
+;
+; location should be longitude, latitude pair
+;
+; tags should be in lines after location indented with space(s) or tab
+; tags should start with #
+; reference to osm as osm website link ( use https when possible )
+; https://www.openstreetmap.org/relation/11097832
+; use "---" to divide extracted from human added tags, useful for regeneration
+;
+; location ends when either of following happends
+;    empty line
+;    line which is not comment is not indented
+;
+; it's nice practice to add comment about tags used
+; tags used
+;    #tag1 - generic tag
+;
+;
+; global tags ( for whole file ) could be defined with
+; [tag:#arboretum]
+;
+; use trek-mate.integration.overpass/prepare-humandot to prepare from osm data
+
+18.5369949, 42.4516111
+   Књижара Со
+   https://www.openstreetmap.org/node/2283108213
+   #knjizara
+   #shop
+   #checkin
+   https://knjizaraso.com/
+   ---
+   Једина преостала књижара у Боки. Оснивач српски писац Никола Маловић.
+
+18.536774, 42.4512649
+   Гот
+   https://www.openstreetmap.org/node/4818881822
+   #pab
+   #drink
+   #checkin
+   https://www.instagram.com/pubgot/
+
+18.5321307, 42.451651
+   Sol
+   https://www.openstreetmap.org/node/13059232369
+   #kafe
+   #drink
+   #checkin
+   https://www.instagram.com/caffesol.hn/
+
+18.55436955, 42.4523901
+   Манастир Савина
+   https://www.openstreetmap.org/way/147257044
+   #wikipedia
+   #wikidata
+   #checkin
+   https://sr.wikipedia.org/wiki/Манастир_Савина
+   https://www.wikidata.org/wiki/Q499444
+
+18.5280079, 42.45452125
+   Кућа Ива Андрића
+   https://www.openstreetmap.org/way/147150844
+   #visit
+   #checkin
+
+18.6183562, 42.4387657
+   Papagaj
+   https://www.openstreetmap.org/node/1883134825
+   #restoran
+   #eat
+   #checkin
+
+18.5079604, 42.4414796
+   https://www.openstreetmap.org/node/2308077917
+   #view
+   #checkin
+   ---
+   Леп поглед на Херцег Нови.
+
+18.5540041, 42.4502042
+   https://www.openstreetmap.org/node/13055500739
+   #plaza
+   #beach
+   #checkin
+   ---
+   Лепа плажа, чиста вода. Нема закупца у 2026.
