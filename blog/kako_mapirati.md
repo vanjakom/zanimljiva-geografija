@@ -1,3 +1,7 @@
+[notemd]
+**notes ( keep track of notes, knowledge elements through time )**
+unfold with SHIFT + TAB, fold TAB x 2, learn more markdown mode
+„текст под наводницима”
 # #osm #map #tag #export #howtomap #prodaja #med
 продаја меда
 ```
